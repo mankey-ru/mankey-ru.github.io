@@ -10,7 +10,7 @@
 	<h2>Userscripts</h2>
 	<ul>
 		<li>
-			<a href="javascript:(function(){try {const $ = window.jQuery;const trs = $('.kbn-table tbody tr.discover-table-row');if (!trs.length) console.error(`Результатов нет`);let RES = ``;trs.each((trIndex, el) => {const cells = $(el).find('td[data-test-subj=docTableField] span[ng-non-bindable]');cells.each((trIndex, el) => {RES += el.innerText.trim();if (trIndex !== cells.length - 1) {RES += `|`;}});if (trIndex !== trs.length - 1) {RES +=`\n-------------------------------------------------------------------------------------------\n`;}});console.log(RES);} catch (err) {/*иначе кибана перехватит и переключит страницу*/console.error(err);}})()">Kibana - скопировать в буфер обмена текст полученных на странице логов</a>
+			<a href="javascript:(function () {try {const $ = window.jQuery;const trs = $('.kbn-table tbody tr.discover-table-row');if (!trs.length) console.error(`Результатов нет`);let RES = ``;trs.each((trIndex, el) => {const shortSpans = $(el).find('td[data-test-subj=docTableField] span[ng-non-bindable]');RES += Array.from(shortSpans).map((shortSpan) => shortSpan?.innerText?.trim?.()).join(' | ');if (trIndex !== trs.length - 1) {RES += `\n-------------------------------------------------------------------------------------------\n`;}});console.log(RES);navigator.clipboard.writeText(RES);} catch (err) {/*иначе кибана перехватит и переключит страницу*/ console.error(err);}})();">Kibana - скопировать в буфер обмена текст полученных на странице логов</a>
 		</li>
 	</ul>
 </body>
