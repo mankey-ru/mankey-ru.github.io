@@ -11,7 +11,13 @@
 	<div class="container mt-5">
 		<h2>Букмарклеты</h2>
 		<p>
-			Букмарклет (англ. bookmarklet; bookmark — «закладка» и applet — «апплет») — небольшая JavaScript-программа, оформленная как javascript: URL и сохраняемая как браузерная закладка. Для того, чтобы сохранить её, достаточно просто перетащить кнопку на панель закладок. Чтобы использовать - находясь на целевом сайте, кликнуть по этой "закладке"
+			Букмарклет (англ. bookmarklet; bookmark — «закладка» и applet — «апплет») — небольшая JavaScript-программа, оформленная как javascript: URL и сохраняемая как браузерная закладка.
+		</p>
+		<p>
+			Для того, чтобы её сохранить у себя, нужно <b>перетащить кнопку на панель закладок своего браузера</b>.
+		</p>
+		<p>
+			Для того, чтобы использовать - находясь на целевом сайте, <b>кликнуть по этой "закладке"</b> на панели закладок.
 		</p>
 		<p>
 			<a class="btn btn-primary" href="javascript:(function () {try {const $ = window.jQuery;const trs = $('.kbn-table tbody tr.discover-table-row');if (!trs.length) console.error(`Результатов нет`);let RES = ``;trs.each((trIndex, el) => {const shortSpans = $(el).find('td[data-test-subj=docTableField] span[ng-non-bindable]');RES += Array.from(shortSpans).map((shortSpan) => shortSpan?.innerText?.trim?.()).join(' | ');if (trIndex !== trs.length - 1) {RES += `\n-------------------------------------------------------------------------------------------\n`;}});console.log(RES);navigator.clipboard.writeText(RES);} catch (err) {/*иначе кибана перехватит и переключит страницу*/ console.error(err);}})();">KibCopy</a> скопировать в буфер обмена текст логов. Только то, что выведено на страницу и только то, что есть в основной таблице. Автоматическое копирование в буфер обмена работает только с HTTPS, то есть для того чтобы скопировать логи с kibana.web.rzd, надо открыть консоль браузера и скопировать оттуда руками (кнопка Copy)
