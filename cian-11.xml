@@ -1,0 +1,488 @@
+<Feed>
+   <Feed_Version>2</Feed_Version>
+   <!--ID=33868 не прошла по условиям в XSL--><!--ID=33867 не прошла по условиям в XSL--><!--ID=33866 не прошла по условиям в XSL--><!--ID=33830 не прошла по условиям в XSL--><!--ID=33833 не прошла по условиям в XSL--><!--ID=33832 не прошла по условиям в XSL--><!--ID=33831 не прошла по условиям в XSL--><!--ID=33829 не прошла по условиям в XSL--><!--ID=33828 не прошла по условиям в XSL--><!--ID=30635 не прошла по условиям в XSL--><!--ID=33827 не прошла по условиям в XSL--><Object><!--AreaBuildingNeeded=true--><!--AreaBuilding=400.0-->
+      <Title>производственные помещения г. Нижний Тагил</Title>
+      <Category>industryRent</Category>
+      <ExternalId>5601</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилые помещения общей площадью 23 кв. м в г. Нижний
+         Тагил. &#xD;
+         Состояние помещений удовлетворительное, проведен косметический ремонт. Инженерные
+         коммуникации: электроснабжение, отопление, водоснабжение. &#xD;
+         Здание расположено на охраняемой территории, действует пропускной режим. Хорошая транспортная
+         доступность. Наличие парковочных мест на прилегающей территории.  &#xD;
+         Срок аренды – 11 месяцев (с возможной пролонгацией). Расходы на содержание (коммунальные
+         и эксплуатационные услуги) не входят в арендную плату и оплачиваются отдельно. &#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по телефону в
+         объявлении.</Description>
+      <Address>Свердловская область, станция Нижний Тагил, г. Нижний Тагил, в полосе отвода</Address>
+      <Coordinates>
+         <Lat>57.908466</Lat>
+         <Lng>60.00598</Lng>
+      </Coordinates>
+      <CadastralNumber>61:28:0120117:108</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79827513912</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea></TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>NABondarenko@svrw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377217</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377219</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377221</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377223</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377225</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377227</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377229</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377231</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>2</FloorsCount>
+         <TotalArea>400.0</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>3700.5</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33825 не прошла по условиям в XSL--><!--ID=33824 не прошла по условиям в XSL--><!--ID=33823 не прошла по условиям в XSL--><!--ID=29778 не прошла по условиям в XSL--><!--ID=21982 не прошла по условиям в XSL--><!--ID=33822 не прошла по условиям в XSL--><Object><!--AreaBuildingNeeded=false--><!--AreaBuilding=9.0-->
+      <Title>офисное помещение г. Екатеринбург</Title>
+      <Category>officeRent</Category>
+      <ExternalId>5597</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилое помещение площадью 23 кв. м в городе Екатеринбург.&#xD;
+         Помещение расположено на втором этаже административного здания. Состояние помещения
+         удовлетворительное, требуется косметический ремонт. Инженерные коммуникации: электроснабжение,
+         освещение, отопление. &#xD;
+         Здание расположено на охраняемой территории, действует пропускной режим. Хорошая транспортная
+         доступность, удобный подъезд с ул. Автомагистральная. Наличие парковочных мест на
+         прилегающей территории. &#xD;
+         Срок договора – 11 месяцев (с возможной пролонгацией договора). Расходы на содержание
+         (коммунальные и эксплуатационные услуги) не входят в арендную плату и оплачиваются
+         отдельно. &#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Свердловская область, станция Свердловск-Товарный, г. Екатеринбург, д. 44</Address>
+      <Coordinates>
+         <Lat>56.889434</Lat>
+         <Lng>60.535446</Lng>
+      </Coordinates>
+      <CadastralNumber>54:35:021020:44</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79827513912</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea></TotalArea>
+      <FloorNumber>2</FloorNumber>
+      <SubAgent>
+         <Email>NABondarenko@svrw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376912</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376914</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376916</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376918</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376920</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>2</FloorsCount>
+         <TotalArea>9.0</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>11950.8</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33820 не прошла по условиям в XSL--><!--ID=33819 не прошла по условиям в XSL--><!--ID=33818 не прошла по условиям в XSL--><!--ID=33817 не прошла по условиям в XSL--><!--ID=33816 не прошла по условиям в XSL--><!--ID=33815 не прошла по условиям в XSL--><!--ID=33814 не прошла по условиям в XSL--><!--ID=33813 не прошла по условиям в XSL--><!--ID=33812 не прошла по условиям в XSL--><!--ID=33811 не прошла по условиям в XSL--><!--ID=33810 не прошла по условиям в XSL--><!--ID=33809 не прошла по условиям в XSL--><!--ID=33808 не прошла по условиям в XSL--><!--ID=33807 не прошла по условиям в XSL--><!--ID=33806 не прошла по условиям в XSL--><!--ID=33805 не прошла по условиям в XSL--><!--ID=33804 не прошла по условиям в XSL--><!--ID=33803 не прошла по условиям в XSL--><!--ID=33802 не прошла по условиям в XSL--><!--ID=33801 не прошла по условиям в XSL--><Object><!--AreaBuildingNeeded=false--><!--AreaBuilding=-->
+      <Title>2-к квартира в пгт. Вяртсиля</Title>
+      <Category>flatSale</Category>
+      <ExternalId>5577</ExternalId>
+      <RoomType>separate</RoomType>
+      <Description>ОАО "РЖД" предлагает к продаже двухкомнатную квартиру общей площадью 41,9 кв. м в
+         поселке городского типа Вяртсиля. &#xD;
+         &#xD;
+         Квартира расположена на первом этаже монолитного пятиэтажного жилого дома 1984 года
+         постройки. Квартира имеет удобную планировку. Изолированные жилые комнаты общей площадью
+         41,9 кв.м, кухня площадью 9,3 кв. м, раздельный санузел, застекленный балкон, гардеробная.
+         Квартира в удовлетворительном состоянии, выполнен косметический ремонт. Инженерные
+         коммуникации: электричество, водоснабжение, канализация, отопление.&#xD;
+         Дом находится в жилом районе с развитой инфраструктурой. В шаговой доступности детский
+         сад, школа, библиотека, поликлиника, магазины, аптеки, остановки общественного транспорта.&#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.</Description>
+      <Address>Республика Карелия, г. Сортавала, район пгт Вяртсиля, д. 8, кв./фл. 37</Address>
+      <Coordinates>
+         <Lat>62.182327</Lat>
+         <Lng>30.695846</Lng>
+      </Coordinates>
+      <FlatRoomsCount>2</FlatRoomsCount>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>8124576908</Number>
+         </PhoneSchema>
+      </Phones>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>R_TarasovaAV@orw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>41.9</LivingArea>
+      <KitchenArea>9.3</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376586</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376588</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376590</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376592</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376594</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376596</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376598</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376600</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <IsApartments>false</IsApartments>
+      <RepairType>no</RepairType>
+      <Building>
+         <FloorsCount>5</FloorsCount>
+         <MaterialType>panel</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>residentialHouse</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>reinforcedConcretePanels</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <InputType>commonFromYard</InputType>
+      <BargainTerms>
+         <Price>860249.0</Price>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=32668 не прошла по условиям в XSL--><!--ID=33799 не прошла по условиям в XSL--><!--ID=32346 не прошла по условиям в XSL--><!--ID=33796 не прошла по условиям в XSL--><Object><!--AreaBuildingNeeded=false--><!--AreaBuilding=-->
+      <Title>1-к квартира поселок ст. Терентьевская</Title>
+      <Category>flatSale</Category>
+      <ExternalId>5573</ExternalId>
+      <RoomType>separate</RoomType>
+      <Description>ОАО «РЖД» предлагает к продаже однокомнатную квартиру общей площадью 40,5 кв. м в
+         поселке станции Терентьевская Кемеровской области.&#xD;
+         Квартира расположена на первом этаже в пятиэтажном кирпичном доме 2010 года постройки.
+         Квартира имеет удобную планировку. Изолированная жилая комната площадью 16,5 кв. м,
+         кухня площадью 11,1 кв. м, совмещенный санузел, застекленная лоджия. Квартира находится
+         в хорошем состоянии, выполнен косметический ремонт, окна из пластикового стеклопакета,
+         на полу в кухне, в коридоре и комнатах линолеум, в санузле плитка. &#xD;
+         Во дворе дома изолированная территория с наличием парковочных мест. Дом находится
+         в центральной части поселка, рядом со станцией Терентьевская. В пешей доступности
+         расположены: магазин, остановка общественного транспорта, детский сад, школа, аптечный
+         пункт. &#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Кемеровская область, р-н Прокопьевский, станция Терентьевская, п/с. Терентьевская, д. 7, кв./фл. 4</Address>
+      <Coordinates>
+         <Lat>54.066797</Lat>
+         <Lng>86.8684</Lng>
+      </Coordinates>
+      <FlatRoomsCount>1</FlatRoomsCount>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79059675333</Number>
+         </PhoneSchema>
+      </Phones>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>nri-KulakovaAS@wsr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>16.5</LivingArea>
+      <KitchenArea>11.1</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375559</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375561</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375563</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375565</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375567</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375569</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375571</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375573</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375575</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375577</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <IsApartments>false</IsApartments>
+      <RepairType>cosmetic</RepairType>
+      <Building>
+         <FloorsCount>5</FloorsCount>
+         <MaterialType>brick</MaterialType>
+         <Type>residentialHouse</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>0.0</Price>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33721 не прошла по условиям в XSL--><!--ID=33719 не прошла по условиям в XSL--><Object><!--AreaBuildingNeeded=false--><!--AreaBuilding=-->
+      <Title>3-к квартира поселок ст. Терентьевская</Title>
+      <Category>flatSale</Category>
+      <ExternalId>5572</ExternalId>
+      <RoomType>separate</RoomType>
+      <Description>ОАО «РЖД» предлагает к продаже трехкомнатную квартиру общей площадью 80,9 кв. м в
+         поселке станции Терентьевская Кемеровской области.&#xD;
+         Квартира расположена на первом этаже в пятиэтажном кирпичном доме 2010 года постройки.
+         Квартира имеет удобную планировку. Изолированные жилые комнаты общей площадью 52,2
+         кв. м, кухня площадью 9,0 кв. м, раздельный санузел, застекленная лоджия. Квартира
+         находится в хорошем состоянии, выполнен косметический ремонт, окна из пластикового
+         стеклопакета, на полу в кухне, в коридоре и комнатах линолеум, в ванной и санузле
+         плитка. &#xD;
+         Во дворе дома изолированная территория с наличием парковочных мест. Дом находится
+         в центральной части поселка, рядом со станцией Терентьевская. В пешей доступности
+         расположены: магазин, остановка общественного транспорта, детский сад, школа, аптечный
+         пункт. &#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Кемеровская область, р-н Прокопьевский, станция Терентьевская, п/с. Терентьевская, д. 7, кв./фл. 3</Address>
+      <Coordinates>
+         <Lat>54.066797</Lat>
+         <Lng>86.8684</Lng>
+      </Coordinates>
+      <FlatRoomsCount>3</FlatRoomsCount>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79059675333</Number>
+         </PhoneSchema>
+      </Phones>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>nri-KulakovaAS@wsr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>52.2</LivingArea>
+      <KitchenArea>9.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375439</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375441</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375443</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375445</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375447</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375449</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375451</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375453</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375455</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375457</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375459</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375461</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375463</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <IsApartments>false</IsApartments>
+      <RepairType>cosmetic</RepairType>
+      <Building>
+         <FloorsCount>5</FloorsCount>
+         <MaterialType>brick</MaterialType>
+         <Type>residentialHouse</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>0.0</Price>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33718 не прошла по условиям в XSL--><!--ID=33715 не прошла по условиям в XSL--></Feed>
