@@ -1,0 +1,1897 @@
+<Feed>
+   <Feed_Version>2</Feed_Version>
+   <!--ID=33868/SUIK_ID_NEW=5608 не прошла по условиям в XSL--><!--ID=33867/SUIK_ID_NEW=5605 не прошла по условиям в XSL--><!--ID=33866/SUIK_ID_NEW=5604 не прошла по условиям в XSL--><!--ID=33830/SUIK_ID_NEW=5615 не прошла по условиям в XSL--><!--ID=33833/SUIK_ID_NEW=5616 не прошла по условиям в XSL--><!--ID=33832/SUIK_ID_NEW=5603 не прошла по условиям в XSL--><!--ID=33831/SUIK_ID_NEW=5602 не прошла по условиям в XSL--><!--ID=33829/SUIK_ID_NEW=5612 не прошла по условиям в XSL--><!--ID=33828/SUIK_ID_NEW=5611 не прошла по условиям в XSL--><!--ID=30635/SUIK_ID_NEW=3059 не прошла по условиям в XSL--><!--ID=33827/SUIK_ID_NEW=5600 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=400.0--><!--AreaAllNeeded=true-->
+      <Title>производственные помещения г. Нижний Тагил</Title>
+      <Category>industryRent</Category>
+      <ExternalId>5601</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилые помещения общей площадью 23 кв. м в г. Нижний
+         Тагил. &#xD;
+         Состояние помещений удовлетворительное, проведен косметический ремонт. Инженерные
+         коммуникации: электроснабжение, отопление, водоснабжение. &#xD;
+         Здание расположено на охраняемой территории, действует пропускной режим. Хорошая транспортная
+         доступность. Наличие парковочных мест на прилегающей территории.  &#xD;
+         Срок аренды – 11 месяцев (с возможной пролонгацией). Расходы на содержание (коммунальные
+         и эксплуатационные услуги) не входят в арендную плату и оплачиваются отдельно. &#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по телефону в
+         объявлении.</Description>
+      <Address>Свердловская область, станция Нижний Тагил, г. Нижний Тагил, в полосе отвода</Address>
+      <Coordinates>
+         <Lat>57.908466</Lat>
+         <Lng>60.00598</Lng>
+      </Coordinates>
+      <CadastralNumber>61:28:0120117:108</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79827513912</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>400.0</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>NABondarenko@svrw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377217</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377219</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377221</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377223</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377225</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377227</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377229</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2377231</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>2</FloorsCount>
+         <TotalArea>400.0</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>3700.5</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33825/SUIK_ID_NEW=5599 не прошла по условиям в XSL--><!--ID=33824/SUIK_ID_NEW=5583 не прошла по условиям в XSL--><!--ID=33823/SUIK_ID_NEW=5598 не прошла по условиям в XSL--><!--ID=29778/SUIK_ID_NEW=2449 не прошла по условиям в XSL--><!--ID=21982/SUIK_ID_NEW=1512 не прошла по условиям в XSL--><!--ID=33822/SUIK_ID_NEW=5590 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=9.0--><!--AreaAllNeeded=true-->
+      <Title>офисное помещение г. Екатеринбург</Title>
+      <Category>officeRent</Category>
+      <ExternalId>5597</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилое помещение площадью 23 кв. м в городе Екатеринбург.&#xD;
+         Помещение расположено на втором этаже административного здания. Состояние помещения
+         удовлетворительное, требуется косметический ремонт. Инженерные коммуникации: электроснабжение,
+         освещение, отопление. &#xD;
+         Здание расположено на охраняемой территории, действует пропускной режим. Хорошая транспортная
+         доступность, удобный подъезд с ул. Автомагистральная. Наличие парковочных мест на
+         прилегающей территории. &#xD;
+         Срок договора – 11 месяцев (с возможной пролонгацией договора). Расходы на содержание
+         (коммунальные и эксплуатационные услуги) не входят в арендную плату и оплачиваются
+         отдельно. &#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Свердловская область, станция Свердловск-Товарный, г. Екатеринбург, д. 44</Address>
+      <Coordinates>
+         <Lat>56.889434</Lat>
+         <Lng>60.535446</Lng>
+      </Coordinates>
+      <CadastralNumber>54:35:021020:44</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79827513912</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>9.0</TotalArea>
+      <FloorNumber>2</FloorNumber>
+      <SubAgent>
+         <Email>NABondarenko@svrw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376912</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376914</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376916</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376918</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376920</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>2</FloorsCount>
+         <TotalArea>9.0</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>11950.8</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33820/SUIK_ID_NEW=5596 не прошла по условиям в XSL--><!--ID=33819/SUIK_ID_NEW=5589 не прошла по условиям в XSL--><!--ID=33818/SUIK_ID_NEW=5595 не прошла по условиям в XSL--><!--ID=33817/SUIK_ID_NEW=5588 не прошла по условиям в XSL--><!--ID=33816/SUIK_ID_NEW=5594 не прошла по условиям в XSL--><!--ID=33815/SUIK_ID_NEW=5593 не прошла по условиям в XSL--><!--ID=33814/SUIK_ID_NEW=5587 не прошла по условиям в XSL--><!--ID=33813/SUIK_ID_NEW=5592 не прошла по условиям в XSL--><!--ID=33812/SUIK_ID_NEW=5591 не прошла по условиям в XSL--><!--ID=33811/SUIK_ID_NEW=5586 не прошла по условиям в XSL--><!--ID=33810/SUIK_ID_NEW=5585 не прошла по условиям в XSL--><!--ID=33809/SUIK_ID_NEW=5584 не прошла по условиям в XSL--><!--ID=33808/SUIK_ID_NEW=5582 не прошла по условиям в XSL--><!--ID=33807/SUIK_ID_NEW=5580 не прошла по условиям в XSL--><!--ID=33806/SUIK_ID_NEW=5581 не прошла по условиям в XSL--><!--ID=33805/SUIK_ID_NEW=5558 не прошла по условиям в XSL--><!--ID=33804/SUIK_ID_NEW=5579 не прошла по условиям в XSL--><!--ID=33803/SUIK_ID_NEW=5560 не прошла по условиям в XSL--><!--ID=33802/SUIK_ID_NEW=5578 не прошла по условиям в XSL--><!--ID=33801/SUIK_ID_NEW=5559 не прошла по условиям в XSL--><!--ID=33800/SUIK_ID_NEW=5577 не прошла по условиям в XSL--><!--ID=32668/SUIK_ID_NEW=4569 не прошла по условиям в XSL--><!--ID=33799/SUIK_ID_NEW=5576 не прошла по условиям в XSL--><!--ID=32346/SUIK_ID_NEW=4304 не прошла по условиям в XSL--><!--ID=33796/SUIK_ID_NEW=5574 не прошла по условиям в XSL--><!--ID=33795/SUIK_ID_NEW=5573 не прошла по условиям в XSL--><!--ID=33721/SUIK_ID_NEW=5506 не прошла по условиям в XSL--><!--ID=33719/SUIK_ID_NEW=5505 не прошла по условиям в XSL--><!--ID=33794/SUIK_ID_NEW=5572 не прошла по условиям в XSL--><!--ID=33718/SUIK_ID_NEW=5504 не прошла по условиям в XSL--><!--ID=33715/SUIK_ID_NEW=5501 не прошла по условиям в XSL--><!--ID=33716/SUIK_ID_NEW=5502 не прошла по условиям в XSL--><!--ID=33793/SUIK_ID_NEW=5571 не прошла по условиям в XSL--><!--ID=33792/SUIK_ID_NEW=5570 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=505.6--><!--AreaAllNeeded=true-->
+      <Title>нежилые помещения г. Нижний Новгород</Title>
+      <Category>industryRent</Category>
+      <ExternalId>5569</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилые помещения общей площадью 307,3 кв. м в г. Нижний
+         Новгород.Помещения расположены на первом этаже производственного здания, вход с улицы.
+         Помещения подходят для производственно – складской деятельности, а так же для предоставления
+         услуг населению. Инженерные коммуникации: отопление, электроэнергия, водоснабжение
+         и водоотведение. Требуется проведение текущего ремонта. Доступ на территорию 24/7.
+         На прилегающей территории наличие парковочных мест. Хорошая транспортная доступность.
+         Удобный подъезд с ул. Вязниковская. Прилегающая к зданию территория обустроена.Срок
+         аренды – 11 месяцев (с возможной пролонгацией). Расходы на содержание (коммунальные
+         и эксплуатационные услуги) не входят в арендную плату.Об организации осмотра и подробных
+         условиях аренды Вы можете узнать по телефону в объявлении. &#xD;
+         </Description>
+      <Address>Нижегородская область, г. Нижний Новгород, д. 29</Address>
+      <Coordinates>
+         <Lat>56.302368</Lat>
+         <Lng>43.855339</Lng>
+      </Coordinates>
+      <CadastralNumber>23:47:0202053:97</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>78312488922</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>505.6</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>NRI_PapshevaAN@grw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375147</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375149</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375151</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375153</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2375155</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+         <TotalArea>505.6</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House></House>
+      <Land></Land>
+      <InputType>commonFromStreet</InputType>
+      <BargainTerms>
+         <Price>94341.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object> 
+   						<Object><!--AreaAll=--><!--AreaAllNeeded=false-->
+      <Title>земельный участок г. Екатеринбург</Title>
+      <Category>garageRent</Category>
+      <ExternalId>5557</ExternalId>
+      <Description>ОАО «РЖД» предлагает в субаренду часть земельного участка площадью 525 кв. м в г.
+         Екатеринбург. &#xD;
+         Земельный участок незастроенный, хорошая транспортная доступность, удобный подъезд
+         с ул. Трактовая. Участок расположен рядом с центром технического обслуживания автомобилей.
+         Участок подходит для организации парковки и размещения объекта некапитального типа.
+         В шаговой доступности остановка общественного транспорта. Инженерные коммуникации
+         отсутствуют.&#xD;
+         Срок субаренды – 11 месяцев (с возможной пролонгацией договора). &#xD;
+         Об организации осмотра и подробных условиях субаренды Вы можете узнать по телефону
+         в объявлении.&#xD;
+         </Description>
+      <Address>Свердловская область, г. Екатеринбург, Свердловская обл., г. Екатеринбург, в районе ул. Трактовая, 2Б (станция Исток, 1830 км)</Address>
+      <Coordinates>
+         <Lat>56.778777</Lat>
+         <Lng>60.795319</Lng>
+      </Coordinates>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79827513912</Number>
+         </PhoneSchema>
+      </Phones>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>NABondarenko@svrw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374935</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374937</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374939</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374941</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+      </Building>
+      <House></House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>10269.0</Price>
+         <LeaseType>sublease</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33789/SUIK_ID_NEW=5556 не прошла по условиям в XSL--><!--ID=33788/SUIK_ID_NEW=5555 не прошла по условиям в XSL--><!--ID=33787/SUIK_ID_NEW=5568 не прошла по условиям в XSL--><!--ID=33786/SUIK_ID_NEW=5566 не прошла по условиям в XSL--><!--ID=33785/SUIK_ID_NEW=5565 не прошла по условиям в XSL--><!--ID=33784/SUIK_ID_NEW=5564 не прошла по условиям в XSL--><!--ID=33783/SUIK_ID_NEW=5562 не прошла по условиям в XSL--><!--ID=33782/SUIK_ID_NEW=5561 не прошла по условиям в XSL--><!--ID=33781/SUIK_ID_NEW=5549 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=33.9--><!--AreaAllNeeded=true-->
+      <Title>нежилое помещение в г. Самара</Title>
+      <Category>warehouseRent</Category>
+      <ExternalId>5475</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилое помещение площадью 400,80 кв. м в г. Самара.
+         &#xD;
+         Помещение находится в здании склада. Инженерные коммуникации: электроснабжение, теплоснабжение.
+         Состояние удовлетворительное, ремонт не требуется.&#xD;
+         Здание склада расположено в промышленной зоне города Самара, с развитой железнодорожной
+         инфраструктурой. В ближайшем окружении расположены производственно-складские и административные
+         объекты, а также железнодорожная ст. Школьная. Территория не огорожена, доступ свободный.
+         Хорошая транспортная доступность, удобный подъезд на территорию осуществляется с ул.
+         Мостовая. Имеется наличие парковочных мест на прилегающей территории.&#xD;
+         Срок аренды - 11 месяцев (с возможной пролонгацией договора). Расходы на содержание
+         (коммунальные и эксплуатационные услуги) не входят в арендную плату и оплачиваются
+         отдельно.&#xD;
+         Об организации осмотра и подробных условиях Вы можете узнать по телефону в объявлении.</Description>
+      <Address>Самарская область, г. Самара, д. 15</Address>
+      <Coordinates>
+         <Lat>53.18102</Lat>
+         <Lng>50.138069</Lng>
+      </Coordinates>
+      <CadastralNumber>36:27:0012603:154</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>8463033608</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>33.9</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>nri_ZaetsNI@kbsh.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374039</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374041</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374043</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374045</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374047</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374049</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2374051</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>1</FloorsCount>
+         <TotalArea>33.9</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>70942.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object> 
+   						<Object><!--AreaAll=23.0--><!--AreaAllNeeded=true-->
+      <Title>Нежилые здания г. Москва</Title>
+      <Category>warehouseSale</Category>
+      <ExternalId>5548</ExternalId>
+      <RoomType>separate</RoomType>
+      <Description>ОАО «РЖД» предлагает к продаже два нежилых здания общей площадью 234,6 кв. м в г.
+         Москва. &#xD;
+         &#xD;
+         Здания кирпичные 1907 и 1917 года постройки. Здание площадью 37,5 кв. м в удовлетворительном
+         состоянии, выполнен косметический ремонт, в здании площадью 197,1 кв. м требуется
+         капитальный ремонт. Инженерные коммуникации: электроэнергия. Территория огорожена
+         забором, доступ на территорию свободный. Помещения подойдут для организации складской
+         деятельности и/или производства.&#xD;
+         &#xD;
+         Здания находятся в Нижегородском районе с хорошо развитой промышленно-деловой инфраструктурой.
+         Здания расположены вблизи складских комплексов и логистических центров. Удобное расположение
+         между Перовской эстакадой и Юго-Восточной хордой, ТТК и МКАД.&#xD;
+         &#xD;
+         Нежилые здания находятся в полосе отвода железной дороги на земельном участке площадью
+         1403 кв. м, который будет передан в субаренду новому собственнику.&#xD;
+         &#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>г. Москва, д. 22А и д. 31</Address>
+      <Coordinates>
+         <Lat>55.740431</Lat>
+         <Lng>37.731205</Lng>
+      </Coordinates>
+      <CadastralNumber>63:01:0705002:571</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79166412381</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>23.0</TotalArea>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>UMZHD_LagovskayaLN@msk.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376106</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376108</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376110</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376112</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376114</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376116</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376118</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376120</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2376122</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <RepairType>no</RepairType>
+      <Building>
+         <FloorsCount>1</FloorsCount>
+         <TotalArea>23.0</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <InputType>commonFromYard</InputType>
+      <BargainTerms>
+         <Price>4.24723884E7</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object> 
+   						<Object><!--AreaAll=31.6--><!--AreaAllNeeded=true-->
+      <Title>3-к квартира в г. Юрга</Title>
+      <Category>flatSale</Category>
+      <ExternalId>5554</ExternalId>
+      <RoomType>separate</RoomType>
+      <Description>ОАО «РЖД» предлагает к продаже трехкомнатную квартиру общей площадью 72,9 кв. м в
+         г. Юрга Кемеровской области.&#xD;
+         Квартира расположена в двухквартирном жилом доме 2010 года. Стены – каркасно-обшивные,
+         крыша из металлочерепицы.Имеет удобную планировку.Изолированные жилые комнаты, кухня
+         площадью 11,3 кв.м, совмещенный санузел.Находится в удовлетворительном состоянии,выполнен
+         косметический ремонт.Окна из ПВХ. Инженерные коммуникации: электроснабжение, центральный
+         водопровод, отопление, местная канализация. На территории двора хозблок.&#xD;
+         Квартира расположена в населенном пункте с развитой инфраструктурой вблизи ст. Юрга-1.В
+         шаговой доступности школа, магазины, аптека, поликлиника, остановки общественного
+         транспорта.Расположена в жилом доме на земельном умельном участке площадью 1512 кв.м,после
+         приобретения будет оформлено право общей долевой собственности пропорционально размеру
+         общей площади квартиры.&#xD;
+         Об организации осмотра и условиях продажи Вы можете узнать по телефону в объявлении.</Description>
+      <Address>Кемеровская область, станция Юрга 2, г. Юрга, д. 117, кв./фл. 2</Address>
+      <Coordinates>
+         <Lat>55.713131</Lat>
+         <Lng>84.838198</Lng>
+      </Coordinates>
+      <CadastralNumber>24:50:0000000:159206</CadastralNumber>
+      <FlatRoomsCount>3</FlatRoomsCount>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79059675333</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>31.6</TotalArea>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>nri-KulakovaAS@wsr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>41.6</LivingArea>
+      <KitchenArea>11.3</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373844</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373846</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373848</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373850</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373852</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373854</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373856</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373858</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373860</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373862</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373864</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373866</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373868</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373870</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373872</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373874</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <IsApartments>false</IsApartments>
+      <RepairType>cosmetic</RepairType>
+      <Building>
+         <FloorsCount>1</FloorsCount>
+         <TotalArea>31.6</TotalArea>
+         <MaterialType>monolith</MaterialType>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>foamConcreteBlock</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>0.0</Price>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33248/SUIK_ID_NEW=5054 не прошла по условиям в XSL--><!--ID=33778/SUIK_ID_NEW=5547 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=61.5--><!--AreaAllNeeded=true-->
+      <Title>нежилые помещения г. Ульяновск</Title>
+      <Category>officeRent</Category>
+      <ExternalId>4179</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилые помещения общей площадью 465,90 кв. м в городе
+         Ульяновск. &#xD;
+         Помещения расположены на первом этаже здания вокзала Ульяновск-Центральный, подходят
+         для размещения офисов. Состояние помещений удовлетворительное, требуется косметический
+         ремонт. Доступ на территорию свободный. Инженерные коммуникации: электроэнергия, водоснабжение,
+         водоотведение, теплоснабжение. &#xD;
+         Объект находится в районе с хорошо развитой инфраструктурой, наличие парковочные места
+         на прилегающей территории, удобная транспортная развязка. В пешей доступности остановки
+         общественного транспорта, магазины, аптеки. &#xD;
+         Срок аренды - 11 месяцев (с возможной пролонгацией договора). Коммунально-эксплуатационные
+         расходы (электроэнергия, отопление) оплачиваются отдельно.&#xD;
+         Об организации осмотра и подробных условиях Вы можете узнать по телефону в объявлении.</Description>
+      <Address>Ульяновская область, г. Ульяновск, д. 96</Address>
+      <Coordinates>
+         <Lat>54.272439</Lat>
+         <Lng>48.322621</Lng>
+      </Coordinates>
+      <CadastralNumber>68-68-10/005/2006-064</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>8463038764</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>61.5</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>nri_ShmelevaEA@kbsh.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373430</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373432</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373434</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373436</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+         <TotalArea>61.5</TotalArea>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House></House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>172383.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33720/SUIK_ID_NEW=5465 не прошла по условиям в XSL--><!--ID=32722/SUIK_ID_NEW=4576 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=23.1--><!--AreaAllNeeded=true-->
+      <Title>Здание</Title>
+      <Category>officeRent</Category>
+      <ExternalId>5285</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду нежилое здание общей площадью 142,5 кв. м в городе Вологда.&#xD;
+         Административное здание, подходит для размещения офисов. Состояние объекта удовлетворительное,
+         ремонт не требуется. Инженерные коммуникации: теплоснабжение, электроснабжение, водоснабжение
+         и водоотведение. &#xD;
+         Здание расположено в промышленной части города с развитой инфраструктурой, хорошая
+         транспортная доступность. В пешей доступности остановка общественного транспорта.
+         Наличие парковочных мест.&#xD;
+         Срок аренды - 11 месяцев (с возможной пролонгацией договора). Коммунально-эксплуатационные
+         расходы оплачиваются отдельно.&#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Вологодская область, г. Вологда, д. 119, литера В,В1</Address>
+      <Coordinates>
+         <Lat>59.202467</Lat>
+         <Lng>39.928988</Lng>
+      </Coordinates>
+      <CadastralNumber>25:28:040001:618</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>78172796234</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>23.1</TotalArea>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>nri-YablokovaEI@nrr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373340</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373342</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373344</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373346</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373348</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373350</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373352</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+         <TotalArea>23.1</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>administrativeBuilding</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <InputType>commonFromYard</InputType>
+      <BargainTerms>
+         <Price>35910.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object> 
+   						<Object><!--AreaAll=35.0--><!--AreaAllNeeded=true-->
+      <Title>место под вендинг г. Нижнекамск</Title>
+      <Category>shoppingAreaRent</Category>
+      <ExternalId>5250</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду место для размещения вендингового аппарата площадью
+         1,00 кв. м в городе Нижнекамск. &#xD;
+         Место расположено на первом этаже здания вокзала ст. Нижнекамск рядом с центральным
+         входом, что гарантирует высокий трафик. Круглосуточный доступ на территорию объекта,
+         развитая инфраструктура. Место обеспечено подключением к точке электросети. &#xD;
+         Срок аренды - 11 месяцев (с возможной пролонгацией договора). Коммунально-эксплуатационные
+         расходы оплачиваются отдельно.&#xD;
+         Об организации осмотра и подробных условиях Вы можете узнать по телефону в объявлении.</Description>
+      <Address>Республика Татарстан, р-н Нижнекамский, г. Нижнекамск, д. 7</Address>
+      <Coordinates>
+         <Lat>55.617835</Lat>
+         <Lng>51.80931</Lng>
+      </Coordinates>
+      <CadastralNumber>27:23:0041106:94</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>8463038764</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>35.0</TotalArea>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>nri_ShmelevaEA@kbsh.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373328</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373330</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373332</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373334</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373336</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2373338</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>3</FloorsCount>
+         <TotalArea>35.0</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>2798.88</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage>
+      <Specialty>
+         <Types>
+            <String>other</String>
+         </Types>
+      </Specialty></Object><!--ID=33776/SUIK_ID_NEW=5546 не прошла по условиям в XSL--><!--ID=33775/SUIK_ID_NEW=5553 не прошла по условиям в XSL--><!--ID=33774/SUIK_ID_NEW=5552 не прошла по условиям в XSL--><!--ID=33773/SUIK_ID_NEW=5551 не прошла по условиям в XSL--><!--ID=33772/SUIK_ID_NEW=5540 не прошла по условиям в XSL--><!--ID=33771/SUIK_ID_NEW=5545 не прошла по условиям в XSL--><!--ID=33770/SUIK_ID_NEW=5539 не прошла по условиям в XSL--><!--ID=33769/SUIK_ID_NEW=5537 не прошла по условиям в XSL--><!--ID=33768/SUIK_ID_NEW=5536 не прошла по условиям в XSL--><!--ID=33767/SUIK_ID_NEW=5535 не прошла по условиям в XSL--><!--ID=30878/SUIK_ID_NEW=3249 не прошла по условиям в XSL--><!--ID=33766/SUIK_ID_NEW=5534 не прошла по условиям в XSL--><!--ID=33544/SUIK_ID_NEW=5324 не прошла по условиям в XSL--><!--ID=33765/SUIK_ID_NEW=5533 не прошла по условиям в XSL--><!--ID=33764/SUIK_ID_NEW=5532 не прошла по условиям в XSL--><!--ID=33763/SUIK_ID_NEW=5543 не прошла по условиям в XSL--><!--ID=33762/SUIK_ID_NEW=5542 не прошла по условиям в XSL--><!--ID=33761/SUIK_ID_NEW=5541 не прошла по условиям в XSL--><!--ID=33760/SUIK_ID_NEW=5531 не прошла по условиям в XSL--><!--ID=33756/SUIK_ID_NEW=5472 не прошла по условиям в XSL--><!--ID=32406/SUIK_ID_NEW=4317 не прошла по условиям в XSL--><!--ID=32342/SUIK_ID_NEW=4293 не прошла по условиям в XSL--><!--ID=32285/SUIK_ID_NEW=4253 не прошла по условиям в XSL--><!--ID=32392/SUIK_ID_NEW=4314 не прошла по условиям в XSL--><!--ID=33759/SUIK_ID_NEW=5500 не прошла по условиям в XSL--><!--ID=33758/SUIK_ID_NEW=5529 не прошла по условиям в XSL--><!--ID=29171/SUIK_ID_NEW=1833 не прошла по условиям в XSL--><!--ID=33757/SUIK_ID_NEW=5499 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=25.8--><!--AreaAllNeeded=true-->
+      <Title>Административно-бытовое здание г.Новокузнецк</Title>
+      <Category>freeAppointmentObjectSale</Category>
+      <ExternalId>4283</ExternalId>
+      <Description>ОАО «РЖД» продает отдельно стоящее административно-производственное здание площадью
+         625,8 кв.м в г. Новокузнецке.&#xD;
+         &#xD;
+         Двухэтажное здание, 1932 года постройки, с помещениями офисного и бытового назначения
+         (комнатами отдыха с  отдельными душевыми и санузлами, комнатой приема пищи, пропускным
+         постом и др). Объект обеспечен инженерными коммуникациями: отопление, электроснабжение,
+         водопровод, канализация. Здание в хорошем техническом состоянии.&#xD;
+         &#xD;
+         К объекту подведены инженерные коммуникации: водоснабжение/отведение, электроснабжение,
+         отопление. Фасады каменные обшиты сайдингом. Прилегающий земельный участок площадью
+         3667 кв.м, передается новому собственнику в субаренду.&#xD;
+         &#xD;
+         Объект расположен в районе с развитой инфраструктурой и хорошей транспортной доступностью.
+         Рядом железнодорожный вокзал ст. Новокузнецк и остановки общественного транспорта.&#xD;
+         &#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.</Description>
+      <Address>Кемеровская область, станция Новокузнецк-Сортировочный, г. Новокузнецк, 28</Address>
+      <Coordinates>
+         <Lat>53.74363</Lat>
+         <Lng>87.074761</Lng>
+      </Coordinates>
+      <CadastralNumber>78:40:0020539:3006</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79059675333</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>25.8</TotalArea>
+      <FloorNumber>12</FloorNumber>
+      <SubAgent>
+         <Email>nri-KulakovaAS@wsr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371172</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371174</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371177</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371179</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371181</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371183</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371185</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371187</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371189</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371191</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371193</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371195</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371197</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371199</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371201</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371203</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2371205</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>2</FloorsCount>
+         <TotalArea>25.8</TotalArea>
+         <MaterialType>block</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>administrativeBuilding</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>aerocreteBlock</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <InputType>commonFromYard</InputType>
+      <BargainTerms>
+         <Price>1.1125E7</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage>
+      <Specialty>
+         <Types>
+            <String>flexiblePurpose</String>
+         </Types>
+      </Specialty></Object> 
+   						<Object><!--AreaAll=252.0--><!--AreaAllNeeded=true-->
+      <Title>нежилое здание р.п. Таловая</Title>
+      <Category>industrySale</Category>
+      <ExternalId>5528</ExternalId>
+      <Description>ОАО «РЖД» предлагает к продаже нежилое здание общей площадью 39,9 кв. м в рабочем
+         поселке Таловая Воронежской области.  &#xD;
+         Отдельно стоящее кирпичное здание 1966 года постройки, складского назначения. Инженерные
+         коммуникации: электроснабжение. Состояние удовлетворительное, требуется косметический
+         ремонт. &#xD;
+         Объект находится в центральной части района с хорошо развитой инфраструктурой. Хорошая
+         транспортная доступность. В шаговой доступности школы, детский сад, магазины, остановка
+         общественного транспорта, автостанция Таловая и железнодорожная ст. Таловая.  &#xD;
+         Объект расположен на земельном участке площадью 52,8 кв. м, который будет передан
+         в субаренду новому собственнику.&#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Воронежская область, р-н Таловский, рп. Таловая, д. 7</Address>
+      <Coordinates>
+         <Lat>51.120694</Lat>
+         <Lng>40.725573</Lng>
+      </Coordinates>
+      <CadastralNumber>54:31:010503:206</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>4732651778</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>252.0</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>nri_DumichMO@serw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2369209</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2369211</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2369213</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2369215</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+         <TotalArea>252.0</TotalArea>
+         <Type>other</Type>
+      </Building>
+      <House></House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>62084.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33753/SUIK_ID_NEW=5526 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=19.2--><!--AreaAllNeeded=true-->
+      <Title>Помещение под торговлю г. Калуга</Title>
+      <Category>shoppingAreaRent</Category>
+      <ExternalId>5498</ExternalId>
+      <RoomType>combined</RoomType>
+      <Description>ОАО «РЖД» предлагает в аренду помещение площадью 11,75 кв.метров на 1-ом этаже здания
+         вокзала Калуга-1, расположенного по адресу: Калужская обл., г. Калуга, пл. Вокзальная,
+         дом 3. Помещение передается в аренду для реализации продуктов питания. Здание обеспечено
+         следующими коммунальными услугами и инженерной инфраструктурой: отопление, канализация,
+         водоснабжение, электроснабжение. Аренда без мебели и техники. Хорошая проходимость.
+         Вокзал расположен в центральной части города. Расходы на содержание объекта (коммунальные
+         и эксплуатационные услуги) не входят в арендную плату и оплачиваются отдельно. Срок
+         аренды - 11 месяцев (с возможной пролонгацией).&#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по следующим телефонам:&#xD;
+         8(499)266-08-97 - Котикова Галина Николаевна&#xD;
+         8(953)311-19-00 - Минаков Сергей Сергеевич&#xD;
+         8(906)642-73-03 - Терещенко Елена Петровна</Description>
+      <Address>Калужская область, г. Калуга, д. 3, литера А</Address>
+      <Coordinates>
+         <Lat>54.533661</Lat>
+         <Lng>36.27875</Lng>
+      </Coordinates>
+      <CadastralNumber>39:00:000000:188</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79165762474</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>19.2</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>KotikovaGN@msk.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2368727</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2368729</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2368731</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <RepairType>cosmetic</RepairType>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+         <TotalArea>19.2</TotalArea>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House></House>
+      <Land></Land>
+      <InputType>commonFromStreet</InputType>
+      <BargainTerms>
+         <Price>35376.9</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage>
+      <Specialty>
+         <Types>
+            <String>trading</String>
+         </Types>
+      </Specialty></Object><!--ID=33750/SUIK_ID_NEW=5497 не прошла по условиям в XSL--><!--ID=33749/SUIK_ID_NEW=5496 не прошла по условиям в XSL--><!--ID=33748/SUIK_ID_NEW=5525 не прошла по условиям в XSL--><!--ID=33747/SUIK_ID_NEW=5524 не прошла по условиям в XSL--><!--ID=33711/SUIK_ID_NEW=5488 не прошла по условиям в XSL--><!--ID=33528/SUIK_ID_NEW=5306 не прошла по условиям в XSL--><!--ID=33746/SUIK_ID_NEW=5495 не прошла по условиям в XSL--><!--ID=33745/SUIK_ID_NEW=5487 не прошла по условиям в XSL--><!--ID=33744/SUIK_ID_NEW=5523 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=83.3--><!--AreaAllNeeded=true-->
+      <Title>офисное помещение г. Волгоград</Title>
+      <Category>officeRent</Category>
+      <ExternalId>5522</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду офисное помещение площадью 21,2 кв. м на втором этаже
+         административного здания в г. Волгоград.&#xD;
+         Техническое состояние помещения удовлетворительное, ремонт не требуется. Инженерные
+         коммуникации: электроэнергия, теплоснабжение, холодное водоснабжение. Расположен на
+         первой линии от железной дороги. Доступ на территорию объекта 24/7.&#xD;
+         &#xD;
+         Срок аренды – 11 месяцев (с возможной пролонгацией договора). Коммунальные услуги
+         оплачиваются отдельно.&#xD;
+         &#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по телефону &#xD;
+         в объявлении.&#xD;
+         </Description>
+      <Address>Волгоградская область, г. Волгоград, литера 1, ул. Шиллера д. 27</Address>
+      <Coordinates>
+         <Lat>48.530545</Lat>
+         <Lng>44.494239</Lng>
+      </Coordinates>
+      <CadastralNumber>24:11:0050501:256</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79297709914</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>83.3</TotalArea>
+      <FloorNumber>2</FloorNumber>
+      <SubAgent>
+         <Email>nri_shmakovavv@pvrr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366963</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366965</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366967</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366969</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366971</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366973</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366975</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366977</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366979</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>3</FloorsCount>
+         <TotalArea>83.3</TotalArea>
+         <MaterialType>brick</MaterialType>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>15900.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33742/SUIK_ID_NEW=5520 не прошла по условиям в XSL--><!--ID=33741/SUIK_ID_NEW=5521 не прошла по условиям в XSL--><!--ID=33740/SUIK_ID_NEW=5519 не прошла по условиям в XSL--><!--ID=33739/SUIK_ID_NEW=5518 не прошла по условиям в XSL--><!--ID=33738/SUIK_ID_NEW=5517 не прошла по условиям в XSL--><!--ID=33737/SUIK_ID_NEW=5516 не прошла по условиям в XSL--><!--ID=33736/SUIK_ID_NEW=5515 не прошла по условиям в XSL--><!--ID=31986/SUIK_ID_NEW=4016 не прошла по условиям в XSL--><!--ID=33735/SUIK_ID_NEW=5514 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=61.9--><!--AreaAllNeeded=true-->
+      <Title>2-к квартира поселок ст. Егозово</Title>
+      <Category>flatSale</Category>
+      <ExternalId>5513</ExternalId>
+      <RoomType>separate</RoomType>
+      <Description>ОАО «РЖД» предлагает к продаже двухкомнатную квартиру общей площадью 51,8 кв. м в
+         поселке станции Егозово Кемеровской области.&#xD;
+         Квартира расположена на четвертом этаже в пятиэтажном панельном доме 1995 года постройки.
+         Квартира имеет удобную планировку. Изолированные жилые комнаты общей площадью 28,9
+         кв. м, кухня площадью 8,5 кв. м, раздельный санузел, балкон. Состояние квартиры удовлетворительное,
+         выполнен косметический ремонт. На полу в кухне, в коридоре и комнатах линолеум, в
+         ванной и санузле плитка. &#xD;
+         Во дворе дома изолированная территория с наличием парковочных мест. Дом находится
+         рядом со станцией Егозово. В пешей доступности расположены школа, детский сад, магазин,
+         теннисный корт, остановки общественного транспорта. &#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Кемеровская область, р-н Ленинск-Кузнецкий, п/с. Егозово, д. 10, кв./фл. 10</Address>
+      <Coordinates>
+         <Lat>55.269528</Lat>
+         <Lng>85.631913</Lng>
+      </Coordinates>
+      <CadastralNumber>42:21:0902005:206</CadastralNumber>
+      <FlatRoomsCount>2</FlatRoomsCount>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79059675333</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>61.9</TotalArea>
+      <FloorNumber>4</FloorNumber>
+      <SubAgent>
+         <Email>nri-KulakovaAS@wsr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>28.9</LivingArea>
+      <KitchenArea>8.5</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366363</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366365</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366367</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366369</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366371</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366373</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366375</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366377</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366379</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366381</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366383</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366385</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366387</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2366389</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <IsApartments>false</IsApartments>
+      <RepairType>cosmetic</RepairType>
+      <Building>
+         <FloorsCount>5</FloorsCount>
+         <TotalArea>61.9</TotalArea>
+         <MaterialType>panel</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>residentialHouse</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>reinforcedConcretePanels</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <InputType>commonFromYard</InputType>
+      <BargainTerms>
+         <Price>0.0</Price>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33733/SUIK_ID_NEW=5512 не прошла по условиям в XSL--><!--ID=33732/SUIK_ID_NEW=5511 не прошла по условиям в XSL--><!--ID=33731/SUIK_ID_NEW=5510 не прошла по условиям в XSL--><!--ID=33730/SUIK_ID_NEW=5494 не прошла по условиям в XSL--><!--ID=33729/SUIK_ID_NEW=5509 не прошла по условиям в XSL--><!--ID=33726/SUIK_ID_NEW=5493 не прошла по условиям в XSL--><!--ID=33725/SUIK_ID_NEW=5492 не прошла по условиям в XSL--><!--ID=33724/SUIK_ID_NEW=5462 не прошла по условиям в XSL--><!--ID=33723/SUIK_ID_NEW=5440 не прошла по условиям в XSL--><!--ID=33722/SUIK_ID_NEW=5461 не прошла по условиям в XSL--><!--ID=33717/SUIK_ID_NEW=5503 не прошла по условиям в XSL--><!--ID=33708/SUIK_ID_NEW=5478 не прошла по условиям в XSL--><!--ID=33714/SUIK_ID_NEW=5491 не прошла по условиям в XSL--><!--ID=33713/SUIK_ID_NEW=5490 не прошла по условиям в XSL--><!--ID=33712/SUIK_ID_NEW=5489 не прошла по условиям в XSL--><!--ID=33710/SUIK_ID_NEW=5480 не прошла по условиям в XSL--><!--ID=33709/SUIK_ID_NEW=5479 не прошла по условиям в XSL--><!--ID=33707/SUIK_ID_NEW=5486 не прошла по условиям в XSL--><!--ID=33706/SUIK_ID_NEW=5485 не прошла по условиям в XSL--><!--ID=33705/SUIK_ID_NEW=5484 не прошла по условиям в XSL--><!--ID=33704/SUIK_ID_NEW=5483 не прошла по условиям в XSL--><!--ID=33703/SUIK_ID_NEW=5482 не прошла по условиям в XSL--><!--ID=33702/SUIK_ID_NEW=5477 не прошла по условиям в XSL--><!--ID=33701/SUIK_ID_NEW=5481 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=104.9--><!--AreaAllNeeded=true-->
+      <Title>Нежилое здание п. Пристень</Title>
+      <Category>industrySale</Category>
+      <ExternalId>5476</ExternalId>
+      <Description>ОАО «РЖД» предлагает к продаже нежилое здание общей площадью 391,8 кв. м в п. Пристень
+         Курской области.  &#xD;
+         Кирпичное двухэтажное отдельно стоящее производственно-административное здание 1939
+         года постройки. Объект обеспечен всеми необходимыми коммуникациями: водопровод, канализация,
+         отопление, электричество. Состояние объекта  удовлетворительное, требуется текущий
+         ремонт.&#xD;
+         Окружение объекта представлено объектами железнодорожной инфраструктуры, производственно-складскими
+         объектами. Хорошая транспортная доступность. В шаговой доступности школы, магазины,
+         детский сад, остановки общественного транспорта &#xD;
+         и железнодорожная ст. Ржава.  &#xD;
+         Объект расположен на земельном участке площадью 890 кв. м, который будет передан &#xD;
+         в субаренду новому собственнику. &#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону &#xD;
+         в объявлении.&#xD;
+         </Description>
+      <Address>Курская область, р-н Пристенский, п. Пристень</Address>
+      <Coordinates>
+         <Lat>51.234931</Lat>
+         <Lng>36.696997</Lng>
+      </Coordinates>
+      <CadastralNumber>03:13:000000:1681</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>4732651778</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>104.9</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>nri_DumichMO@serw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363844</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363846</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363848</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363850</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363852</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363854</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363856</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2363858</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+         <TotalArea>104.9</TotalArea>
+         <Type>administrativeBuilding</Type>
+      </Building>
+      <House></House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>1454362.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33699/SUIK_ID_NEW=5470 не прошла по условиям в XSL--><!--ID=33698/SUIK_ID_NEW=5469 не прошла по условиям в XSL--><!--ID=33697/SUIK_ID_NEW=5339 не прошла по условиям в XSL--><!--ID=33695/SUIK_ID_NEW=5338 не прошла по условиям в XSL--><!--ID=28982/SUIK_ID_NEW=1609 не прошла по условиям в XSL--><!--ID=33693/SUIK_ID_NEW=5466 не прошла по условиям в XSL--><!--ID=33691/SUIK_ID_NEW=5474 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=64.0--><!--AreaAllNeeded=true-->
+      <Title>Комплекс объектов в Ростовской области</Title>
+      <Category>freeAppointmentObjectSale</Category>
+      <ExternalId>1211</ExternalId>
+      <Description>ОАО «РЖД» предлагает к продаже комплекс объектов базы отдыха на ст. Мелиховская в
+         Ростовской области. &#xD;
+         &#xD;
+         Комплекс включает в себя земельный участок площадью 6968 кв. м, нежилые здания общей
+         площадью 272,1 кв. м. Расстояние от Ростова-на-Дону около 100 км. Объектам требуется
+         капитальный ремонт. Инженерные коммуникации отсутствуют. &#xD;
+         &#xD;
+         Объекты расположены на берегу р. Дон, на территории имеется выход к берегу реки. Ближайшее
+         окружение: базы отдыха, кемпинги. &#xD;
+         &#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении.&#xD;
+         </Description>
+      <Address>Ростовская область, р-н Усть-Донецкий, стн. Мелиховская</Address>
+      <Coordinates>
+         <Lat>47.469497</Lat>
+         <Lng>40.516791</Lng>
+      </Coordinates>
+      <CadastralNumber>62:29:0000000:2341</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>78632590010</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>64.0</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>nri_MetalnikovaAN@skzd.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2362773</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2362775</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2362777</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2362779</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2362781</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2362783</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2362785</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>0</FloorsCount>
+         <TotalArea>64.0</TotalArea>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House></House>
+      <Land></Land>
+      <InputType>commonFromYard</InputType>
+      <BargainTerms>
+         <Price>0.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage>
+      <Specialty>
+         <Types>
+            <String>flexiblePurpose</String>
+         </Types>
+      </Specialty></Object><!--ID=33690/SUIK_ID_NEW=5473 не прошла по условиям в XSL--><!--ID=32165/SUIK_ID_NEW=4176 не прошла по условиям в XSL--><!--ID=33689/SUIK_ID_NEW=5464 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=1.1--><!--AreaAllNeeded=true-->
+      <Title>складские помещения в г. Самара</Title>
+      <Category>warehouseRent</Category>
+      <ExternalId>5471</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду складские помещения общей площадью 300,00 кв.м в г.
+         Самара. &#xD;
+         Здание склада находится на территории грузового двора и обеспечено инженерными коммуникациями:
+         канализация, электроснабжение. Состояние удовлетворительное, ремонт не требуется.&#xD;
+         Территория грузового двора находится под охраной, есть место для парковки и проведения
+         погрузочно-разгрузочных работ. Хорошая транспортная доступность, рядом расположена
+         железнодорожная станция Речная.&#xD;
+         Срок аренды - 11 месяцев (с возможной пролонгацией договора). Расходы на содержание
+         (коммунальные и эксплуатационные услуги) не входят в арендную плату и оплачиваются
+         отдельно.&#xD;
+         Об организации осмотра и подробных условиях Вы можете узнать по телефону в объявлении.</Description>
+      <Address>Самарская область, станция Самара, г. Самара, д. 3А, Железнодорожный р-н</Address>
+      <Coordinates>
+         <Lat>53.175973</Lat>
+         <Lng>50.157881</Lng>
+      </Coordinates>
+      <CadastralNumber>59:01:0000000:51568</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>8463033608</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>1.1</TotalArea>
+      <FloorNumber>0</FloorNumber>
+      <SubAgent>
+         <Email>nri_ZaetsNI@kbsh.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361742</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361744</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361746</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361748</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361750</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>1</FloorsCount>
+         <TotalArea>1.1</TotalArea>
+         <MaterialType>panel</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>reinforcedConcretePanels</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>69300.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object> 
+   						<Object><!--AreaAll=1.1--><!--AreaAllNeeded=true-->
+      <Title>место под вендинг г. Нижний Тагил</Title>
+      <Category>shoppingAreaRent</Category>
+      <ExternalId>5463</ExternalId>
+      <Description>ОАО «РЖД» предлагает в аренду место для размещения вендингового аппарата площадью
+         1 кв. м на первом этаже административного здания в г. Нижний Тагил. &#xD;
+         Место расположено рядом с центральным входом, ежедневный высокий клиентский трафик.
+         Доступ на территорию осуществляется по пропускной системе, согласно графика работы
+         предприятия. В наличие точка подключения к электросети.&#xD;
+         Срок аренды – 11 месяцев (с возможной пролонгацией договора). Коммунальные услуги
+         (электроснабжение, теплоснабжение) оплачиваются отдельно. &#xD;
+         Об организации осмотра и подробных условиях аренды Вы можете узнать по телефону &#xD;
+         в объявлении.&#xD;
+         </Description>
+      <Address>Свердловская область, г. Нижний Тагил, д. 38В</Address>
+      <Coordinates>
+         <Lat>57.903501</Lat>
+         <Lng>59.995198</Lng>
+      </Coordinates>
+      <CadastralNumber>59:01:0000000:51883</CadastralNumber>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>79827513912</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>1.1</TotalArea>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>NABondarenko@svrw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361718</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361720</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361722</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361724</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2361726</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <Building>
+         <FloorsCount>3</FloorsCount>
+         <TotalArea>1.1</TotalArea>
+         <MaterialType>panel</MaterialType>
+         <Type>administrativeBuilding</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>brick</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <BargainTerms>
+         <Price>2224.0</Price>
+         <VatType>included</VatType>
+         <LeaseType>direct</LeaseType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage>
+      <Specialty>
+         <Types>
+            <String>other</String>
+         </Types>
+      </Specialty></Object><!--ID=33685/SUIK_ID_NEW=5460 не прошла по условиям в XSL--><!--ID=33684/SUIK_ID_NEW=5459 не прошла по условиям в XSL--><!--ID=33683/SUIK_ID_NEW=5458 не прошла по условиям в XSL--><!--ID=32921/SUIK_ID_NEW=4806 не прошла по условиям в XSL--><!--ID=33682/SUIK_ID_NEW=5439 не прошла по условиям в XSL--><!--ID=33681/SUIK_ID_NEW=5438 не прошла по условиям в XSL--><!--ID=33680/SUIK_ID_NEW=5457 не прошла по условиям в XSL--><!--ID=33678/SUIK_ID_NEW=5437 не прошла по условиям в XSL--><!--ID=14415/SUIK_ID_NEW=323 не прошла по условиям в XSL--><!--ID=14458/SUIK_ID_NEW=322 не прошла по условиям в XSL--><!--ID=33676/SUIK_ID_NEW=5454 не прошла по условиям в XSL--><!--ID=33675/SUIK_ID_NEW=5453 не прошла по условиям в XSL--><!--ID=33674/SUIK_ID_NEW=5452 не прошла по условиям в XSL--><!--ID=33673/SUIK_ID_NEW=5451 не прошла по условиям в XSL--><!--ID=33236/SUIK_ID_NEW=4978 не прошла по условиям в XSL--><!--ID=33672/SUIK_ID_NEW=5450 не прошла по условиям в XSL--><!--ID=33670/SUIK_ID_NEW=5449 не прошла по условиям в XSL--><!--ID=33668/SUIK_ID_NEW=5448 не прошла по условиям в XSL--><!--ID=30306/SUIK_ID_NEW=2872 не прошла по условиям в XSL--><!--ID=33667/SUIK_ID_NEW=5447 не прошла по условиям в XSL--> 
+   						<Object><!--AreaAll=--><!--AreaAllNeeded=false-->
+      <Title>нежилое здание с земельным участком г. Вологда</Title>
+      <Category>buildingSale</Category>
+      <ExternalId>5088</ExternalId>
+      <Description>ОАО «РЖД» продает нежилое здание площадью 296,2 кв.м с земельным участком 1 376 кв.м
+         в г. Вологда. &#xD;
+         Объект в хорошем техническом состоянии, обеспечен инженерными коммуникациями:  теплоснабжение,
+         водоснабжение и водоотведение, электроснабжение. Территория благоустроена, огорожена
+         по периметру забором. &#xD;
+         Объект расположен в центральной части города. Хорошая транспортная доступность, объект
+         расположен на пересечении улиц Герцена и Зосимовская. В шаговой доступности вся необходимая
+         инфраструктура: учебные и медицинские учреждения, магазины, остановки общественного
+         транспорта.&#xD;
+         Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в
+         объявлении в рабочие дни с 8-00 до 17-00 часов&#xD;
+         </Description>
+      <Address>Вологодская область, г. Вологда, д. 42</Address>
+      <Coordinates>
+         <Lat>59.211382</Lat>
+         <Lng>39.894523</Lng>
+      </Coordinates>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>78172796234</Number>
+         </PhoneSchema>
+      </Phones>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>nri-YablokovaEI@nrr.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>0.0</LivingArea>
+      <KitchenArea>0.0</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356335</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356337</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356339</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356341</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356343</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356345</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356347</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356349</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356351</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356353</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356355</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356357</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356359</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356361</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356363</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356365</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+         <PhotoSchema>
+            <FullUrl>https://property.local.oooinex.ru/api/media/resources/2356367</FullUrl>
+            <IsDefault>false</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <RepairType>cosmetic</RepairType>
+      <Building>
+         <FloorsCount>1</FloorsCount>
+         <MaterialType>wood</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>solidWood</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land></Land>
+      <InputType>commonFromYard</InputType>
+      <BargainTerms>
+         <Price>2.3933443E7</Price>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage></Object><!--ID=33666/SUIK_ID_NEW=5435 не прошла по условиям в XSL--><!--ID=33665/SUIK_ID_NEW=5434 не прошла по условиям в XSL--><!--ID=33664/SUIK_ID_NEW=5433 не прошла по условиям в XSL--><!--ID=33663/SUIK_ID_NEW=5446 не прошла по условиям в XSL--><!--ID=33662/SUIK_ID_NEW=5445 не прошла по условиям в XSL--><!--ID=33660/SUIK_ID_NEW=5444 не прошла по условиям в XSL--><!--ID=33659/SUIK_ID_NEW=5443 не прошла по условиям в XSL--><!--ID=33658/SUIK_ID_NEW=5442 не прошла по условиям в XSL--><!--ID=33657/SUIK_ID_NEW=5441 не прошла по условиям в XSL--><!--ID=30299/SUIK_ID_NEW=2840 не прошла по условиям в XSL--><!--ID=33656/SUIK_ID_NEW=5430 не прошла по условиям в XSL--><!--ID=33655/SUIK_ID_NEW=5429 не прошла по условиям в XSL--><!--ID=33654/SUIK_ID_NEW=5428 не прошла по условиям в XSL--><!--ID=33653/SUIK_ID_NEW=5427 не прошла по условиям в XSL--><!--ID=33652/SUIK_ID_NEW=5409 не прошла по условиям в XSL--></Feed>
