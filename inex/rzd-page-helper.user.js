@@ -1,8 +1,9 @@
 // ==UserScript==
-// @name Rzd Page helper
+// @name PTK_2018 Page helper
 // @namespace Violentmonkey Scripts
 // @match *://*.oooinex.ru/*
 // @match *://*.rzd.ru/*
+// @version 1.7
 // @grant none
 // @run-at document-end
 // ==/UserScript==
@@ -48,10 +49,9 @@
 		ptkCode = 'pr'
 	}
 
-	ptkCode = ptkCode.substring(0, 2);
-	ptkCode = toSmallCaps(ptkCode);
-
 	if (ptkCode !== 'oooinex') {
+		ptkCode = ptkCode.substring(0, 2);
+		ptkCode = toSmallCaps(ptkCode);
 		document.title = `${ptkCode} ${document.title}`;
 	}
 
