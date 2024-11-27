@@ -3,7 +3,7 @@
 // @namespace Violentmonkey Scripts
 // @match *://*.oooinex.ru/*
 // @match *://*.rzd.ru/*
-// @version 1.7
+// @version 1.7.2
 // @grant none
 // @run-at document-end
 // ==/UserScript==
@@ -52,7 +52,20 @@
 	if (ptkCode !== 'oooinex') {
 		ptkCode = ptkCode.substring(0, 2);
 		ptkCode = toSmallCaps(ptkCode);
-		document.title = `${ptkCode} ${document.title}`;
+		let titleChangeCnt = 0;
+		const titleChangeInterval = 500;
+		const titleChangeCntMax = 50;
+		// таймер - для страниц, которые меняют тайтл в процессе загрузки, например, в админке
+		const titleChangeTimer = setInterval(() => {
+			const prefix = `${ptkCode} `;
+			if (!document.title.startsWith(prefix)) {
+				document.title = prefix + document.title;
+			}
+			titleChangeCnt++;
+			if (titleChangeCnt >= titleChangeCntMax) {
+				clearInterval(titleChangeTimer);
+			}
+		}, titleChangeInterval)
 	}
 
 	function toSmallCaps (str) {
