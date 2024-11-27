@@ -3,7 +3,7 @@
 // @namespace Violentmonkey Scripts
 // @match *://*.oooinex.ru/*
 // @match *://*.rzd.ru/*
-// @version 1.7.3
+// @version 1.7.4
 // @grant none
 // @run-at document-end
 // ==/UserScript==
@@ -54,7 +54,7 @@
 		// таймер - для страниц, которые меняют тайтл в процессе загрузки, например, в админке
 		const titleChangeTimer = setInterval(() => {
 			const prefix = `${ptkCode} `;
-			if (!document.title.startsWith(prefix)) {
+			if (!document.title.startsWith(prefix) && document.title !== prefix.trim()) { // trim - для кейса когда тайтл состоит только из префикса, дело в том, что тайтл автоматом делает trim
 				document.title = prefix + document.title;
 			}
 			titleChangeCnt++;
