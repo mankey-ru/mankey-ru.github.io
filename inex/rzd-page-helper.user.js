@@ -3,7 +3,7 @@
 // @namespace Violentmonkey Scripts
 // @match *://*.oooinex.ru/*
 // @match *://*.rzd.ru/*
-// @version 1.7.2
+// @version 1.7.3
 // @grant none
 // @run-at document-end
 // ==/UserScript==
@@ -39,17 +39,13 @@
 	let ptkCode;
 	if (hostname.includes('oooinex')) {
 		ptkCode = hostname.split('.')[1];
-		//if (ptkCode === 'local') ptkCode = 'L'
-		//else ptkCode = ptkCode.substring(0,2); // heta будет he
 	} else if (hostname.startsWith('test-')) {
-		//ptkCode = 'π';
 		ptkCode = 'po'
 	} else {
-		//ptkCode = 'Π';
 		ptkCode = 'pr'
 	}
 
-	if (ptkCode !== 'oooinex') {
+	if (ptkCode !== 'oooinex' && ptkCode !== 'wflow') {
 		ptkCode = ptkCode.substring(0, 2);
 		ptkCode = toSmallCaps(ptkCode);
 		let titleChangeCnt = 0;
