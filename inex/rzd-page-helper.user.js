@@ -3,25 +3,23 @@
 // @namespace Violentmonkey Scripts
 // @match *://*.oooinex.ru/*
 // @match *://*.rzd.ru/*
-// @version 1.7.4
+// @version 1.7.5
 // @grant none
 // @run-at document-end
 // ==/UserScript==
 (function () {
-	if (window.PAGEDATA) {
-		var data = {};
-		var pageId = window.PAGEDATA.page_id || window.PAGEDATA.layer;
-		if (pageId) {
-			data.pageId = pageId;
-		}
-		if (window.PAGEDATA.template) {
-			data.template = window.PAGEDATA.template;
-		}
-		if (window.PAGEDATA.vp) {
-			data.vpId = window.PAGEDATA.vp;
-		}
+	const rootSys = document.querySelector('root')?.querySelector?.('sys');
+	const isXML = !!rootSys;
 
-		var cont = '';
+	let pageId;
+	if (window.PAGEDATA) {
+		const data = {};
+		pageId = window.PAGEDATA.page_id;
+		if (pageId) data.pageId = pageId;
+		if (window.PAGEDATA.template) data.template = window.PAGEDATA.template;
+		if (window.PAGEDATA.vp) data.vpId = window.PAGEDATA.vp;
+
+		const cont = '';
 		for (var k in data) {
 			cont += `<span style="margin: 0 1em">${k}=${data[k]}</span> `;
 		}
@@ -30,18 +28,27 @@
 			document.querySelector('body').insertAdjacentHTML('beforeend', `<div style="background:grey;color:#fff;padding:3px 0;position:fixed;bottom:0;right:0;z-index:1;">${cont}</div>`)
 		}
 	}
-	var errBlock = document.getElementById('error-text');
+	else {
+		pageId = rootSys?.querySelector?.('page_id').innerHTML;
+	}
+
+	// ???
+	const errBlock = document.getElementById('error-text');
 	if (errBlock) {
 		errBlock.style.display = 'block';
 	}
 
-	const { hostname } = window.location;
+	const {
+		hostname
+	} = window.location;
 	let ptkCode;
 	if (hostname.includes('oooinex')) {
 		ptkCode = hostname.split('.')[1];
-	} else if (hostname.startsWith('test-')) {
+	}
+	else if (hostname.startsWith('test-')) {
 		ptkCode = 'po'
-	} else {
+	}
+	else {
 		ptkCode = 'pr'
 	}
 
@@ -55,7 +62,8 @@
 		const titleChangeTimer = setInterval(() => {
 			const prefix = `${ptkCode} `;
 			if (!document.title.startsWith(prefix) && document.title !== prefix.trim()) { // trim - для кейса когда тайтл состоит только из префикса, дело в том, что тайтл автоматом делает trim
-				document.title = prefix + document.title;
+				const continuation = isXML ? pageId : document.title;
+				document.title = prefix + continuation;
 			}
 			titleChangeCnt++;
 			if (titleChangeCnt >= titleChangeCntMax) {
