@@ -3,7 +3,7 @@
 // @namespace Violentmonkey Scripts
 // @match *://*.oooinex.ru/*
 // @match *://*.rzd.ru/*
-// @version 1.7.5
+// @version 1.7.6
 // @grant none
 // @run-at document-end
 // ==/UserScript==
@@ -19,7 +19,7 @@
 		if (window.PAGEDATA.template) data.template = window.PAGEDATA.template;
 		if (window.PAGEDATA.vp) data.vpId = window.PAGEDATA.vp;
 
-		const cont = '';
+		let cont = '';
 		for (var k in data) {
 			cont += `<span style="margin: 0 1em">${k}=${data[k]}</span> `;
 		}
