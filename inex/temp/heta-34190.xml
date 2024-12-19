@@ -1,3 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Feed>
    <Feed_Version>2</Feed_Version>
+   <Object>
+      <Title>3-к квартира в п. Суриково</Title>
+      <Category>flatSale</Category>
+      <ExternalId>5824</ExternalId>
+      <RoomType>separate</RoomType>
+      <Description>ОАО «РЖД» предлагает к продаже трехкомнатную квартиру общей площадью 95,9 кв. м в поселке Суриково. Жилой дом 2009 года постройки. Квартира имеет удобную планировку. Изолированные жилые комнаты, санузел раздельный. Состояние квартиры удовлетворительное, выполнен косметический ремонт. Окна из пластикового стеклопакета. Инженерные коммуникации: электроснабжение, водоснабжение, канализация, отопление - электрокотел. Дом расположен в районе с индивидуальной жилой застройкой. Удобный подъезд с улицы Балыксинская. В шаговой доступности школа, магазин, железнодорожная станция и остановка общественного транспорта. Земельный участок площадью 2 515 кв. м используется ОАО «РЖД» по договору аренды. Об организации осмотра и подробных условиях продажи Вы можете узнать по телефону в объявлении. 
+Состав предложения:
+Квартира, кадастровый номер 24:05:2101004:230, площадь 95.9 кв.м, этаж 1. 
+Сооружение Наружные сети водопровода, кадастровый номер 24:05:2101004:230, площадь 121.0 кв.м, этаж 1. 
+IDs: 5824,  ПС: 0000012262, IDp: 34190.
+							</Description>
+      <Address>Красноярский край, р-н Бирилюсский, с. Суриково, УЛ Строительная</Address>
+      <Coordinates>
+         <Lat>56.980792</Lat>
+         <Lng>91.397013</Lng>
+      </Coordinates>
+      <FlatRoomsCount>3</FlatRoomsCount>
+      <Phones>
+         <PhoneSchema>
+            <CountryCode>+7</CountryCode>
+            <Number>9607527225</Number>
+         </PhoneSchema>
+      </Phones>
+      <TotalArea>95.9</TotalArea>
+      <FloorNumber>1</FloorNumber>
+      <SubAgent>
+         <Email>TurinaNP@krw.rzd.ru</Email>
+      </SubAgent>
+      <LivingArea>48.6</LivingArea>
+      <KitchenArea>11.9</KitchenArea>
+      <Photos>
+         <PhotoSchema>
+            <FullUrl>https://property.heta.oooinex.ru/api/media/resources/2302380</FullUrl>
+            <IsDefault>true</IsDefault>
+         </PhotoSchema>
+      </Photos>
+      <IsApartments>false</IsApartments>
+      <RepairType>no</RepairType>
+      <Building>
+         <FloorsCount>1</FloorsCount>
+         <TotalArea>95.9</TotalArea>
+         <MaterialType>wood</MaterialType>
+         <Parking>
+            <LocationType>external</LocationType>
+         </Parking>
+         <Type>other</Type>
+      </Building>
+      <House>
+         <MaterialTypes>
+            <MaterialType>solidWood</MaterialType>
+         </MaterialTypes>
+      </House>
+      <Land/>
+      <InputType>commonFromStreet</InputType>
+      <BargainTerms>
+         <Price>1656000.0</Price>
+         <LeaseType>direct</LeaseType>
+         <ContractType>sale</ContractType>
+         <AgentBonus>
+            <Value>0</Value>
+         </AgentBonus>
+      </BargainTerms>
+      <Garage>
+         <Type>garage</Type>
+      </Garage>
+   </Object>
 </Feed>
