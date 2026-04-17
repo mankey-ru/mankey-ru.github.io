@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Hello! My name is Pavel Prokhorenko
+## I'm a Thailand-based full-stack software engineer with 14+ years of experience.
 
-You can use the [editor on GitHub](https://github.com/mankey-ru/mankey-ru.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I like to build solutions like apps that will be maintainable for years or quick PoC/MVP.
+I like collaborating with teams, constantly learning while sharing knowledge with others.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### My main tools for many years are Node and Vue.
 
-### Markdown
+- I led critical front-end migrations, e.g. moved a high-load sales/ticket platform from custom jQuery to Vue 2 (this became the company-wide standard). 
+- With small team I architected and wrote advanced Kanban app, then all the company moved to it from Jira
+- I wrote and maintined Node services (Express.js, PostgreSQL, Kafka, Elasticsearch etc)
+- I wrote and maintined custom NPM packages for Vue and Node
+- Electron desktop app with complex double-repo structure, maintained for 7 years
+- I know how to make complex build pipelines: TS, Vite/Rollup, Webpack, Gulp etc with Gitlab CI (Docker)
+- I love to cover code with TS types
+- Oh, testing. I cover front-end with Cypress e2e, and Playwright component tests; use Jest and new Node built-in runner for backend services and NPM packages
+- I use AI like Google Antigravity for agent work (for build issues and tests. Usually not for business logic) and different LLMs via Openrouter for chat questions. I still prefer hand-tailored code in general, but open to new amazing opportunities like SDD.
+- I have experience in web-based mobile development (PWA, Quasar, Weex) but now interested in native vue solution backed by ByteDance (Lynx.js)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mankey-ru/mankey-ru.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+I worked with enterprise stack: Java, Oracle, IBM Websphere, JSP and XSLT templates and much more.
