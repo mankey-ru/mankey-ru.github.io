@@ -1,9 +1,9 @@
-# Hello, world :)
-## My name is Pavel Prokhorenko
-## I'm a Thailand-based full-stack JS/TS software engineer with 14+ years of experience
+# Hello, world :) My name is Pavel Prokhorenko. 
+## I'm a full-stack JS/TS software engineer with 14+ years of experience, based in Thailand.
 
-I like to build solutions: apps that will be maintainable for years OR quick PoC/MVP.
+I like to build solutions: either apps that will be maintainable for years OR just quick PoC/MVP.
 I like collaborating with teams, constantly learning while sharing knowledge with others.
+I like to keep balance between business purposes (first), DX and tech debt.
 
 ### My main tools for many years are Node and Vue.
 
@@ -11,10 +11,10 @@ I like collaborating with teams, constantly learning while sharing knowledge wit
 - With small team I architected and wrote advanced Kanban app, then all the company moved to it from Jira
 - I wrote and maintined Node services (Express.js, PostgreSQL, Kafka, Elasticsearch etc)
 - I wrote and maintined custom NPM packages for Vue and Node
-- Electron desktop app with complex double-repo structure, maintained for 7 years
+- I wrote and maintined for 7 years an internal Electron desktop app with complex double-repo structure, and huge functionality.
 - I know how to make complex build pipelines: TS, Vite/Rollup, Webpack, Gulp etc with Gitlab CI (Docker)
 - I love to cover code with TS types
 - Oh, testing. I cover front-end with Cypress e2e, and Playwright component tests; use Jest and new Node built-in runner for backend services and NPM packages
 - I carefully use AI for agent work and different LLMs via Openrouter for chat questions. I still prefer hand-tailored code in general, but excited with SDD.
-- I have experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+- I had experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
 - Before I worked much with enterprise stack: Java, Oracle, IBM Websphere, JSP and XSLT templates and much more.
