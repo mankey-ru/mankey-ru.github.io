@@ -1,7 +1,10 @@
 ## My name is Pavel Prokhorenko.
-### ● I'm a JS/TS Full-Stack engineer based in Thailand
-### ● I have an experience of working on hundreds of projects for Russian Railways in 2011-2026
-## Currently i'm looking for a senior role in Asian or global teams
+
+ ● I'm a JS/TS Full-Stack engineer based in Koh Phangan, Thailand
+
+ ● I have an experience of working on hundreds of projects for Russian Railways in 2011-2026
+
+## Currently I'm looking for a senior role in Asian or global teams
 
 I like to:
 
@@ -11,12 +14,16 @@ I like to:
 
  ● collaborating with teams, constantly learning while sharing knowledge with others.
 
-## My main stack: 
-### ● Node for backend
-### ● Electron for desktop
-### ● Vue for frontend
-What I architected, wrote and maintained for many years:
-- Critical Front-end migration - moved a high-load ticket platform from custom jQuery to Vue2 (selection of this framework became the company-wide standard). 
+## My stack: 
+
+● backend: Node
+
+● desktop: Electron
+
+● frontend: Vue
+
+### What I architected, wrote and maintained:
+- Critical frontend migration - moved a high-load ticket platform from custom jQuery to Vue2 (selection of this framework became the company-wide standard). 
 - Advanced Kanban app (then all the company moved to it from Jira). 
 - Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc.
 - Custom NPM packages for Vue and Node. 
