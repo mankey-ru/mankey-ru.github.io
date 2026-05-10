@@ -1,6 +1,7 @@
-## My name is Pavel Prokorenko.
+## My name is Pavel Prokhorenko.
+### I'm a JS/TS Full-Stack engineer based in Thailand
+### I have an experience of commercial development from 2011
 ### I'm looking for a senior role in Asian or global teams
-### being a JS/TS Full-Stack (Frontend/Backend/Desktop) software engineer based in Thailand
 
 I like to build solutions: either apps that will be maintainable for years OR just quick PoC/MVP.
 
@@ -8,19 +9,21 @@ I like to keep balance between business purposes (first), DX and tech debt.
 
 I like collaborating with teams, constantly learning while sharing knowledge with others.
 
-And much more.
+...and much more.
 
-## My main stack: Node and VueJS
-What I architected, wrote and maintained:
-- Critical Front-end migration - moved a high-load ticket platform from custom jQuery to Vue 2 (selection of this framework became the company-wide standard). 
+## My main stack: 
+### Node for backend
+### Electron for desktop
+### Vue for frontend
+What I architected, wrote and maintained for many years:
+- Critical Front-end migration - moved a high-load ticket platform from custom jQuery to Vue2 (selection of this framework became the company-wide standard). 
 - Advanced Kanban app (then all the company moved to it from Jira). 
 - Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc.
 - Custom NPM packages for Vue and Node. 
 - A complex internal Electron desktop app with multidomain functionality and multirepo structure. 
 - Complex build pipelines: Vite/Rollup OR Webpack/Gulp etc with Gitlab CI (Docker). 
 - TS migrations and coverage.
-- Tests for all my stack (Frontend/Backend/Desktop). 
-
+- All kinds of tests for all kinds of my projects
 
 ## My approach to AI
 I use this buzzing technology carefully.
