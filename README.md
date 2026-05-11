@@ -5,6 +5,8 @@
 
 ### Currently I'm looking for a senior role in Asian or global teams
 
+---
+
 ## My main stack
 - backend: Node
 - desktop: Electron
