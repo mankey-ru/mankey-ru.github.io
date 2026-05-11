@@ -40,3 +40,5 @@ I use this buzzing technology carefully.
 ## Other domains
 - Back in the days I worked much with enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
 - I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+
+<sub>v0.8</sub>
