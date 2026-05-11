@@ -7,11 +7,14 @@ header {
 	display: none;
 }
 
-ul li::marker {
+ul li {
 	list-style-image: none;
-    color: #b5e853;
-    font-size: 1.2em;
+	& ::marker {
+    	color: #b5e853;
+    	font-size: 1.6em;
+	}
 }
+
 body > div.container {
 	margin: 3em auto 0 auto;
 }

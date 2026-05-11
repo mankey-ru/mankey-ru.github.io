@@ -1,18 +1,14 @@
 ## My name is Pavel Prokhorenko.
 
- ● I'm a JS/TS Full-Stack engineer based in Koh Phangan, Thailand
-
- ● I have an experience of working on hundreds of projects for Russian Railways in 2011-2026
+- I'm a JS/TS Full-Stack engineer based in Koh Phangan, Thailand
+- I have an experience of working on hundreds of projects for Russian Railways in 2011-2026
 
 ### Currently I'm looking for a senior role in Asian or global teams
 
-## My stack: 
-
-● backend: Node
-
-● desktop: Electron
-
-● frontend: Vue
+## My main stack
+- backend: Node
+- desktop: Electron
+- frontend: Vue
 
 ### What I architected, wrote and maintained:
 - Critical frontend migration - moved a high-load ticket platform from custom jQuery to Vue2 (selection of this framework became the company-wide standard). 
@@ -35,13 +31,11 @@ I use this buzzing technology carefully.
 	- other documentation: when using SDD
 	- other texts than mentioned above: almost never
 
-## Things I value: 
+## Things I value
 
- ● collaborating with teams, constantly learning while sharing knowledge with others.
-
- ● build solutions: either apps that will be maintainable for years OR just quick PoC/MVP.
-
- ● keep balance between business purposes (first), DX and tech debt.
+- collaborating with teams, constantly learning while sharing knowledge with others.
+- building solutions: either apps that will be maintainable for years OR just quick PoC/MVP.
+- keeping balance between business purposes (first), DX and tech debt.
 
 ## Other domains
 - Back in the days I worked much with enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
