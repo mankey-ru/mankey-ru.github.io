@@ -2,3 +2,9 @@
 header {
 	display: none;
 }
+
+ul li::marker {
+	list-style-image: none;
+    color: #b5e853;
+    font-size: 1.2em;
+}
