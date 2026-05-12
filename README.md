@@ -1,4 +1,4 @@
-## My name is Pavel Prokhorenko.
+## My name is Pavel Prokhorenko
 
 - I'm a JS/TS Full-Stack engineer based in Koh Phangan, Thailand
 - My experience: hundreds of projects for Russian Railways in 2011-2026
@@ -11,14 +11,14 @@
 - frontend: Vue (since 2016)
 
 ### Some picks of what I made:
-- Critical frontend migration - moved a high-load ticket platform from custom jQuery to Vue2 (selection of this framework became the company-wide standard). 
-- Advanced Kanban app (then all the company moved to it from Jira). 
-- Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc.
-- Custom NPM packages for Vue and Node. 
-- A complex internal Electron desktop app with multidomain functionality and multirepo structure. 
-- Complex build pipelines: Vite/Rollup OR Webpack/Gulp etc with Gitlab CI (Docker). 
-- TS migrations and coverage.
-- All kinds of tests for all kinds of my projects.
+- Critical frontend migration - moved a high-load ticket platform from custom jQuery to Vue2 (this selection became the company-wide standard)
+- Advanced Kanban app (then all the company moved to it from Jira)
+- Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
+- Custom NPM packages for Vue and Node
+- A complex internal Electron desktop app with multidomain functionality and multirepo structure
+- Complex build pipelines: Vite/Rollup OR Webpack/Gulp etc with Gitlab CI (Docker)
+- TS migrations and coverage
+- All kinds of tests for all kinds of projects
 
 ## My approach to AI
 I use this technology carefully.
@@ -33,9 +33,9 @@ I use this technology carefully.
 
 ## Things I value
 
-- collaborating with teams, constantly learning while sharing knowledge with others.
-- building solutions: either apps that will be maintainable for years OR just quick PoC/MVP.
-- keeping balance between business purposes (first), DX and tech debt.
+- teamwork is a key ❤︎ Collaborating, constantly learning while sharing knowledge with others
+- building solutions: either apps that will be maintainable for years OR just quick PoC/MVP
+- keeping balance between business purposes (first), DX and tech debt
 
 ## Other domains
 - Back in the days I worked much with enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
