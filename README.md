@@ -8,9 +8,9 @@
 ---
 
 ## My main stack
-- backend: Node
-- desktop: Electron
-- frontend: Vue
+- backend: Node (since 2016)
+- desktop: Electron (since 2018)
+- frontend: Vue (since 2016)
 
 ### What I architected, wrote and maintained:
 - Critical frontend migration - moved a high-load ticket platform from custom jQuery to Vue2 (selection of this framework became the company-wide standard). 
