@@ -3,8 +3,6 @@
 - I'm a JS/TS Full-Stack engineer based in Koh Phangan, Thailand
 - I have an experience of working on hundreds of projects for Russian Railways in 2011-2026
 
-### Currently I'm looking for a senior role in Asian or global teams
-
 ---
 
 ## My main stack
@@ -12,7 +10,7 @@
 - desktop: Electron (since 2018)
 - frontend: Vue (since 2016)
 
-### What I architected, wrote and maintained:
+### What I made:
 - Critical frontend migration - moved a high-load ticket platform from custom jQuery to Vue2 (selection of this framework became the company-wide standard). 
 - Advanced Kanban app (then all the company moved to it from Jira). 
 - Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc.
