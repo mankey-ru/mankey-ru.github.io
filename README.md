@@ -1,6 +1,6 @@
 ## My name is Pavel Prokhorenko
 
-- I'm a JS/TS Full-Stack engineer based in Koh Phangan, Thailand
+- I'm a JS/TS Full-Stack engineer based in Thailand
 - My experience: hundreds of projects for Russian Railways in 2011-2026
 
 ---
