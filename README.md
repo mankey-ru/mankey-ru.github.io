@@ -1,7 +1,8 @@
 ## Hello, world :-) My name is Pavel Prokhorenko
 
 - I'm a JS/TS Full-Stack engineer based in Thailand
-- My experience: hundreds of projects for Russian Railways in 2011-2026
+- My experience: hundreds of projects for Russian Railways in 2011-2026 as leading specialist
+- rzd.ru is high-load (zillions of visitors, explained below)
 
 ---
 
@@ -11,17 +12,42 @@
 - frontend: Vue (since 2016)
 
 ### Some picks of what I made:
-- Critical frontend migration - moved a high-load ticket platform from custom jQuery to Vue2 (this selection became the company-wide standard)
+- Critical frontend migration of high-load ticket platform
+	- high-load means:
+		- about 200K sold (**paid**) tickets per day (~8000 per hour)
+		- 20+ million visits per month
+	- migration was from custom jQuery-based framework to Vue2
+	- my selection of framework in 2017 became the company-wide standard
+	- now ticket sales run by other company, the only proof is GIT history
+- The entire rzd.ru admin web-app (design and development)
+	- It was JSP-based IBM WebSphere stateful app made mostly by Java programmers
+	- Result: modern asyncronous Vue app
+	- Migration of meta-data (explained below)
+- Migration of meta-data mentioned above
+	- meta-data is description standard for 1000+ admin forms and 500+ user pages
+- A complex internal Electron desktop app with
+	- multirepo structure
+	- multidomain functionality
+		- meta-data (explained above) editors
+		- ssh
+		- oracle
+		- postgress
 - Advanced Kanban app (then all the company moved to it from Jira)
 - Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
 - Custom NPM packages for Vue and Node
-- A complex internal Electron desktop app with multidomain functionality and multirepo structure
 - Complex build pipelines: Vite/Rollup OR Webpack/Gulp etc with Gitlab CI (Docker)
 - TS migrations and coverage
 - All kinds of tests for all kinds of projects
 
 ## My approach to AI
 I use this amazing technology carefully.
+List of tools:
+- VSCode with Continue
+- Openrouter
+- Deepseek with expert mode
+- Geminy
+- Qwen Coder
+
 - For chat questions and suggestions: sure. Different LLMs, mostly via Openrouter, but it depends.
 - For agentic jobs:
 	- build issues, tests, personal PoCs and scripts: sure.
