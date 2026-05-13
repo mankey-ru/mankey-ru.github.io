@@ -23,15 +23,28 @@
 	- It was JSP-based IBM WebSphere stateful app made mostly by Java programmers
 	- Result: modern asyncronous Vue app
 	- Migration of meta-data (explained below)
-- Migration of meta-data mentioned above
-	- meta-data is description standard for 1000+ admin forms and 500+ user pages
 - A complex internal Electron desktop app with
-	- multirepo structure
 	- multidomain functionality
-		- meta-data (explained above) editors
+		- meta-data (explained below) editors for admin and user pages
 		- ssh
 		- oracle
-		- postgress
+		- postgress	
+	- multirepo structure (including admin web-app)
+- Migration of meta-data mentioned above
+	- meta-data is description standard for 1000+ admin forms and 500+ user pages
+	- before it was quirky XML, then it became JSON with much easier structure and less overhead
+	- What is meta-data for admin form:
+
+<details>
+<summary>Click to expand</summary>
+<p>
+	Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table to the UI behavior in the browser. Each file represents one admin page, capturing everything the frontend needs to render filters, a record list, and a detail/edit card without writing a single line of custom UI code for that page. They describe the main database table, child and parent relationships, access permissions, sorting defaults, and many other operational settings.
+</p>
+<p>
+	The heart of each descriptor is the fields array. Every object in it maps to a database column (or a cross‑table relation) and specifies how that field should behave in three distinct contexts: the filter (search) panel, the list view, and the card (edit/detail form). For each context, the field declares a UI control (e.g., text input, dropdown, popup picker, WYSIWYG), its parameters, validation rules, and lookup information if the field references another table. This unified field definition allows the system to automatically wire up complex relationships, many‑to‑many cross‑references, and dynamic field groups, all while remaining a pure data‑driven configuration that can be edited with a custom editor application.
+</p>
+</details>
+
 - Advanced Kanban app (then all the company moved to it from Jira)
 - Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
 - Custom NPM packages for Vue and Node
