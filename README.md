@@ -33,7 +33,7 @@
 <ul>
 <li>Before: JSP-based IBM WebSphere stateful app made mostly by Java programmers</li>
 <li>After: modern async Vue app</li>
-<li>Works with <i>metadata</i> (explained below)</li>
+<li>Renders page components according to <i>metadata</i> (explained below)</li>
 </ul>
 </li>
 <li>
@@ -54,8 +54,8 @@
 <li>
 <i>metadata</i> is two declarative formats for: <i>administrative forms</i> (1000+) and <i>user‑facing pages</i> (500+), explanations are below
 
-<details>
-<summary>What is metadata for <i>administrative forms</i> (1000+), click to expand</summary>
+<details class="details-mar">
+<summary>Metadata for <i>administrative forms</i>. <b>Click to expand</b></summary>
 <p>
 Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table to the UI behavior in the browser. Each file represents one admin page, capturing everything the frontend needs to render filters, a record list, and a detail/edit card without writing a single line of custom UI code for that page. They describe the main database table, child and parent relationships, access permissions, sorting defaults, and many other operational settings.
 </p>
@@ -64,8 +64,8 @@ The heart of each descriptor is the fields array. Every object in it maps to a d
 </p>
 </details>
 
-<details>
-<summary>What is metadata for <i>user‑facing pages</i> (500+), click to expand</summary>
+<details class="details-mar">
+<summary>Metadata for <i>user‑facing pages</i>. <b>Click to expand</b></summary>
 <p>
 These page metadata files define the complete data‑fetching layer for <i>user‑facing pages</i> in a declarative, JSON‑driven way. Instead of writing custom backend code for each page, a page descriptor specifies which data the page needs and how it should be retrieved, assembled, and filtered. The core structural units are fragments and components. A fragment represents an independent data‑loading block — it has its own pagination settings, a data source (like a database connection), and can be thought of as a reusable "data module" within the page. Each fragment contains one or more components, where a component directly maps to a database table (or view) and declares which columns to fetch, which filters to apply, and how this component relates to other components.
 </p>
@@ -93,15 +93,29 @@ Components are the granular building blocks: they list the exact fields to be se
 <ul>
 <li>drag-and-drop boards</li>
 <li>custom workflows</li>
+<li>custom fields</li>
+<li>issue linking</li>
+<li>
+<details class="details-mar">
+<summary>WFlow screenshots. <b>Click to expand</b></i></summary>
+<img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_3.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_4.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
+</details>
+
+</li>
 </ul>
 </li>
 </ul>
 </li>
 <li>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" /> Designed and developed 5 Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" /> Designed and developed 5+ Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
 </li>
 <li>
-<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" /> Designed and developed from scratch 10+ custom NPM packages for Vue and Node, used in several projects each
+<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" /> Designed and developed 10+ custom NPM packages for Vue and Node, used in several projects each
 </li>
 <li>
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> TS migrations and coverage

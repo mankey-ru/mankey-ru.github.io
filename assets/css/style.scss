@@ -20,10 +20,15 @@ body > div.container {
 	margin: 3em auto 0 auto;
 }
 
-details {	
+details.details-mar {	
 	margin-top: .5em;
 }
 
 summary {
 	cursor: pointer;
+}
+
+img.image-mar {
+	margin: .5em;
+	border: 1px dotted gray;
 }
