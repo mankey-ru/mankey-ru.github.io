@@ -19,3 +19,11 @@ ul li::marker {
 body > div.container {
 	margin: 3em auto 0 auto;
 }
+
+details {	
+	margin-top: .5em;
+}
+
+summary {
+	cursor: pointer;
+}
