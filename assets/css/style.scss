@@ -20,12 +20,18 @@ body > div.container {
 	margin: 3em auto 0 auto;
 }
 
+details {	
+	border: 1px dotted #b5e853;
+    padding: .2em .5em;
+}
+
 details.details-mar {	
-	margin-top: .5em;
+	margin-top: .5em;	
 }
 
 summary {
 	cursor: pointer;
+	color: #b5e853;
 }
 
 img.image-mar {

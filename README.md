@@ -45,7 +45,7 @@
 <img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" /> Designed and developed complex internal Electron desktop app (Win/Mac/Linux)
 
 <details>
-<summary>Screenshots. <b>Click to expand</b></summary>
+<summary>Screenshots. Click to expand</summary>
 <img src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
 
@@ -73,7 +73,7 @@
 <i>metadata</i> is two declarative formats for: <i>administrative forms</i> (1000+) and <i>user‑facing pages</i> (500+), explanations are below
 
 <details class="details-mar">
-<summary>Metadata for <i>administrative forms</i>. <b>Click to expand</b></summary>
+<summary>Metadata for <i>administrative forms</i>. Click to expand</summary>
 <p>
 Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table to the UI behavior in the browser. Each file represents one admin page, capturing everything the frontend needs to render filters, a record list, and a detail/edit card without writing a single line of custom UI code for that page. They describe the main database table, child and parent relationships, access permissions, sorting defaults, and many other operational settings.
 </p>
@@ -83,7 +83,7 @@ The heart of each descriptor is the fields array. Every object in it maps to a d
 </details>
 
 <details class="details-mar">
-<summary>Metadata for <i>user‑facing pages</i>. <b>Click to expand</b></summary>
+<summary>Metadata for <i>user‑facing pages</i>. Click to expand</summary>
 <p>
 These page metadata files define the complete data‑fetching layer for <i>user‑facing pages</i> in a declarative, JSON‑driven way. Instead of writing custom backend code for each page, a page descriptor specifies which data the page needs and how it should be retrieved, assembled, and filtered. The core structural units are fragments and components. A fragment represents an independent data‑loading block — it has its own pagination settings, a data source (like a database connection), and can be thought of as a reusable "data module" within the page. Each fragment contains one or more components, where a component directly maps to a database table (or view) and declares which columns to fetch, which filters to apply, and how this component relates to other components.
 </p>
@@ -106,8 +106,8 @@ Components are the granular building blocks: they list the exact fields to be se
 
 <li>
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> advanced Kanban app 
-<details>
-<summary>Screenshots. <b>Click to expand</b></summary>
+<details class="details-mar">
+<summary>Screenshots. Click to expand</summary>
 <img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
