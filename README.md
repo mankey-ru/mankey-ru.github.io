@@ -1,4 +1,4 @@
-## My name is Pavel Prokhorenko
+## Hello, world :-) My name is Pavel Prokhorenko
 
 - I'm a JS/TS Full-Stack engineer based in Thailand
 - My experience: hundreds of projects for Russian Railways in 2011-2026
@@ -21,7 +21,7 @@
 - All kinds of tests for all kinds of projects
 
 ## My approach to AI
-I use this technology carefully.
+I use this amazing technology carefully.
 - For chat questions and suggestions: sure. Different LLMs, mostly via Openrouter, but it depends.
 - For agentic jobs:
 	- build issues, tests, personal PoCs and scripts: sure.
@@ -31,16 +31,22 @@ I use this technology carefully.
 	- other documentation: usually not, but it depends
 	- other texts than mentioned above: rarely
 
-## Things I value
+## My priorities
 
-- teamwork is a key ❤︎ Collaborating, constantly learning while sharing knowledge with others
-- building solutions: either apps that will be maintainable for years OR just quick PoC/MVP
-- keeping balance between business purposes (first), DX and tech debt
+- Teamwork ❤︎ Collaborating, constantly learning while sharing knowledge with others
+- Building solutions: either apps that will be maintainable for years OR just quick PoC/MVP
+- Keeping balance between business purposes (first), DX and tech debt
 
 ## Other
-![photo](./assets/images/profile_photo.jpg)
+<img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
 
-- I speak English fluently, Russian natively and didn't forget Deutsch and Francais I studied in university :-)
-- Back in the days I worked much with enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
-- I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+   I speak English (pretty fluently), Russian (natively) and didn't completely forget Deutsch and Francais I studied in university :-)
+
+   Back in the days I worked much with oldschool enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
+
+   I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+
+   I work remotely for 12+ years from Asia
+
+<br clear="both"/>
 
