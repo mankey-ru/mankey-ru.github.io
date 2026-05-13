@@ -45,13 +45,23 @@ I use this amazing technology carefully.
 </td>
 <td style="vertical-align: top;">
 		
-I speak English (pretty fluently), Russian (natively) and didn't completely forget Deutsch and Francais I studied in university :-)
-		
-I work remotely for 12+ years from Asia
-		
-Back in the days I worked much with oldschool enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
+<ul>
 
+<li>
+I speak English (pretty fluently), Russian (natively) and didn't completely forget Deutsch and Francais I studied in university :-)
+</li>
+
+<li>
+I work remotely for 12+ years from Asia
+</li>
+<li>
+Back in the days I worked much with oldschool enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
+</li>
+<li>
 I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+</li>
+
+</ul>
 		
 </td>
   </tr>
