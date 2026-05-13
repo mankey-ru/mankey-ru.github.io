@@ -36,17 +36,35 @@
 <li>Renders page components according to <i>metadata</i> (explained below)</li>
 </ul>
 </li>
+
+
+
+
+
 <li>
-<img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" /> Designed and developed complex internal Electron desktop app (Win/Mac/Linux) with:
+<img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" /> Designed and developed complex internal Electron desktop app (Win/Mac/Linux)
+
+<details>
+<summary>Screenshots. <b>Click to expand</b></summary>
+<img src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
+
+<!--
+<img src="./assets/images/wizard_screens/arms/ed-2.jpg" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wizard_screens/arms/ed-3.jpg" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wizard_screens/arms/ed-5.jpg" alt="wflow screenshot" class="image-mar" />
+-->
+<img src="./assets/images/wizard_screens/arms/ed-4.png" alt="wflow screenshot" class="image-mar" />
+</details>
 <ul>
-<li>multidomain functionality
+<li>with multiple functions
 <ul>
 <li><i>metadata</i> editors (explained below)</li>
 <li><i>metadata</i> lists with advanced filtering (incl. jsonpath)</li>
 <li>ssh and sftp, oracle and postgress and much more back in the days</li>
 </ul>
 </li>
-<li>multirepo structure (including admin web-app)</li>
+<li>with multirepo structure (including admin web-app)</li>
 </ul>
 </li>
 <li>Migration of <i><b>metadata</b></i> mentioned above
@@ -84,20 +102,12 @@ Components are the granular building blocks: they list the exact fields to be se
 </li>
 </ul>
 </li>
+
+
 <li>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> advanced Kanban app
-<ul>
-<li>Frontend architecture for project management</li>
-<li>Adopted company-wide (70+ users migrated) and in Russian University of Transport (200+ users)</li>
-<li>Features
-<ul>
-<li>drag-and-drop boards</li>
-<li>custom workflows</li>
-<li>custom fields</li>
-<li>issue linking</li>
-<li>
-<details class="details-mar">
-<summary>WFlow screenshots. <b>Click to expand</b></i></summary>
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> advanced Kanban app 
+<details>
+<summary>Screenshots. <b>Click to expand</b></summary>
 <img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
@@ -106,7 +116,16 @@ Components are the granular building blocks: they list the exact fields to be se
 <img src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
 </details>
 
-</li>
+<ul>
+<li>Frontend architecture for project management</li>
+<li>Adopted company-wide (70+ users migrated) and in Russian University of Transport (200+ users)</li>
+<li>Features
+<ul>
+<li>drag-and-drop boards</li>
+<li>Custom workflows</li>
+<li>Custom issue fields</li>
+<li>Issue linking, file attaching</li>
+<li>Custom WYSIWYG JSON editor based on TipTap (ProseMirror)</li>
 </ul>
 </li>
 </ul>
