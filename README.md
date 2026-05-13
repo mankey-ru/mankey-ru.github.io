@@ -12,31 +12,34 @@
 - frontend: Vue (since 2016)
 
 ### Some picks of what I made:
-- Critical frontend migration of high-load ticket platform
-	- high-load means:
-		- about 200K sold (**paid**) tickets per day (~8000 per hour)
-		- 20+ million visits per month
+- Critical frontend migration of high-load ticket platform (design and most of first version code)
+	- high-load means about 200K sold (**paid**) tickets per day (~8000 per hour) and 20+ million visits per month
 	- migration was from custom jQuery-based framework to Vue2
 	- my selection of framework in 2017 became the company-wide standard
 	- now ticket sales run by other company, the only proof is GIT history
-- The entire rzd.ru admin web-app (design and development)
-	- It was JSP-based IBM WebSphere stateful app made mostly by Java programmers
-	- Result: modern asyncronous Vue app
-	- Migration of meta-data (explained below)
-- A complex internal Electron desktop app with
+	- ticket sales is complex
+		- thousands of stations; 11 timezones; intercity, international and commuter trains; tens of extra services; 3 languages;
+		- much of this complexity was made by front-end engineers in JS, in templates and <i>metadata</i> (explained below)
+- The entire rzd.ru <i>adminstrative front-end app</i> (design and development)
+	- Before: JSP-based IBM WebSphere stateful app made mostly by Java programmers
+	- After: modern asyncronous Vue app
+	- Works with <i>metadata</i>  (explained below)
+- A complex internal Electron desktop app (Win/Mac/Linux) with:
 	- multidomain functionality
-		- meta-data (explained below) editors for admin and user pages
-		- ssh
-		- oracle
-		- postgress	
+		- <i>metadata</i> editors (explained below)
+		- <i>metadata</i> lists with advanced filtering (incl. jsonpath)
+		- ssh and sftp, oracle and postgress and much more back in the days
 	- multirepo structure (including admin web-app)
-- Migration of meta-data mentioned above
-	- meta-data is description standard for 1000+ admin forms and 500+ user pages
-	- before it was quirky XML, then it became JSON with much easier structure and less overhead
-	- What is meta-data for admin form:
+- Migration of <i><b>metadata</b></i> mentioned above
+	- <i>metadata</i> is two declarative formats for: <i>administrative forms</i> (1000+) and <i>user‑facing pages</i> (500+), explanations collapsed with spoilers below
+	- I designed two new JSON formats together with Java architects, before it was quirky XML, full of workarounds and dirty hacks, then it became an elegant JSON with much easy structure and less overhead
+	- Then designed and developed 
+		- scripts for convertation of each formats
+		- editors for each format in an Electron app
+		- <i>adminstrative front-end app</i>
 
 <details>
-<summary>Click to expand</summary>
+<summary>What is metadata for <i>administrative forms</i> (1000+), click to expand</summary>
 <p>
 	Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table to the UI behavior in the browser. Each file represents one admin page, capturing everything the frontend needs to render filters, a record list, and a detail/edit card without writing a single line of custom UI code for that page. They describe the main database table, child and parent relationships, access permissions, sorting defaults, and many other operational settings.
 </p>
@@ -45,12 +48,22 @@
 </p>
 </details>
 
+<details>
+<summary>What is metadata for <i>user‑facing pages</i> (500+), click to expand</summary>
+<p>
+	These page metadata files define the complete data‑fetching layer for <i>user‑facing pages</i> in a declarative, JSON‑driven way. Instead of writing custom backend code for each page, a page descriptor specifies which data the page needs and how it should be retrieved, assembled, and filtered. The core structural units are fragments and components. A fragment represents an independent data‑loading block — it has its own pagination settings, a data source (like a database connection), and can be thought of as a reusable “data module” within the page. Each fragment contains one or more components, where a component directly maps to a database table (or view) and declares which columns to fetch, which filters to apply, and how this component relates to other components.
+</p>
+<p>
+	Components are the granular building blocks: they list the exact fields to be selected, designate primary keys, and optionally define relations to other components (one‑to‑one or one‑to‑many) so that the engine can automatically join related data. Filters can be global (driven by request parameters or special variables) or local, and they can include complex SQL expressions. Together, fragments and components allow the page to be described as a graph of interconnected data sets, all rendered by a specified template that knows how to walk this structure. Shared fragments can even be reused across different pages, making the whole system modular and maintainable.
+</p>
+</details>
+
 - Advanced Kanban app (then all the company moved to it from Jira)
-- Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
-- Custom NPM packages for Vue and Node
-- Complex build pipelines: Vite/Rollup OR Webpack/Gulp etc with Gitlab CI (Docker)
+- several Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
+- 10+ custom NPM packages for Vue and Node
+- Complex build pipelines: Vite/Rollup (or Webpack etc) with Docker containerization and Gitlab CI
 - TS migrations and coverage
-- All kinds of tests for all kinds of projects
+- Tests, unit and e2e, cypress for front-end and electron, jest for back-end
 
 ## My approach to AI
 I use this amazing technology carefully.
