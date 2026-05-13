@@ -40,7 +40,7 @@ I use this amazing technology carefully.
 ## Other
 <table>
   <tr>
-    <td style="padding-right: 20px; vertical-align: top;">
+    <td width="200" style="padding-right: 20px; vertical-align: top;">
       <img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
     </td>
     <td style="vertical-align: top;">
