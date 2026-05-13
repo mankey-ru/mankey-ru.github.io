@@ -37,6 +37,10 @@ I use this technology carefully.
 - building solutions: either apps that will be maintainable for years OR just quick PoC/MVP
 - keeping balance between business purposes (first), DX and tech debt
 
-## Other domains
+## Other
+![photo](./assets/images/profile_photo.jpg)
+
+- I speak English fluently, Russian natively and didn't forget Deutsch and Francais I studied in university :-)
 - Back in the days I worked much with enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
 - I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+
