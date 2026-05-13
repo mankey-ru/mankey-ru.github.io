@@ -37,7 +37,11 @@ I use this amazing technology carefully.
 - Building solutions: either apps that will be maintainable for years OR just quick PoC/MVP
 - Keeping balance between business purposes (first), DX and tech debt
 
-## Other
+## Other skills
+- Back in the days I worked much with oldschool enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
+- I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+
+## Me
 <table>
   <tr>
 <td width="200" style="padding-right: 20px; vertical-align: top;">
@@ -53,12 +57,6 @@ I speak English (pretty fluently), Russian (natively) and didn't completely forg
 
 <li>
 I work remotely for 12+ years from Asia
-</li>
-<li>
-Back in the days I worked much with oldschool enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
-</li>
-<li>
-I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
 </li>
 
 </ul>
