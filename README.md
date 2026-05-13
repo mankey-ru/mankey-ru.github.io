@@ -7,24 +7,24 @@
 ---
 
 ## Main stack
-- backend: Node (since 2016)
-- desktop: Electron (since 2018)
-- frontend: Vue (since 2016)
+- <b>Backend:</b> ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) (since 2016)
+- <b>Frontend:</b> ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white) (since 2016)
+- <b>Desktop:</b> ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white) (since 2018)
 
 ### Some picks of what I made:
-- Critical frontend migration of high-load ticket platform (design and most of first version code)
-	- high-load means about 200K sold (**paid**) tickets per day (~8000 per hour) and 20+ million visits per month
+- Designed and developed first version of critical frontend migration of high-load ticket platform (design and most of first version code)
+	- high-load means about 150K sold (**paid**) tickets per day (~600 per hour) and 20+ million visits per month
 	- migration was from custom jQuery-based framework to Vue2
 	- my selection of framework in 2017 became the company-wide standard
-	- now ticket sales run by other company, the only proof is GIT history
+	- now ticket sales run by other company, the only proof is Git history
 	- ticket sales is complex
 		- thousands of stations; 11 timezones; intercity, international and commuter trains; tens of extra services; 3 languages;
 		- much of this complexity was made by front-end engineers in JS, in templates and <i>metadata</i> (explained below)
-- The entire rzd.ru <i>adminstrative front-end app</i> (design and development)
+- Designed and developed from scratch rzd.ru <i>administrative front-end app</i>
 	- Before: JSP-based IBM WebSphere stateful app made mostly by Java programmers
-	- After: modern asyncronous Vue app
+	- After: modern async Vue app
 	- Works with <i>metadata</i>  (explained below)
-- A complex internal Electron desktop app (Win/Mac/Linux) with:
+- Designed and developed from scratch complex internal Electron desktop app (Win/Mac/Linux) with:
 	- multidomain functionality
 		- <i>metadata</i> editors (explained below)
 		- <i>metadata</i> lists with advanced filtering (incl. jsonpath)
@@ -36,7 +36,7 @@
 	- Then designed and developed 
 		- scripts for convertation of each formats
 		- editors for each format in an Electron app
-		- <i>adminstrative front-end app</i>
+		- <i>administrative front-end app</i>
 
 <details>
 <summary>What is metadata for <i>administrative forms</i> (1000+), click to expand</summary>
@@ -58,31 +58,30 @@
 </p>
 </details>
 
-- Advanced Kanban app (then all the company moved to it from Jira)
-- several Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
-- 10+ custom NPM packages for Vue and Node
+- Designed and developed from scratch front-end of advanced Kanban app (then all the company, 70+ people, moved to it from Jira)
+- Designed and developed from scratch 5 Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
+- Designed and developed from scratch 10+ custom NPM packages for Vue and Node, used in several projects each
 - Complex build pipelines: Vite/Rollup (or Webpack etc) with Docker containerization and Gitlab CI
 - TS migrations and coverage
 - Tests, unit and e2e, cypress for front-end and electron, jest for back-end
 
 ## My approach to AI
-I use this amazing technology carefully.
-List of tools:
-- VSCode with Continue
-- Openrouter
-- Deepseek with expert mode
-- Geminy
-- Qwen Coder
-
-- For chat questions and suggestions: sure. Different LLMs, mostly via Openrouter, but it depends.
-- For agentic jobs:
-	- build issues, tests, personal PoCs and scripts: sure.
-	- production code: in general, I prefer hand tailored code, but very excited with Specification Driven Development (SDD).
-- For writing texts:
-	- boilerplate documentation: sure
-	- other documentation: usually not, but it depends
-	- other texts than mentioned above: rarely
-
+- I use this amazing technology carefully.
+	- For chat questions and suggestions: sure
+	- For agentic jobs:
+		- build issues, tests, personal PoCs and scripts: sure.
+		- production code: in general, I prefer hand tailored code, but very excited with Specification Driven Development (SDD).
+	- For writing texts:
+		- boilerplate documentation: sure
+		- other documentation: usually not, but it depends
+		- other texts than mentioned above: rarely
+- List of tools:
+	- VSCode with Continue
+	- Openrouter
+	- Claude Opus
+	- Deepseek with expert mode
+	- Antigravity with Geminy
+	- Qwen Coder
 ## My priorities
 
 - Teamwork ❤︎ Collaborating, constantly learning while sharing knowledge with others
