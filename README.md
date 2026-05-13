@@ -12,7 +12,7 @@
 - <b>Desktop:</b> ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white) (since 2018)
 
 ### Some picks of what I made:
-- Designed and developed first version of critical frontend migration of high-load ticket platform (design and most of first version code)
+- ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white) Designed and developed critical frontend migration of high-load ticket platform
 	- high-load means about 150K sold (**paid**) tickets per day (~600 per hour) and 20+ million visits per month
 	- migration was from custom jQuery-based framework to Vue2
 	- my selection of framework in 2017 became the company-wide standard
@@ -20,11 +20,11 @@
 	- ticket sales is complex
 		- thousands of stations; 11 timezones; intercity, international and commuter trains; tens of extra services; 3 languages;
 		- much of this complexity was made by front-end engineers in JS, in templates and <i>metadata</i> (explained below)
-- Designed and developed from scratch rzd.ru <i>administrative front-end app</i>
+- ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white) Designed and developed rzd.ru <i>administrative front-end app</i>
 	- Before: JSP-based IBM WebSphere stateful app made mostly by Java programmers
 	- After: modern async Vue app
 	- Works with <i>metadata</i>  (explained below)
-- Designed and developed from scratch complex internal Electron desktop app (Win/Mac/Linux) with:
+- ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white) Designed and developed complex internal Electron desktop app (Win/Mac/Linux) with:
 	- multidomain functionality
 		- <i>metadata</i> editors (explained below)
 		- <i>metadata</i> lists with advanced filtering (incl. jsonpath)
@@ -32,9 +32,9 @@
 	- multirepo structure (including admin web-app)
 - Migration of <i><b>metadata</b></i> mentioned above
 	- <i>metadata</i> is two declarative formats for: <i>administrative forms</i> (1000+) and <i>user‑facing pages</i> (500+), explanations collapsed with spoilers below
-	- I designed two new JSON formats together with Java architects, before it was quirky XML, full of workarounds and dirty hacks, then it became an elegant JSON with much easy structure and less overhead
+	- Designed two new JSON formats together with Java architects, before it was quirky XML, full of workarounds and dirty hacks, then it became an elegant JSON with much easy structure and less overhead
 	- Then designed and developed 
-		- scripts for convertation of each formats
+		- conversion scripts for both formats
 		- editors for each format in an Electron app
 		- <i>administrative front-end app</i>
 
@@ -58,11 +58,11 @@
 </p>
 </details>
 
-- Designed and developed from scratch front-end of advanced Kanban app (then all the company, 70+ people, moved to it from Jira)
-- Designed and developed from scratch 5 Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
-- Designed and developed from scratch 10+ custom NPM packages for Vue and Node, used in several projects each
+- ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)  Designed and developed front-end of advanced Kanban app (then all the company, 70+ people, moved to it from Jira)
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) Designed and developed 5 Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
+- ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white)   Designed and developed from scratch 10+ custom NPM packages for Vue and Node, used in several projects each
+- ![NPM](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) TS migrations and coverage
 - Complex build pipelines: Vite/Rollup (or Webpack etc) with Docker containerization and Gitlab CI
-- TS migrations and coverage
 - Tests, unit and e2e, cypress for front-end and electron, jest for back-end
 
 ## My approach to AI
