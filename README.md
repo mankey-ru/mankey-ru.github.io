@@ -97,7 +97,7 @@ The metadata system defines two formats for:
 - **User-Facing Pages** (500+): Data-fetching layer and component composition
 
 <details class="details-mar">
-<summary><b>Metadata for Administrative Forms</b></summary>
+<summary>Metadata for <i>Administrative Forms</i></summary>
 
 <p>
 Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table(-s) to the UI behavior in the browser.
@@ -138,7 +138,7 @@ Some control type examples:
 </details>
 
 <details class="details-mar">
-<summary><b>Metadata for User-Facing Pages</b></summary>
+<summary>Metadata for <i>User-Facing Pages</i></summary>
 
 <p>These page metadata files define the complete HTML page or data-fetching layer (JSON-driven), eliminating custom backend code for each page (total: 500+ pages).</p>
 
@@ -299,7 +299,7 @@ I use AI thoughtfully and strategically:
 
 ## Me
 
-<img width="200" src="./assets/images/profile_photo.jpg" alt="" align="left" style="margin: 0 15px 10px 0;">
+<img width="200" src="./assets/images/profile_photo.jpg" alt="" align="left" style="margin: 0 2em .5em 0;">
 
 - <b>Languages:</b> English (fluent), Russian (native), Deutsch & Français (rusty from university days :-))
 - <b>Location & Work:</b> Remote from Asia for 12+ years
