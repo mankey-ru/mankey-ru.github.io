@@ -29,6 +29,16 @@ details.details-mar {
 	margin-top: .5em;	
 }
 
+summary::after {
+    content: "Click to expand";
+    margin-left: 8px;
+    color: #b5e853;
+}
+
+details[open] summary::after {
+    content: "Click to collapse";
+}
+
 summary {
 	cursor: pointer;
 	color: #b5e853;
