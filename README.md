@@ -196,12 +196,22 @@ Some control type examples:
 
 ### Other Notable Work
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" /> **5+ Backend Services**
+#### Backend Services
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
+
+- 5+
 - Express.js, PostgreSQL, Kafka, Elasticsearch
 - Microservices architecture with scalable design
 
-<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" /> **10+ Custom NPM Packages**
-- Reusable Vue and Node utilities
+**10+ Custom NPM Packages**
+
+<img class="badge-mar" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" />
+<img class="badge-mar" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+<img class="badge-mar" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
+
+- 10+
+- Reusable Vue components and Node utilities
 - Used across multiple company projects
 
 **TypeScript Migrations & Coverage**
