@@ -1,4 +1,4 @@
-## Hello, world :-) My name is Pavel Prokhorenko
+## Hello, world :-) My name is [Pavel Prokhorenko](https://www.linkedin.com/in/pavel-prokhorenko-a3273828/)
 
 - I'm a JS/TS Full-Stack engineer based in Thailand
 - My experience: hundreds of projects for Russian Railways in 2011-2026 as leading specialist
