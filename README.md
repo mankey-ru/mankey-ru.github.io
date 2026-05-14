@@ -247,33 +247,28 @@ Some control type examples:
 ## AI & Tools
 
 ### Tools & Platforms
-- VSCode with Continue
-- Openrouter
-- Claude Opus
-- Deepseek (expert mode)
-- Antigravity with Gemini
-- Qwen Coder
+Don't like to be vendor-locked :-) so...
+- VSCode with Continue, sometimes Antigravity
+	- LLMs like Grok, Claude, Gemini, DeepSeek, GPT
+- Openrouter with system query presets
+- Deepseek (expert+thinking) for complex chat questions
 
 ### Usage Philosophy
 
-I use AI thoughtfully and strategically:
+I use AI thoughtfully:
 
 **Chat, questions & suggestions** — Always
 
 **Agentic jobs:**
 - Build issues, tests, personal PoCs, scripts
 - Exploration and rapid prototyping
-
-**Production code:**
-- Generally prefer hand-tailored solutions
-- Excited about Specification Driven Development (SDD) approach
-- AI-assisted when specs are clear
+- **Production code:**
+	- Generally prefer hand-tailored solutions with AI suggestions
+	- Excited about Specification Driven Development (SDD) approach (Openspec)
 
 **Boilerplate documentation** — Yes
-
 **Other documentation** — Context-dependent
-
-**General text writing** — Rarely (prefer original voice)
+**General text writing** — Rarely (prefer original style)
 
 ---
 
