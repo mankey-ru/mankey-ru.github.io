@@ -2,7 +2,7 @@
 
 - I'm a JS/TS full-stack engineer based in Thailand, remote-first for 12+ years
 - I did hundreds of projects for Russian Railways in 2011-2026
-- High-load, front-end, back-end and desktop
+- [High-load](#high-load-ticket-platform-migration), [frontend](#rzdru-administrative-app), [backend](#backend-services) and [desktop](#electron-desktop-app) - it's about me :-)
 
 ---
 
@@ -212,7 +212,7 @@ Some control type examples:
 
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
 
-- 5+
+- 5+ services
 - Express.js, PostgreSQL, Kafka, Elasticsearch
 - Microservices architecture with scalable design
 
@@ -222,7 +222,7 @@ Some control type examples:
 <img class="badge-mar" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
 <img class="badge-mar" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
 
-- 10+
+- 10+ packages
 - Reusable Vue components and Node utilities
 - Used across multiple company projects
 
