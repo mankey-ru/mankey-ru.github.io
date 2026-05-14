@@ -11,7 +11,7 @@
 - [Main Stack](#main-stack)
 - [Projects & Achievements](#projects--achievements)
   - [High-Load Ticket Platform Migration](#high-load-ticket-platform-migration)
-  - [RZD.ru Administrative App](#rzduadministrative-app)
+  - [RZD.ru Administrative App](#rzdru-administrative-app)
   - [Electron Desktop App](#electron-desktop-app)
   - [Metadata Migration & Architecture](#metadata-migration--architecture)
   - [Advanced Kanban App](#advanced-kanban-app)
@@ -39,7 +39,7 @@
 
 **Critical frontend migration of high-load ticket platform**
 
-- **Scale:** ~150K paid tickets sold per day (~600/hour), 20+ million visits per month
+- **Scale:** ~150K paid tickets per day (~6000/hour), 20+ million visits per month
 - **Migration:** Custom jQuery-based framework → Vue 2
 - **Impact:** My framework selection in 2017 became the company-wide standard
 - **Complexity handled:**
@@ -47,7 +47,7 @@
   - Intercity, international, and commuter trains
   - Tens of extra services
   - 3 languages support
-  - Complex business logic implemented in frontend via JS and metadata-driven templates
+  - Complex business logic implemented in frontend via JS and [metadata](#metadata-migration--architecture)-driven server templates
 
 > *Note: Ticket sales operations have since been transferred to another company; Git history remains as proof.*
 
@@ -61,7 +61,7 @@
 
 - **Before:** JSP-based IBM WebSphere stateful app (built by Java developers)
 - **After:** Modern async Vue.js application
-- **Architecture:** Dynamic component rendering based on declarative metadata
+- **Architecture:** Dynamic component rendering based on declarative [metadata](#metadata-migration--architecture)
 - **Result:** Significantly improved performance and developer experience
 
 ---
@@ -72,19 +72,19 @@
 
 **Complex internal desktop application (Windows/Mac/Linux)**
 
+**Key Features:**
+- [Metadata](#metadata-migration--architecture) editors
+- Advanced [metadata](#metadata-migration--architecture) lists with filtering (including JSONPath support)
+- Database connectivity (Oracle, PostgreSQL)
+- SSH/SFTP support
+- Multi-repository structure with integrated admin web-app
+
 <details>
 <summary>Screenshots. Click to expand</summary>
 <img src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wizard_screens/arms/ed-4.png" alt="wflow screenshot" class="image-mar" />
 </details>
-
-**Key Features:**
-- Metadata editors and validators
-- Advanced metadata lists with filtering (including JSONPath support)
-- Database connectivity (Oracle, PostgreSQL)
-- SSH/SFTP support
-- Multi-repository structure with integrated admin web-app
 
 ---
 
@@ -101,37 +101,67 @@ The metadata system defines two formats for:
 <details class="details-mar">
 <summary><b>Metadata for Administrative Forms</b>. Click to expand</summary>
 
-Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table to the UI behavior in the browser.
+<p>
+Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table(-s) to the UI behavior in the browser.
+</p>
 
-Each descriptor maps database columns to field definitions specifying behavior across three contexts:
-- **List view** (filtering, sorting, display)
-- **Create form** (validation, defaults, dependencies)
-- **Edit form** (read-only flags, dynamic fields, cross-table relations)
-
+<p>
 This eliminates repetitive CRUD boilerplate while maintaining consistency across 1000+ forms.
+</p>
+
+<p>
+Each descriptor maps database columns (or cross-table relations) to field definitions specifying behavior across three contexts:
+<ul>
+<li>
+<b>List view</b>
+<ul>
+<li>Filtering</li>
+<li>List itself (display, sorting, editing records on-the-fly)</li>
+</ul>
+</li>
+<li><b>Form view</b> (create, edit of one record)</li>
+</ul>
+</p>
+
+<p>
+Each form field can have different control types in all three contexts, each with its own parameters like validation or defaults or custom template.
+Some control type examples:
+<ul>
+<li>Input (text, integer, float, email etc) or Textarea</li>
+<li>Dropdown (incl. async search), Popup Picker, both can be used for multi-record selection</li>
+<li>Date with or without time, in Filter context can be used as range</li>
+<li>Map or address picker (geocoder)</li>
+<li>Charts editor</li>
+<li>...and some more</li>
+</ul>
+</p>
+
+
 </details>
 
 <details class="details-mar">
 <summary><b>Metadata for User-Facing Pages</b>. Click to expand</summary>
 
-These page metadata files define the complete data-fetching layer declaratively (JSON-driven), eliminating custom backend code for each page.
+<p>These page metadata files define the complete HTML page or data-fetching layer (JSON-driven), eliminating custom backend code for each page (total: 500+ pages).</p>
 
-**Components** are granular building blocks that:
-- List exact fields to select
-- Designate primary keys
-- Define relations (one-to-one, one-to-many)
-- Handle pagination and filtering
+<b>Components</b> are granular building blocks that:
+<ul>
+<li>List exact fields to select</li>
+<li>Designate primary keys</li>
+<li>Define relations (one-to-one, one-to-many)</li>
+<li>Handle pagination and filtering</li>
+</ul>
 
-This replaces custom backend endpoints with declarative composition.
+
 </details>
 
 **Architecture Evolution:**
-- **Before:** Quirky XML format with numerous workarounds and hacks
-- **After:** Elegant, maintainable JSON structure with reduced overhead
+- **Before:** Two quirky XML formats with numerous workarounds and hacks
+- **After:** Two elegant, maintainable JSON structures with reduced overhead
 - **Developed:**
   - Conversion scripts for both formats
-  - Format editors in Electron app
-  - Administrative front-end app for metadata management
+  - Format editors for both formats in [Electron App](#electron-desktop-app)
+  - [Administrative front-end app](#rzdru-administrative-app)
 
 ---
 
@@ -203,22 +233,22 @@ This replaces custom backend endpoints with declarative composition.
 
 I use AI thoughtfully and strategically:
 
-**✓ Chat, questions & suggestions** — Always
+**Chat, questions & suggestions** — Always
 
-**✓ Agentic jobs:**
+**Agentic jobs:**
 - Build issues, tests, personal PoCs, scripts
 - Exploration and rapid prototyping
 
-**⚠ Production code:**
+**Production code:**
 - Generally prefer hand-tailored solutions
 - Excited about Specification Driven Development (SDD) approach
 - AI-assisted when specs are clear
 
-**✓ Boilerplate documentation** — Yes
+**Boilerplate documentation** — Yes
 
-**⚠ Other documentation** — Context-dependent
+**Other documentation** — Context-dependent
 
-**✗ General text writing** — Rarely (prefer original voice)
+**General text writing** — Rarely (prefer original voice)
 
 ---
 
