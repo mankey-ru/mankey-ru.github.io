@@ -80,10 +80,10 @@
 - Multi-repository structure with integrated [admin web-app](#rzdru-administrative-app)
 
 <details class="details-mar">
-<summary>Screenshots.</summary>
-<img src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-4.png" alt="wflow screenshot" class="image-mar" />
+<summary>Screenshots</summary>
+<img src="./assets/images/wizard_screens/arms/list.png" alt="wizard screenshot" class="image-mar" />
+<img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
+<img src="./assets/images/wizard_screens/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
 </details>
 
 ---
@@ -97,7 +97,7 @@ The metadata system defines two formats for:
 - **User-Facing Pages** (500+): Data-fetching layer and component composition
 
 <details class="details-mar">
-<summary><b>Metadata for Administrative Forms</b>.</summary>
+<summary><b>Metadata for Administrative Forms</b></summary>
 
 <p>
 Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table(-s) to the UI behavior in the browser.
@@ -138,7 +138,7 @@ Some control type examples:
 </details>
 
 <details class="details-mar">
-<summary><b>Metadata for User-Facing Pages</b>.</summary>
+<summary><b>Metadata for User-Facing Pages</b></summary>
 
 <p>These page metadata files define the complete HTML page or data-fetching layer (JSON-driven), eliminating custom backend code for each page (total: 500+ pages).</p>
 
@@ -169,16 +169,6 @@ Some control type examples:
 
 **Enterprise-grade project management frontend**
 
-<details class="details-mar">
-<summary>Screenshots.</summary>
-<img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_3.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_4.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
-</details>
-
 **Adoption & Scale:**
 - Adopted company-wide: 70+ users migrated
 - Deployed at Russian University of Transport: 200+ users
@@ -189,6 +179,18 @@ Some control type examples:
 - Custom issue fields
 - Issue linking and file attachments
 - Custom WYSIWYG JSON editor (built on TipTap/ProseMirror)
+
+
+
+<details class="details-mar">
+<summary>Screenshots</summary>
+<img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_3.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/card_4.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
+</details>
 
 ---
 
