@@ -64,6 +64,18 @@
 - **Architecture:** Dynamic component rendering based on declarative [metadata](#metadata-migration--architecture)
 - **Result:** Significantly improved performance and developer experience
 
+<details class="details-mar">
+<summary>Screenshots</summary>
+<p>News ARM (list with filter)</p>
+<img src="./assets/images/uarm-screens/uarm-news-1.png" alt="uarm screenshot" class="image-mar" />
+<p>News ARM (record card)</p>
+<img src="./assets/images/uarm-screens/uarm-news-2.jpg" alt="uarm screenshot" class="image-mar" />
+<p>Nav ARM (list with filter)</p>
+<img src="./assets/images/uarm-screens/uarm-nav-1.png" alt="uarm screenshot" class="image-mar" />
+<p>Nav ARM (record card)</p>
+<img src="./assets/images/uarm-screens/uarm-nav-2.png" alt="uarm screenshot" class="image-mar" />
+</details>
+
 ---
 
 ### Electron Desktop App
@@ -81,9 +93,9 @@
 
 <details class="details-mar">
 <summary>Screenshots</summary>
-<img src="./assets/images/wizard_screens/arms/list.png" alt="wizard screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
+<img src="./assets/images/wizard-screens/arms/list.png" alt="wizard screenshot" class="image-mar" />
+<img src="./assets/images/wizard-screens/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
+<img src="./assets/images/wizard-screens/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
 </details>
 
 ---
@@ -184,12 +196,12 @@ Some control type examples:
 
 <details class="details-mar">
 <summary>Screenshots</summary>
-<img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_3.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_4.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow-screens/list.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow-screens/card_1.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow-screens/card_2.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow-screens/card_3.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow-screens/card_4.png" alt="wflow screenshot" class="image-mar" />
+<img src="./assets/images/wflow-screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
 </details>
 
 ---
