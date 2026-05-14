@@ -26,13 +26,14 @@ details {
 }
 
 details.details-mar {	
-	margin-top: .5em;	
+	margin: .5em;	
 }
 
 summary::after {
     content: "Click to expand";
-    margin-left: 8px;
+    margin-left: 1em;
     color: #b5e853;
+    font-style: italic;
 }
 
 details[open] summary::after {
@@ -47,4 +48,8 @@ summary {
 img.image-mar {
 	margin: .5em;
 	border: 1px dotted gray;
+}
+
+img.badge-mar {
+	margin-right: .5em;
 }

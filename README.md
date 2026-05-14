@@ -204,16 +204,30 @@ Some control type examples:
 - Reusable Vue and Node utilities
 - Used across multiple company projects
 
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> **TypeScript Migrations & Coverage**
+**TypeScript Migrations & Coverage**
+
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> 
+
 - Large-scale codebase modernization
 - Type safety improvements
 
 **Infrastructure & DevOps:**
+
+<img alt="Vite" class="badge-mar" src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
+<img alt="Rollup" class="badge-mar" src="https://img.shields.io/badge/Rollup-EC4A3F?style=flat&logo=rollup.js&logoColor=white" />
+<img alt="Webpack" class="badge-mar" src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&logo=webpack&logoColor=white" />
+<img alt="Docker" class="badge-mar" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+<img alt="GitLab" class="badge-mar" src="https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white" />
+
 - Complex build pipelines: Vite, Rollup, Webpack
 - Docker containerization
 - GitLab CI/CD
 
 **Testing:**
+
+<img alt="Jest" class="badge-mar" src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" />
+<img alt="Cypress" class="badge-mar" src="https://img.shields.io/badge/Cypress-69D3A7?style=flat&logo=cypress&logoColor=white" />
+
 - Unit & E2E tests (Jest for backend)
 - Cypress for frontend and Electron apps
 
