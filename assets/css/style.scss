@@ -26,7 +26,7 @@ details {
 }
 
 details.details-mar {	
-	margin: .5em;	
+	margin: .8em;	
 }
 
 summary::after {
@@ -34,6 +34,7 @@ summary::after {
     margin-left: 1em;
     color: #b5e853;
     font-style: italic;
+	float: right;
 }
 
 details[open] summary::after {

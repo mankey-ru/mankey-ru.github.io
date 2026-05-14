@@ -79,7 +79,7 @@
 - SSH/SFTP operations
 - Multi-repository structure with integrated [admin web-app](#rzdru-administrative-app)
 
-<details>
+<details class="details-mar">
 <summary>Screenshots.</summary>
 <img src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
