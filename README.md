@@ -1,8 +1,8 @@
-## Hello, world :-) My name is [Pavel Prokhorenko](https://www.linkedin.com/in/pavel-prokhorenko-a3273828/)
+## My name is Pavel Prokhorenko ([LinkedIn](https://www.linkedin.com/in/pavel-prokhorenko-a3273828/))
 
-- I'm a JS/TS Full-Stack engineer based in Thailand
-- My experience: hundreds of projects for Russian Railways in 2011-2026 as leading specialist
-- rzd.ru is high-load (150K paid tickets/day, 20M+ visits/month)
+- I'm a JS/TS full-stack engineer based in Thailand, remote-first for 12+ years
+- I did hundreds of projects for Russian Railways in 2011-2026
+- High-load, front-end, back-end and desktop
 
 ---
 
@@ -16,7 +16,7 @@
   - [Metadata Migration & Architecture](#metadata-migration--architecture)
   - [Advanced Kanban App](#advanced-kanban-app)
   - [Other Notable Work](#other-notable-work)
-- [AI & Tools](#ai--tools)
+- [AI Tools](#ai-tools)
 - [My Priorities](#my-priorities)
 - [Other Skills](#other-skills)
 - [About Me](#me)
@@ -256,7 +256,7 @@ Some control type examples:
 
 ---
 
-## AI & Tools
+## AI Tools
 
 ### Tools & Platforms
 Don't like to be vendor-locked :-) so...
@@ -265,21 +265,21 @@ Don't like to be vendor-locked :-) so...
 - Openrouter with system query presets
 - Deepseek (expert+thinking) for complex chat questions
 
-### Usage Philosophy
+### How do I use AI tools
 
-I use AI thoughtfully:
+**Chat, questions & suggestions** — Sure
 
-**Chat, questions & suggestions** — Always
-
-**Agentic jobs:**
+**Code:**
 - Build issues, tests, personal PoCs, scripts
 - Exploration and rapid prototyping
 - **Production code:**
-	- Generally prefer hand-tailored solutions with AI suggestions
-	- Excited about Specification Driven Development (SDD) approach (Openspec)
+	- Generally prefer hand-tailored code only with AI suggestions
+	- Excited about Specification Driven Development (SDD) approach ([Openspec](https://openspec.dev/))
 
-**Boilerplate documentation** — Yes
-**Other documentation** — Context-dependent
+**Boilerplate documentation** — Sure
+
+**Other documentation** — It depends
+
 **General text writing** — Rarely (prefer original style)
 
 ---
@@ -330,10 +330,3 @@ I use AI thoughtfully:
 </table> -->
 
 <br clear="both"/>
-
-<a href="https://www.linkedin.com/in/pavel-prokhorenko-a3273828/" class="linkedin-badge" target="_blank" rel="noopener noreferrer">
-<svg class="linkedin-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-</svg>
-<span class="badge-text">Connect on LinkedIn</span>
-</a>
