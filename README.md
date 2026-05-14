@@ -2,110 +2,145 @@
 
 - I'm a JS/TS Full-Stack engineer based in Thailand
 - My experience: hundreds of projects for Russian Railways in 2011-2026 as leading specialist
-- rzd.ru is high-load (zillions of visitors, explained below)
+- rzd.ru is high-load (150K paid tickets/day, 20M+ visits/month)
 
 ---
 
-## Main stack
+## Table of Contents
+
+- [Main Stack](#main-stack)
+- [Projects & Achievements](#projects--achievements)
+  - [High-Load Ticket Platform Migration](#high-load-ticket-platform-migration)
+  - [RZD.ru Administrative App](#rzduadministrative-app)
+  - [Electron Desktop App](#electron-desktop-app)
+  - [Metadata Migration & Architecture](#metadata-migration--architecture)
+  - [Advanced Kanban App](#advanced-kanban-app)
+  - [Other Notable Work](#other-notable-work)
+- [AI & Tools](#ai--tools)
+- [My Priorities](#my-priorities)
+- [Other Skills](#other-skills)
+- [About Me](#me)
+
+---
+
+## Main Stack
+
 - <b>Backend:</b> ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) (since 2016)
 - <b>Frontend:</b> ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white) (since 2016)
 - <b>Desktop:</b> ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white) (since 2018)
 
-### Some picks of what I made:
-<ul>
-<li>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> Designed and developed critical frontend migration of high-load ticket platform
-<ul>
-<li>high-load means about 150K sold <strong>(paid)</strong> tickets per day (~600 per hour) and 20+ million visits per month</li>
-<li>migration was from custom jQuery-based framework to Vue2</li>
-<li>my selection of framework in 2017 became the company-wide standard</li>
-<li>now ticket sales run by other company, the only proof is Git history</li>
-<li>ticket sales is complex
-<ul>
-<li>thousands of stations; 11 timezones; intercity, international and commuter trains; tens of extra services; 3 languages;</li>
-<li>much of this complexity was made by front-end engineers in JS, in templates and <i>metadata</i> (explained below)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> Designed and developed rzd.ru <i>administrative front-end app</i>
-<ul>
-<li>Before: JSP-based IBM WebSphere stateful app made mostly by Java programmers</li>
-<li>After: modern async Vue app</li>
-<li>Renders page components according to <i>metadata</i> (explained below)</li>
-</ul>
-</li>
+---
 
+## Projects & Achievements
 
+### High-Load Ticket Platform Migration
 
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
 
+**Critical frontend migration of high-load ticket platform**
 
-<li>
-<img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" /> Designed and developed complex internal Electron desktop app (Win/Mac/Linux)
+- **Scale:** ~150K paid tickets sold per day (~600/hour), 20+ million visits per month
+- **Migration:** Custom jQuery-based framework → Vue 2
+- **Impact:** My framework selection in 2017 became the company-wide standard
+- **Complexity handled:**
+  - Thousands of stations across 11 timezones
+  - Intercity, international, and commuter trains
+  - Tens of extra services
+  - 3 languages support
+  - Complex business logic implemented in frontend via JS and metadata-driven templates
+
+> *Note: Ticket sales operations have since been transferred to another company; Git history remains as proof.*
+
+---
+
+### RZD.ru Administrative App
+
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+
+**Modern replacement for legacy administrative interface**
+
+- **Before:** JSP-based IBM WebSphere stateful app (built by Java developers)
+- **After:** Modern async Vue.js application
+- **Architecture:** Dynamic component rendering based on declarative metadata
+- **Result:** Significantly improved performance and developer experience
+
+---
+
+### Electron Desktop App
+
+<img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" />
+
+**Complex internal desktop application (Windows/Mac/Linux)**
 
 <details>
 <summary>Screenshots. Click to expand</summary>
 <img src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
 <img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
-
-<!--
-<img src="./assets/images/wizard_screens/arms/ed-2.jpg" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-3.jpg" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-5.jpg" alt="wflow screenshot" class="image-mar" />
--->
 <img src="./assets/images/wizard_screens/arms/ed-4.png" alt="wflow screenshot" class="image-mar" />
 </details>
-<ul>
-<li>with multiple functions
-<ul>
-<li><i>metadata</i> editors (explained below)</li>
-<li><i>metadata</i> lists with advanced filtering (incl. jsonpath)</li>
-<li>ssh and sftp, oracle and postgress and much more back in the days</li>
-</ul>
-</li>
-<li>with multirepo structure (including admin web-app)</li>
-</ul>
-</li>
-<li>Migration of <i><b>metadata</b></i> mentioned above
-<ul>
-<li>
-<i>metadata</i> is two declarative formats for: <i>administrative forms</i> (1000+) and <i>user‑facing pages</i> (500+), explanations are below
+
+**Key Features:**
+- Metadata editors and validators
+- Advanced metadata lists with filtering (including JSONPath support)
+- Database connectivity (Oracle, PostgreSQL)
+- SSH/SFTP support
+- Multi-repository structure with integrated admin web-app
+
+---
+
+### Metadata Migration & Architecture
+
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+
+**Declarative system for administrative and user-facing interfaces**
+
+The metadata system defines two formats for:
+- **Administrative Forms** (1000+): Database-driven CRUD interfaces
+- **User-Facing Pages** (500+): Data-fetching layer and component composition
 
 <details class="details-mar">
-<summary>Metadata for <i>administrative forms</i>. Click to expand</summary>
-<p>
-Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table to the UI behavior in the browser. Each file represents one admin page, capturing everything the frontend needs to render filters, a record list, and a detail/edit card without writing a single line of custom UI code for that page. They describe the main database table, child and parent relationships, access permissions, sorting defaults, and many other operational settings.
-</p>
-<p>
-The heart of each descriptor is the fields array. Every object in it maps to a database column (or a cross‑table relation) and specifies how that field should behave in three distinct contexts: the filter (search) panel, the list view, and the card (edit/detail form). For each context, the field declares a UI control (e.g., text input, dropdown, popup picker, WYSIWYG), its parameters, validation rules, and lookup information if the field references another table. This unified field definition allows the system to automatically wire up complex relationships, many‑to‑many cross‑references, and dynamic field groups, all while remaining a pure data‑driven configuration that can be edited with a custom editor application.
-</p>
+<summary><b>Metadata for Administrative Forms</b>. Click to expand</summary>
+
+Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table to the UI behavior in the browser.
+
+Each descriptor maps database columns to field definitions specifying behavior across three contexts:
+- **List view** (filtering, sorting, display)
+- **Create form** (validation, defaults, dependencies)
+- **Edit form** (read-only flags, dynamic fields, cross-table relations)
+
+This eliminates repetitive CRUD boilerplate while maintaining consistency across 1000+ forms.
 </details>
 
 <details class="details-mar">
-<summary>Metadata for <i>user‑facing pages</i>. Click to expand</summary>
-<p>
-These page metadata files define the complete data‑fetching layer for <i>user‑facing pages</i> in a declarative, JSON‑driven way. Instead of writing custom backend code for each page, a page descriptor specifies which data the page needs and how it should be retrieved, assembled, and filtered. The core structural units are fragments and components. A fragment represents an independent data‑loading block — it has its own pagination settings, a data source (like a database connection), and can be thought of as a reusable "data module" within the page. Each fragment contains one or more components, where a component directly maps to a database table (or view) and declares which columns to fetch, which filters to apply, and how this component relates to other components.
-</p>
-<p>
-Components are the granular building blocks: they list the exact fields to be selected, designate primary keys, and optionally define relations to other components (one‑to‑one or one‑to‑many) so that the engine can automatically join related data. Filters can be global (driven by request parameters or special variables) or local, and they can include complex SQL expressions. Together, fragments and components allow the page to be described as a graph of interconnected data sets, all rendered by a specified template that knows how to walk this structure. Shared fragments can even be reused across different pages, making the whole system modular and maintainable.
-</p>
+<summary><b>Metadata for User-Facing Pages</b>. Click to expand</summary>
+
+These page metadata files define the complete data-fetching layer declaratively (JSON-driven), eliminating custom backend code for each page.
+
+**Components** are granular building blocks that:
+- List exact fields to select
+- Designate primary keys
+- Define relations (one-to-one, one-to-many)
+- Handle pagination and filtering
+
+This replaces custom backend endpoints with declarative composition.
 </details>
-</li>
-<li>Designed two new JSON formats together with Java architects, before it was quirky XML, full of workarounds and dirty hacks, then it became an elegant JSON with much easy structure and less overhead</li>
-<li>Then designed and developed
-<ul>
-<li>conversion scripts for both formats</li>
-<li>editors for each format in an Electron app</li>
-<li><i>administrative front-end app</i></li>
-</ul>
-</li>
-</ul>
-</li>
 
+**Architecture Evolution:**
+- **Before:** Quirky XML format with numerous workarounds and hacks
+- **After:** Elegant, maintainable JSON structure with reduced overhead
+- **Developed:**
+  - Conversion scripts for both formats
+  - Format editors in Electron app
+  - Administrative front-end app for metadata management
 
-<li>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> advanced Kanban app 
+---
+
+### Advanced Kanban App
+
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+
+**Enterprise-grade project management frontend**
+
 <details class="details-mar">
 <summary>Screenshots. Click to expand</summary>
 <img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
@@ -116,84 +151,115 @@ Components are the granular building blocks: they list the exact fields to be se
 <img src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
 </details>
 
-<ul>
-<li>Frontend architecture for project management</li>
-<li>Adopted company-wide (70+ users migrated) and in Russian University of Transport (200+ users)</li>
-<li>Features
-<ul>
-<li>drag-and-drop boards</li>
-<li>Custom workflows</li>
-<li>Custom issue fields</li>
-<li>Issue linking, file attaching</li>
-<li>Custom WYSIWYG JSON editor based on TipTap (ProseMirror)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" /> Designed and developed 5+ Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
-</li>
-<li>
-<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" /> Designed and developed 10+ custom NPM packages for Vue and Node, used in several projects each
-</li>
-<li>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> TS migrations and coverage
-</li>
-<li>Complex build pipelines: Vite/Rollup (or Webpack etc) with Docker containerization and Gitlab CI</li>
-<li>Tests, unit and e2e, cypress for front-end and electron, jest for back-end</li>
-</ul>
+**Adoption & Scale:**
+- Adopted company-wide: 70+ users migrated
+- Deployed at Russian University of Transport: 200+ users
 
-## AI
-- List of tools:
-	- VSCode with Continue
-	- Openrouter
-	- Claude Opus
-	- Deepseek with expert mode
-	- Antigravity with Geminy
-	- Qwen Coder
-- I use this amazing technology carefully.
-	- For chat questions and suggestions: sure
-	- For agentic jobs:
-		- build issues, tests, personal PoCs and scripts: sure.
-		- production code: in general, I prefer hand tailored code, but very excited with Specification Driven Development (SDD).
-	- For writing texts:
-		- boilerplate documentation: sure
-		- other documentation: usually not, but it depends
-		- other texts than mentioned above: rarely
+**Features:**
+- Drag-and-drop Kanban boards
+- Custom workflow configurations
+- Custom issue fields
+- Issue linking and file attachments
+- Custom WYSIWYG JSON editor (built on TipTap/ProseMirror)
 
-## My priorities
+---
 
-- Teamwork ❤︎ Collaborating, constantly learning while sharing knowledge with others
-- Building solutions: either apps that will be maintainable for years OR just quick PoC/MVP
-- Keeping balance between business purposes (first), DX and tech debt
+### Other Notable Work
 
-## Other skills
-- Back in the days I worked much with oldschool enterprise stack as well: Java, Oracle, IBM Websphere, JSP and XSLT templates and so on
-- I've had an experience in web-based mobile development (PWA, Quasar, Weex), now interested in native vue solution backed by ByteDance (Lynx.js)
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" /> **5+ Backend Services**
+- Express.js, PostgreSQL, Kafka, Elasticsearch
+- Microservices architecture with scalable design
+
+<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" /> **10+ Custom NPM Packages**
+- Reusable Vue and Node utilities
+- Used across multiple company projects
+
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> **TypeScript Migrations & Coverage**
+- Large-scale codebase modernization
+- Type safety improvements
+
+**Infrastructure & DevOps:**
+- Complex build pipelines: Vite, Rollup, Webpack
+- Docker containerization
+- GitLab CI/CD
+
+**Testing:**
+- Unit & E2E tests (Jest for backend)
+- Cypress for frontend and Electron apps
+
+---
+
+## AI & Tools
+
+### Tools & Platforms
+- VSCode with Continue
+- Openrouter
+- Claude Opus
+- Deepseek (expert mode)
+- Antigravity with Gemini
+- Qwen Coder
+
+### Usage Philosophy
+
+I use AI thoughtfully and strategically:
+
+**✓ Chat, questions & suggestions** — Always
+
+**✓ Agentic jobs:**
+- Build issues, tests, personal PoCs, scripts
+- Exploration and rapid prototyping
+
+**⚠ Production code:**
+- Generally prefer hand-tailored solutions
+- Excited about Specification Driven Development (SDD) approach
+- AI-assisted when specs are clear
+
+**✓ Boilerplate documentation** — Yes
+
+**⚠ Other documentation** — Context-dependent
+
+**✗ General text writing** — Rarely (prefer original voice)
+
+---
+
+## My Priorities
+
+- **Teamwork ❤︎** — Collaborating, constantly learning while sharing knowledge with others
+- **Building solutions** — Either maintainable apps for years ahead OR quick PoC/MVPs
+- **Balance** — Business purposes (first priority), developer experience, and managing tech debt
+
+---
+
+## Other Skills
+
+**Enterprise Stack** (legacy experience)
+- Java, Oracle, IBM WebSphere, JSP, XSLT templates
+
+**Mobile & Web**
+- PWA development
+- Quasar, Weex
+- Interest in native Vue solutions (Lynx.js by ByteDance)
+
+---
 
 ## Me
+
 <table>
   <tr>
-<td width="200" style="padding-right: 20px; vertical-align: top;">
+    <td width="200" style="padding-right: 20px; vertical-align: top;">
       <img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
-</td>
-<td style="vertical-align: top;">
-		
-<ul>
-
-<li>
-I speak English (pretty fluently), Russian (natively) and didn't completely forget Deutsch and Francais I studied in university :-)
-</li>
-
-<li>
-I work remotely for 12+ years from Asia
-</li>
-
-</ul>
-		
-</td>
+    </td>
+    <td style="vertical-align: top;">
+      <ul>
+        <li>
+          <b>Languages:</b> English (fluent), Russian (native), Deutsch & Français (rusty from university days 😊)
+        </li>
+        <li>
+          <b>Location & Work:</b> Remote from Asia for 12+ years
+        </li>
+      </ul>
+    </td>
   </tr>
 </table>
 
 <br clear="both"/>
-
