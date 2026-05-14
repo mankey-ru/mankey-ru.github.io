@@ -90,8 +90,6 @@
 
 ### Metadata Migration & Architecture
 
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
-
 **Declarative system for administrative and user-facing interfaces**
 
 The metadata system defines two formats for:
@@ -204,7 +202,7 @@ Some control type examples:
 - Express.js, PostgreSQL, Kafka, Elasticsearch
 - Microservices architecture with scalable design
 
-**10+ Custom NPM Packages**
+#### Custom NPM Packages
 
 <img class="badge-mar" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" />
 <img class="badge-mar" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
@@ -214,14 +212,14 @@ Some control type examples:
 - Reusable Vue components and Node utilities
 - Used across multiple company projects
 
-**TypeScript Migrations & Coverage**
+#### TypeScript Migrations & Coverage
 
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> 
 
 - Large-scale codebase modernization
 - Type safety improvements
 
-**Infrastructure & DevOps:**
+#### Infrastructure & DevOps
 
 <img alt="Vite" class="badge-mar" src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
 <img alt="Rollup" class="badge-mar" src="https://img.shields.io/badge/Rollup-EC4A3F?style=flat&logo=rollup.js&logoColor=white" />
@@ -233,13 +231,14 @@ Some control type examples:
 - Docker containerization
 - GitLab CI/CD
 
-**Testing:**
+#### Testing
 
 <img alt="Jest" class="badge-mar" src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" />
 <img alt="Cypress" class="badge-mar" src="https://img.shields.io/badge/Cypress-69D3A7?style=flat&logo=cypress&logoColor=white" />
 
-- Unit & E2E tests (Jest for backend)
-- Cypress for frontend and Electron apps
+- Unit & E2E tests
+- Jest for backend
+- Cypress for frontend and Electron
 
 ---
 
