@@ -297,11 +297,10 @@ I use AI thoughtfully and strategically:
 
 ## Me
 
-<img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
+<img width="200" src="./assets/images/profile_photo.jpg" alt="" align="left" style="margin: 0 15px 10px 0;">
 
-<b>Languages:</b> English (fluent), Russian (native), Deutsch & Français (rusty from university days :-))
-
-<b>Location & Work:</b> Remote from Asia for 12+ years
+- <b>Languages:</b> English (fluent), Russian (native), Deutsch & Français (rusty from university days :-))
+- <b>Location & Work:</b> Remote from Asia for 12+ years
 
 <!-- <table>
   <tr>
