@@ -274,7 +274,13 @@ I use AI thoughtfully and strategically:
 
 ## Me
 
-<table>
+<img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
+
+<b>Languages:</b> English (fluent), Russian (native), Deutsch & Français (rusty from university days :-))
+
+<b>Location & Work:</b> Remote from Asia for 12+ years
+
+<!-- <table>
   <tr>
     <td width="200" style="padding-right: 20px; vertical-align: top;">
       <img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
@@ -290,6 +296,6 @@ I use AI thoughtfully and strategically:
       </ul>
     </td>
   </tr>
-</table>
+</table> -->
 
 <br clear="both"/>
