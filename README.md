@@ -2,7 +2,7 @@
 
 - I'm a JS/TS full-stack engineer based in Thailand, remote-first for 12+ years
 - I did hundreds of projects for Russian Railways in 2011-2026
-- [High-load](#high-load-ticket-platform-migration), [frontend](#rzdru-administrative-app), [backend](#backend-services) and [desktop](#electron-desktop-app) - it's about me :-)
+- [High-load](#high-load-ticket-platform-migration), [frontend](#rzdru-admin-dashboard-app), [backend](#backend-services) and [desktop](#electron-desktop-app) - it's about me :-)
 
 ---
 
@@ -11,7 +11,7 @@
 - [Main Stack](#main-stack)
 - [Projects & Achievements](#projects--achievements)
   - [High-Load Ticket Platform Migration](#high-load-ticket-platform-migration)
-  - [RZD.ru Administrative App](#rzdru-administrative-app)
+  - [RZD.ru Admin Dashboard App](#rzdru-admin-dashboard-app)
   - [Electron Desktop App](#electron-desktop-app)
   - [Metadata Migration & Architecture](#metadata-migration--architecture)
   - [Advanced Kanban App](#advanced-kanban-app)
@@ -53,11 +53,11 @@
 
 ---
 
-### RZD.ru Administrative App
+### RZD.ru Admin Dashboard App
 
 <img loading="lazy" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
 
-**Modern replacement for legacy administrative interface**
+**Modern replacement for legacy admin dashboard**
 
 - **Before:** JSP-based IBM WebSphere stateful app (built by Java developers)
 - **After:** Modern async Vue.js application
@@ -66,13 +66,13 @@
 
 <details class="details-mar">
 <summary>Screenshots</summary>
-<p>News ARM (list with filter)</p>
+<p>News admin dashboard page (list with filter)</p>
 <img loading="lazy" src="./assets/images/uarm-screens/uarm-news-1.png" alt="uarm screenshot" class="image-mar" />
-<p>News ARM (record card)</p>
+<p>News admin dashboard page (record card)</p>
 <img loading="lazy" src="./assets/images/uarm-screens/uarm-news-2.jpg" alt="uarm screenshot" class="image-mar" />
-<p>Nav ARM (list with filter)</p>
+<p>Nav admin dashboard page (list with filter)</p>
 <img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-1.png" alt="uarm screenshot" class="image-mar" />
-<p>Nav ARM (record card)</p>
+<p>Nav admin dashboard page (record card)</p>
 <img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-2.png" alt="uarm screenshot" class="image-mar" />
 </details>
 
@@ -89,7 +89,7 @@
 - Advanced [metadata](#metadata-migration--architecture) lists with filtering (including JSONPath support)
 - Database connectivity (Oracle, PostgreSQL)
 - SSH/SFTP operations
-- Multi-repository structure with integrated [admin web-app](#rzdru-administrative-app)
+- Multi-repository structure with integrated [admin dashboard app](#rzdru-admin-dashboard-app)
 
 <details class="details-mar">
 <summary>Screenshots</summary>
@@ -102,17 +102,17 @@
 
 ### Metadata Migration & Architecture
 
-**Declarative system for administrative and user-facing interfaces**
+**Declarative system for admin and user-facing interfaces**
 
 The metadata system defines two formats for:
-- **Administrative Forms** (1000+): Database-driven CRUD interfaces
+- **Admin Forms** (1000+): Database-driven CRUD interfaces
 - **User-Facing Pages** (500+): Data-fetching layer and component composition
 
 <details class="details-mar">
-<summary>Metadata for <i>Administrative Forms</i></summary>
+<summary>Metadata for <i>Admin Forms</i></summary>
 
 <p>
-Our metadata files are declarative JSON descriptors that define the full lifecycle of an administrative interface (ARM) — from the underlying database table(-s) to the UI behavior in the browser.
+Our metadata files are declarative JSON descriptors that define the full lifecycle of an admin form — from the underlying database table(-s) to the UI behavior in the browser.
 </p>
 
 <p>
@@ -171,7 +171,7 @@ Some control type examples:
 - **Developed:**
   - Conversion scripts for both formats
   - Format editors for both formats in [Electron App](#electron-desktop-app)
-  - [Administrative front-end app](#rzdru-administrative-app)
+  - [Admin dashboard app](#rzdru-admin-dashboard-app)
 
 ---
 
