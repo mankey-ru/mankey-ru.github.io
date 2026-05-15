@@ -35,7 +35,7 @@
 
 ### High-Load Ticket Platform Migration
 
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+<img loading="lazy" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
 
 **Critical frontend migration of high-load ticket platform**
 
@@ -55,7 +55,7 @@
 
 ### RZD.ru Administrative App
 
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+<img loading="lazy" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
 
 **Modern replacement for legacy administrative interface**
 
@@ -67,20 +67,20 @@
 <details class="details-mar">
 <summary>Screenshots</summary>
 <p>News ARM (list with filter)</p>
-<img src="./assets/images/uarm-screens/uarm-news-1.png" alt="uarm screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/uarm-screens/uarm-news-1.png" alt="uarm screenshot" class="image-mar" />
 <p>News ARM (record card)</p>
-<img src="./assets/images/uarm-screens/uarm-news-2.jpg" alt="uarm screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/uarm-screens/uarm-news-2.jpg" alt="uarm screenshot" class="image-mar" />
 <p>Nav ARM (list with filter)</p>
-<img src="./assets/images/uarm-screens/uarm-nav-1.png" alt="uarm screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-1.png" alt="uarm screenshot" class="image-mar" />
 <p>Nav ARM (record card)</p>
-<img src="./assets/images/uarm-screens/uarm-nav-2.png" alt="uarm screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-2.png" alt="uarm screenshot" class="image-mar" />
 </details>
 
 ---
 
 ### Electron Desktop App
 
-<img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" />
+<img loading="lazy" src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" />
 
 **Complex internal desktop application (Windows/Mac/Linux)**
 
@@ -93,9 +93,9 @@
 
 <details class="details-mar">
 <summary>Screenshots</summary>
-<img src="./assets/images/wizard-screens/arms/list.png" alt="wizard screenshot" class="image-mar" />
-<img src="./assets/images/wizard-screens/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
-<img src="./assets/images/wizard-screens/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard-screens/arms/list.png" alt="wizard screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard-screens/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard-screens/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
 </details>
 
 ---
@@ -177,7 +177,7 @@ Some control type examples:
 
 ### Advanced Kanban App
 
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+<img loading="lazy" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
 
 **Enterprise-grade project management frontend**
 
@@ -196,12 +196,12 @@ Some control type examples:
 
 <details class="details-mar">
 <summary>Screenshots</summary>
-<img src="./assets/images/wflow-screens/list.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow-screens/card_1.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow-screens/card_2.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow-screens/card_3.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow-screens/card_4.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow-screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow-screens/list.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow-screens/card_1.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow-screens/card_2.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow-screens/card_3.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow-screens/card_4.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow-screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
 </details>
 
 ---
@@ -210,7 +210,7 @@ Some control type examples:
 
 #### Backend Services
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
+<img loading="lazy" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
 
 - 5+ services
 - Express.js, PostgreSQL, Kafka, Elasticsearch
@@ -218,9 +218,9 @@ Some control type examples:
 
 #### Custom NPM Packages
 
-<img class="badge-mar" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" />
-<img class="badge-mar" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
-<img class="badge-mar" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
+<img loading="lazy" class="badge-mar" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" />
+<img loading="lazy" class="badge-mar" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+<img loading="lazy" class="badge-mar" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" />
 
 - 10+ packages
 - Reusable Vue components and Node utilities
@@ -228,18 +228,18 @@ Some control type examples:
 
 #### TypeScript Migrations & Coverage
 
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> 
+<img loading="lazy" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> 
 
 - Large-scale codebase modernization
 - Type safety improvements
 
 #### Infrastructure & DevOps
 
-<img alt="Vite" class="badge-mar" src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
-<img alt="Rollup" class="badge-mar" src="https://img.shields.io/badge/Rollup-EC4A3F?style=flat&logo=rollup.js&logoColor=white" />
-<img alt="Webpack" class="badge-mar" src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&logo=webpack&logoColor=white" />
-<img alt="Docker" class="badge-mar" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-<img alt="GitLab" class="badge-mar" src="https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white" />
+<img loading="lazy" alt="Vite" class="badge-mar" src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
+<img loading="lazy" alt="Rollup" class="badge-mar" src="https://img.shields.io/badge/Rollup-EC4A3F?style=flat&logo=rollup.js&logoColor=white" />
+<img loading="lazy" alt="Webpack" class="badge-mar" src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&logo=webpack&logoColor=white" />
+<img loading="lazy" alt="Docker" class="badge-mar" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+<img loading="lazy" alt="GitLab" class="badge-mar" src="https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white" />
 
 - Complex build pipelines: Vite, Rollup, Webpack
 - Docker containerization
@@ -247,8 +247,8 @@ Some control type examples:
 
 #### Testing
 
-<img alt="Jest" class="badge-mar" src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" />
-<img alt="Cypress" class="badge-mar" src="https://img.shields.io/badge/Cypress-69D3A7?style=flat&logo=cypress&logoColor=white" />
+<img loading="lazy" alt="Jest" class="badge-mar" src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" />
+<img loading="lazy" alt="Cypress" class="badge-mar" src="https://img.shields.io/badge/Cypress-69D3A7?style=flat&logo=cypress&logoColor=white" />
 
 - Unit & E2E tests
 - Jest for backend
@@ -306,7 +306,7 @@ Don't like to be vendor-locked :-) so...
 
 ## Me
 
-<img width="200" src="./assets/images/profile_photo.jpg" alt="" align="left" style="margin: 0 2em .5em 0;">
+<img loading="lazy" width="200" src="./assets/images/profile_photo.jpg" alt="" align="left" style="margin: 0 2em .5em 0;">
 
 - <b>Languages:</b> English (fluent), Russian (native), Deutsch & Français (rusty from university days :-))
 - <b>Location & Work:</b> Remote from Asia for 12+ years
@@ -314,7 +314,7 @@ Don't like to be vendor-locked :-) so...
 <!-- <table>
   <tr>
     <td width="200" style="padding-right: 20px; vertical-align: top;">
-      <img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
+      <img loading="lazy" align="left" width="200" src="./assets/images/profile_photo.jpg"/>
     </td>
     <td style="vertical-align: top;">
       <ul>
