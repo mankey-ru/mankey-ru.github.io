@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"></script>
+
+	<meta name="theme-color" content="#151515">
+	<meta name="msapplication-navbutton-color" content="#151515">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+	<title>Hello, world :-)</title>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<section id="main_content">
+			<h2 id="my-name-is-pavel-prokhorenko-linkedin">My name is Pavel Prokhorenko (<a
+					href="https://www.linkedin.com/in/pavel-prokhorenko-a3273828/">LinkedIn</a>)</h2>
+
+			<ul>
+				<li>I’m a JS/TS full-stack engineer based in Thailand, remote-first for 12+ years</li>
+				<li>I did hundreds of projects for Russian Railways in 2011-2026</li>
+				<li><a href="#high-load-ticket-platform-migration">High-load</a>, <a
+						href="#rzdru-admin-dashboard-app">frontend</a>, <a href="#backend-services">backend</a> and <a
+						href="#electron-desktop-app">desktop</a> - it’s about me :-)</li>
+			</ul>
+
+			<hr />
+
+			<h2 id="table-of-contents">Table of Contents</h2>
+
+			<ul>
+				<li><a href="#main-stack">Main Stack</a></li>
+				<li><a href="#projects--achievements">Projects &amp; Achievements</a>
+					<ul>
+						<li><a href="#high-load-ticket-platform-migration">High-Load Ticket Platform Migration</a></li>
+						<li><a href="#rzdru-admin-dashboard-app">RZD.ru Admin Dashboard App</a></li>
+						<li><a href="#electron-desktop-app">Electron Desktop App</a></li>
+						<li><a href="#metadata-migration--architecture">Metadata Migration &amp; Architecture</a></li>
+						<li><a href="#advanced-kanban-app">Advanced Kanban App</a></li>
+						<li><a href="#other-notable-work">Other Notable Work</a></li>
+					</ul>
+				</li>
+				<li><a href="#ai-tools">AI Tools</a></li>
+				<li><a href="#my-priorities">My Priorities</a></li>
+				<li><a href="#other-skills">Other Skills</a></li>
+				<li><a href="#me">About Me</a></li>
+			</ul>
+
+			<hr />
+
+			<h2 id="main-stack">Main Stack</h2>
+
+			<ul>
+				<li><b>Backend:</b> <img
+						src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+						alt="Node.js" /> (since 2016)</li>
+				<li><b>Frontend:</b> <img
+						src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+						alt="Vue.js" /> (since 2016)</li>
+				<li><b>Desktop:</b> <img
+						src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
+						alt="Electron" /> (since 2018)</li>
+			</ul>
+
+			<hr />
+
+			<h2 id="projects--achievements">Projects &amp; Achievements</h2>
+
+			<h3 id="high-load-ticket-platform-migration">High-Load Ticket Platform Migration</h3>
+
+			<p><img loading="lazy"
+					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+					alt="Vue.js" /></p>
+
+			<p><strong>Critical frontend migration of high-load ticket platform</strong></p>
+
+			<ul>
+				<li><strong>Scale:</strong> ~150K paid tickets per day (~6000/hour), 20+ million visits per month</li>
+				<li><strong>Migration:</strong> Custom jQuery-based framework → Vue 2</li>
+				<li><strong>Impact:</strong> My framework selection in 2017 became the company-wide standard</li>
+				<li><strong>Complexity handled:</strong>
+					<ul>
+						<li>Thousands of stations across 11 timezones</li>
+						<li>Intercity, international, and commuter trains</li>
+						<li>Tens of extra services</li>
+						<li>3 languages support</li>
+						<li>Complex business logic implemented in frontend via JS and <a
+								href="#metadata-migration--architecture">metadata</a>-driven server templates</li>
+					</ul>
+				</li>
+			</ul>
+
+			<blockquote>
+				<p><em>Note: Ticket sales operations have since been transferred to another company; Git history remains
+						as proof.</em></p>
+			</blockquote>
+
+			<hr />
+
+			<h3 id="rzdru-admin-dashboard-app">RZD.ru Admin Dashboard App</h3>
+
+			<p><img loading="lazy"
+					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+					alt="Vue.js" /></p>
+
+			<p><strong>Modern replacement for legacy admin dashboard</strong></p>
+
+			<ul>
+				<li><strong>Before:</strong> JSP-based IBM WebSphere stateful app (built by Java developers)</li>
+				<li><strong>After:</strong> Modern async Vue.js application</li>
+				<li><strong>Architecture:</strong> Dynamic component rendering based on declarative <a
+						href="#metadata-migration--architecture">metadata</a></li>
+				<li><strong>Result:</strong> Significantly improved performance and developer experience</li>
+			</ul>
+
+			<details class="details-mar">
+				<summary>Screenshots</summary>
+				<p>News admin dashboard page (list with filter)</p>
+				<img loading="lazy" src="./assets/images/uarm-screens/uarm-news-1.png" alt="uarm screenshot"
+					class="image-mar" />
+				<p>News admin dashboard page (record card)</p>
+				<img loading="lazy" src="./assets/images/uarm-screens/uarm-news-2.jpg" alt="uarm screenshot"
+					class="image-mar" />
+				<p>Nav admin dashboard page (list with filter)</p>
+				<img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-1.png" alt="uarm screenshot"
+					class="image-mar" />
+				<p>Nav admin dashboard page (record card)</p>
+				<img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-2.png" alt="uarm screenshot"
+					class="image-mar" />
+			</details>
+
+			<hr />
+
+			<h3 id="electron-desktop-app">Electron Desktop App</h3>
+
+			<p><img loading="lazy"
+					src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
+					alt="Electron" /></p>
+
+			<p><strong>Complex internal desktop application (Windows/Mac/Linux)</strong></p>
+
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li><a href="#metadata-migration--architecture">Metadata</a> editors</li>
+				<li>Advanced <a href="#metadata-migration--architecture">metadata</a> lists with filtering (including
+					JSONPath support)</li>
+				<li>Database connectivity (Oracle, PostgreSQL)</li>
+				<li>SSH/SFTP operations</li>
+				<li>Multi-repository structure with integrated <a href="#rzdru-admin-dashboard-app">admin dashboard
+						app</a></li>
+			</ul>
+
+			<details class="details-mar">
+				<summary>Screenshots</summary>
+				<img loading="lazy" src="./assets/images/wizard-screens/arms/list.png" alt="wizard screenshot"
+					class="image-mar" />
+				<img loading="lazy" src="./assets/images/wizard-screens/arms/ed-1.png" alt="wizard screenshot"
+					class="image-mar" />
+				<img loading="lazy" src="./assets/images/wizard-screens/arms/ed-4.png" alt="wizard screenshot"
+					class="image-mar" />
+			</details>
+
+			<hr />
+
+			<h3 id="metadata-migration--architecture">Metadata Migration &amp; Architecture</h3>
+
+			<p><strong>Declarative system for admin and user-facing interfaces</strong></p>
+
+			<p>The metadata system defines two formats for:</p>
+			<ul>
+				<li><strong>Admin Forms</strong> (1000+): Database-driven CRUD interfaces</li>
+				<li><strong>User-Facing Pages</strong> (500+): Data-fetching layer and component composition</li>
+			</ul>
+
+			<details class="details-mar">
+				<summary>Metadata for <i>Admin Forms</i></summary>
+
+				<p>
+					Our metadata files are declarative JSON descriptors that define the full lifecycle of an admin form
+					— from the underlying database table(-s) to the UI behavior in the browser.
+				</p>
+
+				<p>
+					This eliminates repetitive CRUD boilerplate while maintaining consistency across 1000+ forms.
+				</p>
+
+				<p>
+					Each descriptor maps database columns (or cross-table relations) to field definitions specifying
+					behavior across three contexts:
+				<ul>
+					<li>
+						<b>List view</b>
+						<ul>
+							<li>Filtering</li>
+							<li>List itself (display, sorting, editing records on-the-fly)</li>
+						</ul>
+					</li>
+					<li><b>Form view</b> (create, edit of one record)</li>
+				</ul>
+				</p>
+
+				<p>
+					Each form field can have different control types in all three contexts, each with its own parameters
+					like validation or defaults or custom template.
+					Some control type examples:
+				<ul>
+					<li>Input (text, integer, float, email etc) or Textarea</li>
+					<li>Dropdown (incl. async search), Popup Picker, both can be used for multi-record selection</li>
+					<li>Date with or without time, in Filter context can be used as range</li>
+					<li>Map or address picker (geocoder)</li>
+					<li>Charts editor</li>
+					<li>...and some more</li>
+				</ul>
+				</p>
+
+
+			</details>
+
+			<details class="details-mar">
+				<summary>Metadata for <i>User-Facing Pages</i></summary>
+
+				<p>These page metadata files define the complete HTML page or data-fetching layer (JSON-driven),
+					eliminating custom backend code for each page (total: 500+ pages).</p>
+
+				<b>Components</b> are granular building blocks that:
+				<ul>
+					<li>List exact fields to select</li>
+					<li>Designate primary keys</li>
+					<li>Define relations (one-to-one, one-to-many)</li>
+					<li>Handle pagination and filtering</li>
+				</ul>
+
+
+			</details>
+
+			<p><strong>Architecture Evolution:</strong></p>
+			<ul>
+				<li><strong>Before:</strong> Two quirky XML formats with numerous workarounds and hacks</li>
+				<li><strong>After:</strong> Two elegant, maintainable JSON structures with reduced overhead</li>
+				<li><strong>Developed:</strong>
+					<ul>
+						<li>Conversion scripts for both formats</li>
+						<li>Format editors for both formats in <a href="#electron-desktop-app">Electron App</a></li>
+						<li><a href="#rzdru-admin-dashboard-app">Admin dashboard app</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<hr />
+
+			<h3 id="advanced-kanban-app">Advanced Kanban App</h3>
+
+			<p><img loading="lazy"
+					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+					alt="Vue.js" /></p>
+
+			<p><strong>Enterprise-grade project management frontend</strong></p>
+
+			<p><strong>Adoption &amp; Scale:</strong></p>
+			<ul>
+				<li>Adopted company-wide: 70+ users migrated</li>
+				<li>Deployed at Russian University of Transport: 200+ users</li>
+			</ul>
+
+			<p><strong>Features:</strong></p>
+			<ul>
+				<li>Drag-and-drop Kanban boards</li>
+				<li>Custom workflow configurations</li>
+				<li>Custom issue fields</li>
+				<li>Issue linking and file attachments</li>
+				<li>Custom WYSIWYG JSON editor (built on TipTap/ProseMirror)</li>
+			</ul>
+
+			<details class="details-mar">
+				<summary>Screenshots</summary>
+				<img loading="lazy" src="./assets/images/wflow-screens/list.png" alt="wflow screenshot"
+					class="image-mar" />
+				<img loading="lazy" src="./assets/images/wflow-screens/card_1.png" alt="wflow screenshot"
+					class="image-mar" />
+				<img loading="lazy" src="./assets/images/wflow-screens/card_2.png" alt="wflow screenshot"
+					class="image-mar" />
+				<img loading="lazy" src="./assets/images/wflow-screens/card_3.png" alt="wflow screenshot"
+					class="image-mar" />
+				<img loading="lazy" src="./assets/images/wflow-screens/card_4.png" alt="wflow screenshot"
+					class="image-mar" />
+				<img loading="lazy" src="./assets/images/wflow-screens/col_edit.png" alt="wflow screenshot"
+					class="image-mar" />
+			</details>
+
+			<hr />
+
+			<h3 id="other-notable-work">Other Notable Work</h3>
+
+			<h4 id="backend-services">Backend Services</h4>
+
+			<p><img loading="lazy"
+					src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+					alt="Node.js" /></p>
+
+			<ul>
+				<li>5+ services</li>
+				<li>Express.js, PostgreSQL, Kafka, Elasticsearch</li>
+				<li>Microservices architecture with scalable design</li>
+			</ul>
+
+			<h4 id="custom-npm-packages">Custom NPM Packages</h4>
+
+			<p><img loading="lazy" class="badge-mar"
+					src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&amp;logo=npm&amp;logoColor=white"
+					alt="NPM" />
+				<img loading="lazy" class="badge-mar"
+					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+					alt="Vue.js" />
+				<img loading="lazy" class="badge-mar"
+					src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+					alt="Node.js" />
+			</p>
+
+			<ul>
+				<li>10+ packages</li>
+				<li>Reusable Vue components and Node utilities</li>
+				<li>Used across multiple company projects</li>
+			</ul>
+
+			<h4 id="typescript-migrations--coverage">TypeScript Migrations &amp; Coverage</h4>
+
+			<p><img loading="lazy"
+					src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&amp;logo=typescript&amp;logoColor=white"
+					alt="TypeScript" /></p>
+
+			<ul>
+				<li>Large-scale codebase modernization</li>
+				<li>Type safety improvements</li>
+			</ul>
+
+			<h4 id="infrastructure--devops">Infrastructure &amp; DevOps</h4>
+
+			<p><img loading="lazy" alt="Vite" class="badge-mar"
+					src="https://img.shields.io/badge/Vite-646CFF?style=flat&amp;logo=vite&amp;logoColor=white" />
+				<img loading="lazy" alt="Rollup" class="badge-mar"
+					src="https://img.shields.io/badge/Rollup-EC4A3F?style=flat&amp;logo=rollup.js&amp;logoColor=white" />
+				<img loading="lazy" alt="Webpack" class="badge-mar"
+					src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&amp;logo=webpack&amp;logoColor=white" />
+				<img loading="lazy" alt="Docker" class="badge-mar"
+					src="https://img.shields.io/badge/Docker-2496ED?style=flat&amp;logo=docker&amp;logoColor=white" />
+				<img loading="lazy" alt="GitLab" class="badge-mar"
+					src="https://img.shields.io/badge/GitLab-FC6D26?style=flat&amp;logo=gitlab&amp;logoColor=white" />
+			</p>
+
+			<ul>
+				<li>Complex build pipelines: Vite, Rollup, Webpack</li>
+				<li>Docker containerization</li>
+				<li>GitLab CI/CD</li>
+			</ul>
+
+			<h4 id="testing">Testing</h4>
+
+			<p><img loading="lazy" alt="Jest" class="badge-mar"
+					src="https://img.shields.io/badge/Jest-C21325?style=flat&amp;logo=jest&amp;logoColor=white" />
+				<img loading="lazy" alt="Cypress" class="badge-mar"
+					src="https://img.shields.io/badge/Cypress-69D3A7?style=flat&amp;logo=cypress&amp;logoColor=white" />
+			</p>
+
+			<ul>
+				<li>Unit &amp; E2E tests</li>
+				<li>Jest for backend</li>
+				<li>Cypress for frontend and Electron</li>
+			</ul>
+
+			<hr />
+
+			<h2 id="ai-tools">AI Tools</h2>
+
+			<h3 id="tools--platforms">Tools &amp; Platforms</h3>
+			<p>Don’t like to be vendor-locked :-) so…</p>
+			<ul>
+				<li>VSCode with Continue, sometimes Antigravity
+					<ul>
+						<li>LLMs like Grok, Claude, Gemini, DeepSeek, GPT</li>
+					</ul>
+				</li>
+				<li>Openrouter with system query presets</li>
+				<li>Deepseek (expert+thinking) for complex chat questions</li>
+			</ul>
+
+			<h3 id="how-do-i-use-ai-tools">How do I use AI tools</h3>
+
+			<p><strong>Chat, questions &amp; suggestions</strong> — Sure</p>
+
+			<p><strong>Code:</strong></p>
+			<ul>
+				<li>Build issues, tests, personal PoCs, scripts</li>
+				<li>Exploration and rapid prototyping</li>
+				<li><strong>Production code:</strong>
+					<ul>
+						<li>Generally prefer hand-tailored code only with AI suggestions</li>
+						<li>Excited about Specification Driven Development (SDD) approach (<a
+								href="https://openspec.dev/">Openspec</a>)</li>
+					</ul>
+				</li>
+			</ul>
+
+			<p><strong>Boilerplate documentation</strong> — Sure</p>
+
+			<p><strong>Other documentation</strong> — It depends</p>
+
+			<p><strong>General text writing</strong> — Rarely (prefer original style)</p>
+
+			<hr />
+
+			<h2 id="my-priorities">My Priorities</h2>
+
+			<ul>
+				<li><strong>Teamwork ❤︎</strong> — Collaborating, constantly learning while sharing knowledge with
+					others</li>
+				<li><strong>Building solutions</strong> — Either maintainable apps for years ahead OR quick PoC/MVPs
+				</li>
+				<li><strong>Balance</strong> — Business purposes (first priority), developer experience, and managing
+					tech debt</li>
+			</ul>
+
+			<hr />
+
+			<h2 id="other-skills">Other Skills</h2>
+
+			<p><strong>Enterprise Stack</strong> (legacy experience)</p>
+			<ul>
+				<li>Java, Oracle, IBM WebSphere, JSP, XSLT templates</li>
+			</ul>
+
+			<p><strong>Mobile &amp; Web</strong></p>
+			<ul>
+				<li>PWA development</li>
+				<li>Quasar, Weex</li>
+				<li>Interest in native Vue solutions (Lynx.js by ByteDance)</li>
+			</ul>
+
+			<hr />
+
+			<h2 id="me">Me</h2>
+
+			<p><img loading="lazy" width="200" src="./assets/images/profile_photo.jpg" alt="" align="left"
+					style="margin: 0 2em .5em 0;" /></p>
+
+			<ul>
+				<li><b>Languages:</b> English (fluent), Russian (native), Deutsch &amp; Français (rusty from university
+					days :-))</li>
+				<li><b>Location &amp; Work:</b> Remote from Asia for 12+ years</li>
+			</ul>
+
+			<!-- <table>
+  <tr>
+    <td width="200" style="padding-right: 20px; vertical-align: top;">
+      <img loading="lazy" align="left" width="200" src="./assets/images/profile_photo.jpg"/>
+    </td>
+    <td style="vertical-align: top;">
+      <ul>
+        <li>
+          <b>Languages:</b> English (fluent), Russian (native), Deutsch & Français (rusty from university days 😊)
+        </li>
+        <li>
+          <b>Location & Work:</b> Remote from Asia for 12+ years
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table> -->
+
+			<p><br clear="both" /></p>
+
+		</section>
+	</div>
+</body>
+
+</html>
