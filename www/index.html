@@ -26,34 +26,47 @@
 
 <body>
 	<main class="container">
-		<h3>
-			Pavel Prokhorenko •
-			<a href="https://www.linkedin.com/in/pavel-prokhorenko-a3273828/">LinkedIn</a>
-		</h3>
-		<p>
-			Senior JS/TS Full‑stack Engineer, based in Thailand. Remote-first since 2013. Worked in different titles and
-			roles for Russian Railways in 2011-2026, now open for new opportunities.
-		</p>
-
-		<p>
-		<ul>
-			<li>
-				<a href="#backend-services">Backend</a>:
-				<img src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+		<div class="row">
+			<div class="col-auto">
+				<img style="width: 171px; border-radius: 111em; " src="./assets/images/profile_photo.jpg" alt="photo" />
+			</div>
+			<div class="col">
+				<h3>
+					Pavel Prokhorenko •
+					<a href="https://www.linkedin.com/in/pavel-prokhorenko-a3273828/">LinkedIn</a>
+				</h3>
+				<p>
+					Senior JS/TS Full‑stack Engineer, based in Thailand. Remote-first since 2013.
+				</p>
+				<p>
+					Expert in <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+					alt="Vue.js" /> v2/3 (since 2016) and <img src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
 					alt="Node.js" /> (since 2016)
+				</p>
+				<p>
+					In 2011-2026 I worked in
+					different titles (from jr. to sr.) for Russian Railways high-load website and other services.
+				</p>
+			</div>
+		</div>
+		<hr>
+		<!--ul>
+			<li>
+				<b>Frontend</b>:
+				<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+					alt="Vue.js" /> v2/3 (since 2016)
 			</li>
 			<li>
-				<a href="#rzdru-admin-dashboard-app">Frontend</a>:
-				<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
-					alt="Vue.js" /> (since 2016)
+				<b>Backend</b>:
+				<img src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+					alt="Node.js" /> (since 2016)
 			</li>
 			<li>
 				<a href="#electron-desktop-app">Desktop</a>:
 				<img src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
 					alt="Electron" /> (since 2018)
 			</li>
-		</ul>
-		</p>
+		</ul-->
 
 		<h4 id="table-of-contents">Table of Contents</h4>
 
@@ -62,13 +75,22 @@
 				<ul>
 					<li><a href="#projects--achievements">Key Projects &amp; Achievements</a>
 						<ul>
-							<li><a href="#high-load-ticket-platform-migration">High-Load Ticket Platform
-									Migration</a></li>
-							<li><a href="#rzdru-admin-dashboard-app">RZD.ru Admin Dashboard App</a></li>
+							<li><a href="#high-load-ticket-platform-migration">
+									High-Load Ticket Platform Frontend Migration
+								</a>
+							</li>
+							<li>
+								<a href="#rzdru-admin-dashboard-app">
+									Russian Railways Admin Frontend Dashboard App
+								</a>
+							</li>
 							<li><a href="#electron-desktop-app">Electron Desktop App</a></li>
-							<li><a href="#metadata-migration--architecture">Metadata Migration &amp;
-									Architecture</a></li>
-							<li><a href="#advanced-kanban-app">Advanced Kanban App</a></li>
+							<li>
+								<a href="#metadata-migration--architecture">
+									Metadata Migration &amp; Architecture
+								</a>
+							</li>
+							<li><a href="#advanced-kanban-app">Advanced Kanban Frontend App</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -100,7 +122,7 @@
 
 		<h3 id="projects--achievements">Key Projects &amp; Achievements</h3>
 
-		<h4 id="high-load-ticket-platform-migration">High-Load Ticket Platform Migration</h4>
+		<h4 id="high-load-ticket-platform-migration">High-Load Ticket Platform Frontend Migration</h4>
 
 		<p><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" /></p>
@@ -108,7 +130,7 @@
 		<p><strong>Critical frontend migration of high-load ticket platform</strong></p>
 
 		<ul>
-			<li><strong>Scale:</strong> ~150K paid tickets per day (~6000/hour), 20+ million visits per month</li>
+			<li><strong>Scale:</strong> 20+ million visits per month, ~150K <i>paid</i> tickets per day (~6000/hour)</li>
 			<li><strong>Migration:</strong> Custom jQuery-based framework → Vue 2</li>
 			<li><strong>Impact:</strong> My framework selection in 2017 became the company-wide standard</li>
 			<li><strong>Complexity handled:</strong>
@@ -123,14 +145,14 @@
 			</li>
 		</ul>
 
-		<blockquote>
+		<!--blockquote>
 			<p><em>Note: Ticket sales operations have since been transferred to another company; Git history remains as
 					proof.</em></p>
-		</blockquote>
+		</blockquote-->
 
 		<hr />
 
-		<h4 id="rzdru-admin-dashboard-app">RZD.ru Admin Dashboard App</h4>
+		<h4 id="rzdru-admin-dashboard-app">Russian Railways Admin Dashboard Frontend App</h4>
 
 		<p><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" /></p>
@@ -143,6 +165,7 @@
 			<li><strong>Architecture:</strong> Dynamic component rendering based on declarative <a
 					href="#metadata-migration--architecture">metadata</a></li>
 			<li><strong>Result:</strong> Significantly improved performance and developer experience</li>
+			<li><strong>Adoption:</strong> 1000+ users</li>
 		</ul>
 
 		<details class="details-mar">
@@ -272,7 +295,7 @@
 
 		<hr />
 
-		<h4 id="advanced-kanban-app">Advanced Kanban App</h4>
+		<h4 id="advanced-kanban-app">Advanced Kanban Frontend App</h4>
 
 		<p><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" /></p>
@@ -402,7 +425,7 @@
 		<ul>
 			<li>VSCode with Continue</li>
 			<li>Agentic jobs with LLMs like Grok, Claude, Gemini, GPT</li>
-			<li>Openrouter with system query presets</li>
+			<li>Openrouter</li>
 			<li>Openspec for Spec-Driven Development</li>
 			<!-- li>Deepseek (expert+thinking) for complex chat questions</li -->
 		</ul>
@@ -421,13 +444,9 @@
 		</ul>
 
 		<h3 id="me">Me</h3>
-
-		<p><img width="200" src="./assets/images/profile_photo.jpg" alt="" align="left" style="margin: 0 2em .5em 0;" />
-		</p>
-
 		<ul>
 			<li><b>Languages:</b> Fluent English, native Russian</li>
-			<li><b>Location &amp; Work:</b> Now remote-first from Thailand</li>
+			<li><b>Location:</b> Now remote-first from Thailand. Timezone doesn't matter much.</li>
 		</ul>
 	</main>
 	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top">
