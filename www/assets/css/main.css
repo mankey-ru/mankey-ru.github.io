@@ -9,8 +9,8 @@ ul li::marker {
 	color: var(--bs-link-color);
 }
 
-body>div.container {
-	margin: 3em auto 0 auto;
+main {
+	margin-top: 1em;
 }
 
 details {
