@@ -11,17 +11,24 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
 		crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-	<meta name="theme-color" content="#151515">
-	<meta name="msapplication-navbutton-color" content="#151515">
+	<meta name="theme-color" content="#0d6efd">
+	<meta name="msapplication-navbutton-color" content="#0d6efd">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 	<title>Hello, world :-)</title>
 
+	<link rel="stylesheet" href="./assets/css/main.css" />
+	<script defer src="./assets/js/main.js"></script>
+
 </head>
 
 <body>
-
+	<!-- Back to Top Button -->
+	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top">
+		<i class="bi bi-chevron-up"></i>
+	</button>
 	<div class="container">
 		<section id="main_content">
 			<h2 id="my-name-is-pavel-prokhorenko-linkedin">My name is Pavel Prokhorenko (<a
@@ -79,8 +86,7 @@
 
 			<h3 id="high-load-ticket-platform-migration">High-Load Ticket Platform Migration</h3>
 
-			<p><img loading="lazy"
-					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+			<p><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 					alt="Vue.js" /></p>
 
 			<p><strong>Critical frontend migration of high-load ticket platform</strong></p>
@@ -110,8 +116,7 @@
 
 			<h3 id="rzdru-admin-dashboard-app">RZD.ru Admin Dashboard App</h3>
 
-			<p><img loading="lazy"
-					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+			<p><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 					alt="Vue.js" /></p>
 
 			<p><strong>Modern replacement for legacy admin dashboard</strong></p>
@@ -127,25 +132,20 @@
 			<details class="details-mar">
 				<summary>Screenshots</summary>
 				<p>News admin dashboard page (list with filter)</p>
-				<img loading="lazy" src="./assets/images/uarm-screens/uarm-news-1.png" alt="uarm screenshot"
-					class="image-mar" />
+				<img data-src="./assets/images/uarm-scr/uarm-news-1.png" alt="uarm screenshot" class="image-mar" />
 				<p>News admin dashboard page (record card)</p>
-				<img loading="lazy" src="./assets/images/uarm-screens/uarm-news-2.jpg" alt="uarm screenshot"
-					class="image-mar" />
+				<img data-src="./assets/images/uarm-scr/uarm-news-2.jpg" alt="uarm screenshot" class="image-mar" />
 				<p>Nav admin dashboard page (list with filter)</p>
-				<img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-1.png" alt="uarm screenshot"
-					class="image-mar" />
+				<img data-src="./assets/images/uarm-scr/uarm-nav-1.png" alt="uarm screenshot" class="image-mar" />
 				<p>Nav admin dashboard page (record card)</p>
-				<img loading="lazy" src="./assets/images/uarm-screens/uarm-nav-2.png" alt="uarm screenshot"
-					class="image-mar" />
+				<img data-src="./assets/images/uarm-scr/uarm-nav-2.png" alt="uarm screenshot" class="image-mar" />
 			</details>
 
 			<hr />
 
 			<h3 id="electron-desktop-app">Electron Desktop App</h3>
 
-			<p><img loading="lazy"
-					src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
+			<p><img src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
 					alt="Electron" /></p>
 
 			<p><strong>Complex internal desktop application (Windows/Mac/Linux)</strong></p>
@@ -163,12 +163,9 @@
 
 			<details class="details-mar">
 				<summary>Screenshots</summary>
-				<img loading="lazy" src="./assets/images/wizard-screens/arms/list.png" alt="wizard screenshot"
-					class="image-mar" />
-				<img loading="lazy" src="./assets/images/wizard-screens/arms/ed-1.png" alt="wizard screenshot"
-					class="image-mar" />
-				<img loading="lazy" src="./assets/images/wizard-screens/arms/ed-4.png" alt="wizard screenshot"
-					class="image-mar" />
+				<img data-src="./assets/images/wizard-scr/arms/list.png" alt="wizard screenshot" class="image-mar" />
+				<img data-src="./assets/images/wizard-scr/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
+				<img data-src="./assets/images/wizard-scr/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
 			</details>
 
 			<hr />
@@ -261,8 +258,7 @@
 
 			<h3 id="advanced-kanban-app">Advanced Kanban App</h3>
 
-			<p><img loading="lazy"
-					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+			<p><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 					alt="Vue.js" /></p>
 
 			<p><strong>Enterprise-grade project management frontend</strong></p>
@@ -284,28 +280,27 @@
 
 			<details class="details-mar">
 				<summary>Screenshots</summary>
-				<img loading="lazy" src="./assets/images/wflow-screens/list.png" alt="wflow screenshot"
-					class="image-mar" />
-				<img loading="lazy" src="./assets/images/wflow-screens/card_1.png" alt="wflow screenshot"
-					class="image-mar" />
-				<img loading="lazy" src="./assets/images/wflow-screens/card_2.png" alt="wflow screenshot"
-					class="image-mar" />
-				<img loading="lazy" src="./assets/images/wflow-screens/card_3.png" alt="wflow screenshot"
-					class="image-mar" />
-				<img loading="lazy" src="./assets/images/wflow-screens/card_4.png" alt="wflow screenshot"
-					class="image-mar" />
-				<img loading="lazy" src="./assets/images/wflow-screens/col_edit.png" alt="wflow screenshot"
-					class="image-mar" />
+				<img data-src="./assets/images/wflow-scr/list.png" alt="wflow screenshot" class="image-mar" />
+				<img data-src="./assets/images/wflow-scr/card_1.png" alt="wflow screenshot" class="image-mar" />
+				<img data-src="./assets/images/wflow-scr/card_2.png" alt="wflow screenshot" class="image-mar" />
+				<img data-src="./assets/images/wflow-scr/card_3.png" alt="wflow screenshot" class="image-mar" />
+				<img data-src="./assets/images/wflow-scr/card_4.png" alt="wflow screenshot" class="image-mar" />
+				<img data-src="./assets/images/wflow-scr/col_edit.png" alt="wflow screenshot" class="image-mar" />
 			</details>
 
 			<hr />
 
 			<h3 id="other-notable-work">Other Notable Work</h3>
 
+			<h4 id="frontend-services">Frontend Apps</h4>
+			<img class="badge-mar"
+				src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+				alt="Vue.js" />
+			<p>Tens of feature-rich apps with Vue2 and Vue3</p>
+
 			<h4 id="backend-services">Backend Services</h4>
 
-			<p><img loading="lazy"
-					src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+			<p><img src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
 					alt="Node.js" /></p>
 
 			<ul>
@@ -316,13 +311,13 @@
 
 			<h4 id="custom-npm-packages">Custom NPM Packages</h4>
 
-			<p><img loading="lazy" class="badge-mar"
+			<p><img class="badge-mar"
 					src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&amp;logo=npm&amp;logoColor=white"
 					alt="NPM" />
-				<img loading="lazy" class="badge-mar"
+				<img class="badge-mar"
 					src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 					alt="Vue.js" />
-				<img loading="lazy" class="badge-mar"
+				<img class="badge-mar"
 					src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
 					alt="Node.js" />
 			</p>
@@ -335,8 +330,7 @@
 
 			<h4 id="typescript-migrations--coverage">TypeScript Migrations &amp; Coverage</h4>
 
-			<p><img loading="lazy"
-					src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&amp;logo=typescript&amp;logoColor=white"
+			<p><img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&amp;logo=typescript&amp;logoColor=white"
 					alt="TypeScript" /></p>
 
 			<ul>
@@ -346,15 +340,15 @@
 
 			<h4 id="infrastructure--devops">Infrastructure &amp; DevOps</h4>
 
-			<p><img loading="lazy" alt="Vite" class="badge-mar"
+			<p><img alt="Vite" class="badge-mar"
 					src="https://img.shields.io/badge/Vite-646CFF?style=flat&amp;logo=vite&amp;logoColor=white" />
-				<img loading="lazy" alt="Rollup" class="badge-mar"
+				<img alt="Rollup" class="badge-mar"
 					src="https://img.shields.io/badge/Rollup-EC4A3F?style=flat&amp;logo=rollup.js&amp;logoColor=white" />
-				<img loading="lazy" alt="Webpack" class="badge-mar"
+				<img alt="Webpack" class="badge-mar"
 					src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&amp;logo=webpack&amp;logoColor=white" />
-				<img loading="lazy" alt="Docker" class="badge-mar"
+				<img alt="Docker" class="badge-mar"
 					src="https://img.shields.io/badge/Docker-2496ED?style=flat&amp;logo=docker&amp;logoColor=white" />
-				<img loading="lazy" alt="GitLab" class="badge-mar"
+				<img alt="GitLab" class="badge-mar"
 					src="https://img.shields.io/badge/GitLab-FC6D26?style=flat&amp;logo=gitlab&amp;logoColor=white" />
 			</p>
 
@@ -366,9 +360,9 @@
 
 			<h4 id="testing">Testing</h4>
 
-			<p><img loading="lazy" alt="Jest" class="badge-mar"
+			<p><img alt="Jest" class="badge-mar"
 					src="https://img.shields.io/badge/Jest-C21325?style=flat&amp;logo=jest&amp;logoColor=white" />
-				<img loading="lazy" alt="Cypress" class="badge-mar"
+				<img alt="Cypress" class="badge-mar"
 					src="https://img.shields.io/badge/Cypress-69D3A7?style=flat&amp;logo=cypress&amp;logoColor=white" />
 			</p>
 
@@ -450,7 +444,7 @@
 
 			<h2 id="me">Me</h2>
 
-			<p><img loading="lazy" width="200" src="./assets/images/profile_photo.jpg" alt="" align="left"
+			<p><img width="200" src="./assets/images/profile_photo.jpg" alt="" align="left"
 					style="margin: 0 2em .5em 0;" /></p>
 
 			<ul>
@@ -462,7 +456,7 @@
 			<!-- <table>
   <tr>
     <td width="200" style="padding-right: 20px; vertical-align: top;">
-      <img loading="lazy" align="left" width="200" src="./assets/images/profile_photo.jpg"/>
+      <img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
     </td>
     <td style="vertical-align: top;">
       <ul>

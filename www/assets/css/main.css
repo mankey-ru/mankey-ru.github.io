@@ -1,0 +1,83 @@
+ul li {
+	list-style-image: none;
+}
+
+ul li::marker {
+	color: var(--bs-link-color);
+	font-size: 1.6em;
+}
+
+body>div.container {
+	margin: 3em auto 0 auto;
+}
+
+details {
+	border: 1px dotted var(--bs-link-color);
+	padding: 0.2em 0.5em;
+}
+
+details.details-mar {
+	margin: 0.8em 0;
+}
+
+summary::after {
+	content: 'Click to expand';
+	margin-left: 1em;
+	color: var(--bs-link-color);
+	font-style: italic;
+	float: right;
+}
+
+details[open] summary::after {
+	content: 'Click to collapse';
+}
+
+summary {
+	cursor: pointer;
+	color: var(--bs-link-color);
+}
+
+img.image-mar {
+	margin: 0.5em;
+	border: 1px dotted gray;
+}
+
+img.badge-mar {
+	margin-right: 0.3em;
+}
+
+img {
+   max-width: calc(100% - 20px); /* Container width minus padding */
+}
+
+/*main_content h3 {
+	font-size: 20px;
+}
+
+#main_content h4 {
+	font-size: 17px;
+}*/
+
+.back-to-top-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: block;
+	transition: opacity 0.3s, visibility 0.3s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+
+.back-to-top-btn.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Prevent button from blocking content at bottom of page */
+@media (max-height: 500px) {
+	.back-to-top-btn {
+		bottom: 10px;
+		right: 10px;
+	}
+}
