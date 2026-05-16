@@ -14,7 +14,7 @@
 ### Some picks of what I made:
 <ul>
 <li>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> Designed and developed critical frontend migration of high-load ticket platform
+<img loading="lazy" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> Designed and developed critical frontend migration of high-load ticket platform
 <ul>
 <li>high-load means about 150K sold <strong>(paid)</strong> tickets per day (~600 per hour) and 20+ million visits per month</li>
 <li>migration was from custom jQuery-based framework to Vue2</li>
@@ -29,7 +29,7 @@
 </ul>
 </li>
 <li>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> Designed and developed rzd.ru <i>administrative front-end app</i>
+<img loading="lazy" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> Designed and developed rzd.ru <i>administrative front-end app</i>
 <ul>
 <li>Before: JSP-based IBM WebSphere stateful app made mostly by Java programmers</li>
 <li>After: modern async Vue app</li>
@@ -42,19 +42,19 @@
 
 
 <li>
-<img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" /> Designed and developed complex internal Electron desktop app (Win/Mac/Linux)
+<img loading="lazy" src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" alt="Electron" /> Designed and developed complex internal Electron desktop app (Win/Mac/Linux)
 
 <details>
 <summary>Screenshots. Click to expand</summary>
-<img src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard_screens/arms/list.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard_screens/arms/ed-1.png" alt="wflow screenshot" class="image-mar" />
 
 <!--
-<img src="./assets/images/wizard_screens/arms/ed-2.jpg" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-3.jpg" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wizard_screens/arms/ed-5.jpg" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard_screens/arms/ed-2.jpg" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard_screens/arms/ed-3.jpg" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard_screens/arms/ed-5.jpg" alt="wflow screenshot" class="image-mar" />
 -->
-<img src="./assets/images/wizard_screens/arms/ed-4.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wizard_screens/arms/ed-4.png" alt="wflow screenshot" class="image-mar" />
 </details>
 <ul>
 <li>with multiple functions
@@ -105,15 +105,15 @@ Components are the granular building blocks: they list the exact fields to be se
 
 
 <li>
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> advanced Kanban app 
+<img loading="lazy" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" /> advanced Kanban app 
 <details class="details-mar">
 <summary>Screenshots. Click to expand</summary>
-<img src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_3.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/card_4.png" alt="wflow screenshot" class="image-mar" />
-<img src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow_screens/list.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow_screens/card_1.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow_screens/card_2.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow_screens/card_3.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow_screens/card_4.png" alt="wflow screenshot" class="image-mar" />
+<img loading="lazy" src="./assets/images/wflow_screens/col_edit.png" alt="wflow screenshot" class="image-mar" />
 </details>
 
 <ul>
@@ -131,13 +131,13 @@ Components are the granular building blocks: they list the exact fields to be se
 </ul>
 </li>
 <li>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" /> Designed and developed 5+ Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
+<img loading="lazy" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js" /> Designed and developed 5+ Node services with Express.js, PostgreSQL, Kafka, Elasticsearch etc
 </li>
 <li>
-<img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" /> Designed and developed 10+ custom NPM packages for Vue and Node, used in several projects each
+<img loading="lazy" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white" alt="NPM" /> Designed and developed 10+ custom NPM packages for Vue and Node, used in several projects each
 </li>
 <li>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> TS migrations and coverage
+<img loading="lazy" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" /> TS migrations and coverage
 </li>
 <li>Complex build pipelines: Vite/Rollup (or Webpack etc) with Docker containerization and Gitlab CI</li>
 <li>Tests, unit and e2e, cypress for front-end and electron, jest for back-end</li>
@@ -175,7 +175,7 @@ Components are the granular building blocks: they list the exact fields to be se
 <table>
   <tr>
 <td width="200" style="padding-right: 20px; vertical-align: top;">
-      <img align="left" width="200" src="./assets/images/profile_photo.jpg"/>
+      <img loading="lazy" align="left" width="200" src="./assets/images/profile_photo.jpg"/>
 </td>
 <td style="vertical-align: top;">
 		
