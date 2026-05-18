@@ -1,0 +1,72 @@
+/* General print adjustments */
+@media print {
+
+	html,
+	body {
+		color: #000 !important;
+		background: #fff !important;
+	}
+
+	.btn,
+	.print-hide {
+		display: none !important;
+	}
+
+	.print-block {
+		display: block !important;
+	}
+
+	/* Make layout single-column for printing */
+	.container {
+		max-width: 100% !important;
+		padding: 0 !important;
+	}
+
+	/* .col,
+	.col-auto {
+		display: block !important;
+		width: 100% !important;
+	} */
+
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+		page-break-inside: avoid;
+	}
+
+	hr,
+	h3,
+	h4 {
+		page-break-after: avoid;
+	}
+
+	main,
+	section,
+	article,
+	header {
+		page-break-inside: avoid;
+	}
+
+	body {
+		font-size: 12pt;
+		line-height: 1.2;
+	}
+
+	a::after {
+		content: " (" attr(href) ")";
+		font-size: 90%;
+		color: #000;
+	}
+}
+
+/* Screen styles to keep layout similar to original but improve print preview */
+@media screen {
+	body {
+		-webkit-print-color-adjust: exact;
+	}
+
+	.print-block {
+		display: none !important;
+	}
+
+}

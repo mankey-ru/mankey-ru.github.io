@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .flex-container {
+      /* Элемент становится flex-контейнером */
+      display: flex;
+      /* ГОРИЗ Пространство распределяется равномерно */
+      justify-content: space-between;
+      /* [по умолчанию] располагаем в строку */
+      flex-direction: row;
+      /* [по умолчанию] — ВЕРТ элементы растягиваются по высоте */
+      align-items: stretch;
+      
+      /* flex-direction: column;      в колонку сверху вниз */
+      /*gap: 16px ;*/
+    }
+
+    .item {
+      /* flex-direction: column;      в колонку сверху вниз */
+    }
+
+
+    details {
+      border: 1px dotted var(--bs-link-color);
+      padding: 0.2em 0.5em;
+    }
+
+    details.details-mar {
+      margin: 0.8em 0;
+    }
+
+    details {
+      border: 1px dotted var(--bs-link-color);
+      padding: 0.2em 0.5em;
+    }
+
+    details>summary {
+      font-weight: bold;
+      display: flex;
+      gap: 0.5em;
+    }
+
+    details>summary::before {
+      font-family: 'Times New Roman', Times, serif;
+      content: '▶';
+    }
+    details[open]>summary::before {
+      content: '▼';
+    }
+
+    details>summary::after {
+      font-weight: normal;
+      content: 'Click to expand';
+      margin-left: auto;
+      color: var(--bs-link-color);
+      font-style: italic;
+    }
+
+    details[open] summary::after {
+      content: 'Click to collapse';
+    }
+
+    summary {
+      cursor: pointer;
+      color: var(--bs-link-color);
+    }
+  </style>
+</head>
+
+<body>
+  <details>
+    <summary>Screenshots</summary>
+    
+  </details>
+
+  <div class="flex-container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+</body>
+
+</html>
