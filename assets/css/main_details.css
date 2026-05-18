@@ -1,5 +1,7 @@
 /** DETAILS start */
-
+.details-mar {
+	margin: 1em 0;
+}
 details {
 	border: 1px dotted var(--bs-link-color);
 	padding: 0.2em 0.5em;
