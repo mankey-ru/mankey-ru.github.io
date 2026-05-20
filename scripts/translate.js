@@ -17,6 +17,8 @@ async function main() {
       ? (process.env.OPENROUTER_MODEL || 'deepseek/deepseek-v4-flash:free')
       : (process.env.OPENAI_MODEL || 'gpt-3.5-turbo');
 
+	console.log(`Using ${provider} with model ${model} to translate ${inputPath} -> ${outputPath}`);
+
     const html = await fs.readFile(inputPath, 'utf8');
 
     const system = `You are a careful assistant that translates HTML pages into natural Russian while preserving all code, structure, IDs, class names, URLs, and inline scripts/styles exactly as-is. Only translate user-visible text (text nodes), attributes that are user-facing (for example: alt, title, placeholder, aria-label), and metadata like meta description or meta keywords. Do NOT change code, filenames, IDs, class names, or embedded JavaScript logic; keep punctuation in code and attribute values intact unless it is clearly human-readable text. Output only the final full translated HTML document and nothing else.`;
@@ -35,7 +37,7 @@ async function main() {
     let endpoint;
     let apiKey;
     if (provider === 'openrouter') {
-      endpoint = 'https://api.openrouter.ai/v1/chat/completions';
+      endpoint = 'https://openrouter.ai/api/v1/chat/completions';
       apiKey = openrouterKey;
     } else {
       endpoint = 'https://api.openai.com/v1/chat/completions';

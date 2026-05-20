@@ -2,9 +2,10 @@ name: Auto-translate index.html to Russian
 on:
   push:
     paths:
-      - 'index.html'
+      - 'index.html' 
+# workflow_dispatch:    # расскоментить если надо вручную запускать allows manual runs from the Actions UI for testing
 # Opt into running JavaScript actions on Node.js 24 now (только сами экшоны, внутри может быть любая нода)
-  workflow_dispatch:    # allows manual runs from the Actions UI for testing
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
@@ -27,10 +28,13 @@ jobs:
 
       - name: Run translation script (use OpenRouter if available)
         env:
-          # Use OpenRouter (free model)
+          # OpenRouter
+          # проверка доступности АПИ в ЦМД:
+          # curl -X POST "https://openrouter.ai/api/v1/chat/completions" -H "Content-Type: application/json" -H "Authorization: Bearer %OPENROUTER_API_KEY%" -d "{\"model\":\"deepseek/deepseek-v4-flash\",\"messages\":[{\"role\":\"user\",\"content\":\"Hello\"}]}"
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: deepseek/deepseek-v4-flash:free
-          # fallback to OpenAI if you want (optional)
+          # OPENROUTER_MODEL: deepseek/deepseek-v4-flash
+          OPENROUTER_MODEL: deepseek/deepseek-v4-pro
+          # OpenAI
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
         run: node scripts/translate.js index.html index_ru.html
