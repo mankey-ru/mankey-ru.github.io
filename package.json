@@ -1,0 +1,9 @@
+{
+  "name": "auto-translate-index",
+  "version": "1.0.0",
+  "description": "Translate index.html to Russian using GitHub Actions",
+  "type": "module",
+  "scripts": {
+    "translate": "node scripts/translate.js index.html index_ru.html"
+  }
+}
