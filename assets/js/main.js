@@ -1,21 +1,6 @@
 {
 	initTopBtn();
 	initLazyImages();
-	initLangLinks();
-
-	function initLangLinks() {
-		const langSwitcher = document.getElementById('lang-switcher');
-		if (!langSwitcher) return;
-		const currentPath = window.location.pathname;
-		langSwitcher.querySelectorAll('a').forEach((link) => {
-			const linkHref = link.getAttribute('href').replace('./', '/');
-			console.log(`linkHref === '/' && currentPath === '':`, linkHref === '/' && currentPath === '');
-			console.log(`linkHref === currentPath:`, linkHref === currentPath);
-			if (linkHref === currentPath || (linkHref === '/' && currentPath === '')) {
-				link.classList.add('active');
-			}
-		});
-	}
 
 	function initTopBtn() {
 		const mybutton = document.getElementById('btn-back-to-top');

@@ -54,9 +54,9 @@
 					<div class="col-auto print-hide">
 						<a href="mailto:job@mankey.ru" style="line-height: 2;">job@mankey.ru</a>
 					</div>
-					<div class="col print-hide text-end">
-						<a href="./">EN</a>
-						<a href="./index_ru.html">RU</a>
+					<div class="col print-hide text-end lang-switcher">
+						<a href="./" class="lang--active">EN</a>
+						<a href="./index_ru.html" class="lang--inactive">RU</a>
 					</div>
 				</div>
 				<p>
@@ -76,23 +76,6 @@
 			</div>
 		</div>
 		<hr>
-		<!--ul>
-			<li>
-				<b>Frontend</b>:
-				<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
-					alt="Vue.js" /> v2/3 (since 2016)
-			</li>
-			<li>
-				<b>Backend</b>:
-				<img src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
-					alt="Node.js" /> (since 2016)
-			</li>
-			<li>
-				<a href="#electron-desktop-app">Desktop</a>:
-				<img src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
-					alt="Electron" /> (since 2018)
-			</li>
-		</ul-->
 
 		<h4 class="print-hide" id="table-of-contents">Table of Contents</h4>
 
@@ -125,6 +108,11 @@
 									Metadata Migration &amp; Architecture
 								</a>
 							</li>
+							<li>
+								<a href="#frontend-apps">
+									Other frontend apps
+								</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
@@ -134,7 +122,6 @@
 					<li><a href="#other-notable">Other Notable Works And Skills</a>
 						<ul>
 							<li><a href="#backend-services">Backend Services</a></li>
-							<!--li><a href="#frontend-apps">Other Vue apps</a></li-->
 							<li><a href="#npm-packages">NPM Packages</a></li>
 							<li><a href="#typescript">TypeScript Migrations &amp; Coverage</a></li>
 							<li><a href="#infra">Infrastructure</a></li>
@@ -155,7 +142,7 @@
 			</div>
 		</div>
 
-		<h3 id="projects--achievements">Key Projects &amp; Achievements</h3>
+		<h3 class="heading" id="projects--achievements">Key Projects &amp; Achievements</h3>
 
 		<h4 id="high-load-ticket-platform-migration">
 			High-Load Ticket Platform Frontend Migration
@@ -360,8 +347,6 @@
 				<li>...and some more</li>
 			</ul>
 			</p>
-
-
 		</details>
 
 		<details class="details-mar print-hide">
@@ -377,13 +362,62 @@
 				<li>Define relations (one-to-one, one-to-many)</li>
 				<li>Handle pagination and filtering</li>
 			</ul>
-
-
 		</details>
 
 		<hr />
 
-		<h3 id="other-notable">Other Notable Works And Skills</h3>
+		<h4 id="frontend-apps">
+			Other frontend apps
+			<img class="badge-mar"
+				src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+				alt="Vue.js" />
+
+			<img class="badge-mar" alt="Vuex"
+				src="https://img.shields.io/badge/Vuex-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
+			<img class="badge-mar" alt="Vue Router"
+				src="https://img.shields.io/badge/Vue_Router-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
+			<img class="badge-mar" alt="SCSS"
+				src="https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white" />
+			<img class="badge-mar" alt="Less"
+				src="https://img.shields.io/badge/Less-1D365D?style=flat&logo=less&logoColor=white" />
+			<img class="badge-mar" alt="TypeScript"
+				src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+			<img class="badge-mar" alt="date-fns"
+				src="https://img.shields.io/badge/date--fns-770C56?style=flat&logo=date-fns&logoColor=white" />
+			<img class="badge-mar" alt="Axios"
+				src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white" />
+			<img class="badge-mar" alt="Fetch API"
+				src="https://img.shields.io/badge/Fetch_API-4285F4?style=flat&logo=googlechrome&logoColor=white" />
+			<img class="badge-mar" alt="D3.js"
+				src="https://img.shields.io/badge/D3.js-F9A03C?style=flat&logo=d3.js&logoColor=white" />
+			<img class="badge-mar" alt="Chart.js"
+				src="https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chart.js&logoColor=white" />
+			<img class="badge-mar" alt="Vuetify"
+				src="https://img.shields.io/badge/Vuetify-1867C0?style=flat&logo=vuetify&logoColor=white" />
+			<img class="badge-mar" alt="Vuelidate"
+				src="https://img.shields.io/badge/Vuelidate-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
+		</h4>
+		<p>
+			Built 10+ other frontend applications for various purposes (internal tools, public-facing pages, admin
+			dashboards) with Vue.js v2 and v3.
+		</p>
+		<ul>
+			<li>Vuex</li>
+			<li>Vue Router</li>
+			<li>Scss, Less</li>
+			<li>Typescript</li>
+			<li>Date-fns, Moment</li>
+			<li>Tiptap</li>
+			<li>Axios, Superagent, fetch</li>
+			<li>Tiptap</li>
+			<li>D3.js, Chart.js</li>
+			<li>Vuetify, BootstrapVue</li>
+			<li>Vuelidate</li>
+		</ul>
+
+		<hr />
+
+		<h3 class="heading" id="other-notable">Other Notable Works And Skills</h3>
 
 
 		<h4 id="backend-services">
@@ -411,28 +445,6 @@
 			<li>Elasticsearch</li>
 			<li>Стратегии "Retry/backoff"</li>
 			<li>Logging</li>
-		</ul>
-
-		<h4 id="frontend-apps">
-			Other Vue apps
-			<img class="badge-mar"
-				src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
-				alt="Vue.js" />
-		</h4>
-
-		<p>Tens of feature-rich apps with Vue2 and Vue3 with:</p>
-		<ul>
-			<li>Vuex</li>
-			<li>Vue Router</li>
-			<li>Scss, Less</li>
-			<li>Typescript</li>
-			<li>Date-fns, Moment</li>
-			<li>Tiptap</li>
-			<li>Axios, Superagent, fetch</li>
-			<li>Tiptap</li>
-			<li>D3.js, Chart.js</li>
-			<li>Vuetify, BootstrapVue</li>
-			<li>Vuelidate</li>
 		</ul>
 
 		<h4 id="npm-packages">
@@ -482,7 +494,7 @@
 			Built and maintained complex build pipelines:
 		</p>
 		<ul>
-			<li>Vite, Rollup, Webpack, Babel</li>			
+			<li>Vite, Rollup, Webpack, Babel</li>
 			<li>Eslint, Prettier, Husky, Lint-Staged</li>
 			<li>Docker containerization</li>
 			<li>GitLab CI/CD, GitHub Actions</li>
@@ -499,14 +511,34 @@
 			Implemented unit and E2E testing for multiple projects with Jest and Cypress.
 		</p>
 
-		<h4 id="enterprise">Enterprise Stack</h4>
-		<p>Worked much with Java, Oracle, IBM WebSphere, JSP, XSLT templates</p>
+		<h4 id="enterprise">
+			Enterprise Stack
+			<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+			<img alt="Oracle" src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" />
+			<img alt="IBM WebSphere"
+				src="https://img.shields.io/badge/IBM_WebSphere-052FAD?style=flat&logo=ibm&logoColor=white" />
+			<img alt="JSP" src="https://img.shields.io/badge/JSP-007396?style=flat&logo=java&logoColor=white" />
+			<img alt="XSLT" src="https://img.shields.io/badge/XSLT-FF6600?style=flat&logo=xml&logoColor=white" />
+		</h4>
+		<p>
+			Back in the days worked much with Java, Oracle, IBM WebSphere, JSP, XSLT templates
+		</p>
 
 		<hr />
 
-		<h3 id="ai-tools">AI Tools</h3>
+		<h3 class="heading" id="ai-tools">
+			AI Tools
+			<img alt="Claude"
+				src="https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white" />
+			<img alt="Grok" src="https://img.shields.io/badge/Grok-000000?style=flat&logo=x&logoColor=white" />
+			<img alt="Gemini"
+				src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" />
+			<img alt="DeepSeek"
+				src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat&logo=deepseek&logoColor=white" />
+
+		</h3>
 		<p>
-			Using different LLMs (Grok, Claude, Gemini, Deepseek, GPT) for various purposes.
+			Using different LLMs (Claude, Grok, Gemini, Deepseek, GPT) for various purposes.
 		</p>
 		<p>
 			For autocompletion, debugging,
@@ -519,7 +551,7 @@
 
 		<hr />
 
-		<h3 id="my-priorities">My Priorities</h3>
+		<h3 class="heading" id="my-priorities">My Priorities</h3>
 
 		<ul>
 			<li>
@@ -538,7 +570,7 @@
 			</li>
 		</ul>
 
-		<h3 id="me">Me</h3>
+		<h3 class="heading" id="me">Me</h3>
 		<ul>
 			<li>
 				<b>Languages:</b> Fluent English, native Russian
@@ -549,7 +581,7 @@
 			</li>
 		</ul>
 
-		<h3 id="contacts">Contacts</h3>
+		<h3 class="heading" id="contacts">Contacts</h3>
 		<ul>
 			<li><b>Email:</b> job@mankey.ru</li>
 			<li><a href="https://www.linkedin.com/in/pavel-prokhorenko">LinkedIn</a></li>

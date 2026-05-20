@@ -71,10 +71,10 @@ ul.hierarchy > li li {
 }
 
 ul.hierarchy > li {
-	list-style-type: star; /*square*/
+	list-style-type: square; /*square*/
 }
 ul.hierarchy > li li {
-  list-style-type: triangle; /*square;*/
+  list-style-type: disc; /*square;*/
 }
 
 ul li::marker {

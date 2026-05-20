@@ -3,6 +3,9 @@
 @import "main-lists.css";
 @import "main-linkedin.css";
 
+.heading {
+	padding: 1rem 0 .5rem 0;
+}
 
 main {
 	margin-top: 1em;
@@ -22,12 +25,14 @@ img {
 	/* Container width minus padding */
 }
 
+/*
 .lang-switcher {
 	position: fixed;
 	top: 20px;
 	right: 20px;
 	z-index: 1000;
 }
+*/
 
 .lang-switcher a {
 	margin: 0 5px;
@@ -36,7 +41,7 @@ img {
 	text-decoration: underline;
 }
 
-.lang-switcher a.active {
+.lang-switcher a.lang--active {
 	text-decoration: none;
 	font-weight: bold;
 	cursor: default;

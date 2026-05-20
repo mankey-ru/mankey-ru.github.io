@@ -104,6 +104,11 @@ async function main() {
 		if (content.startsWith('```')) {
 			content = content.replace(/^```[a-zA-Z]*\n/, '').replace(/\n```$/, '');
 		}
+		
+		// Swap active/inactive language classes if they were translated
+		content = content.replaceAll(`lang--active`, `lang--TEMP`);
+		content = content.replaceAll(`lang--inactive`, `lang--active`);
+		content = content.replaceAll(`lang--TEMP`, `lang--inactive`);
 
 		if (!content.startsWith('<')) {
 			console.warn(
