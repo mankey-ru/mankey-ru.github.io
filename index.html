@@ -41,8 +41,9 @@
 						</h3>
 					</div>
 					<div class="col-auto print-hide">
-						<a href="https://www.linkedin.com/in/pavel-prokhorenko/" target="_blank" rel="noopener noreferrer"
-							class="linkedin-badge" aria-label="LinkedIn profile (opens in new tab)">
+						<a href="https://www.linkedin.com/in/pavel-prokhorenko/" target="_blank"
+							rel="noopener noreferrer" class="linkedin-badge"
+							aria-label="LinkedIn profile (opens in new tab)">
 							<svg class="linkedin-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
 								<path
 									d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -109,13 +110,21 @@
 									Russian Railways Admin Frontend Dashboard App
 								</a>
 							</li>
-							<li><a href="#electron-desktop-app">Electron Desktop MetaWizard App</a></li>
+							<li>
+								<a href="#advanced-kanban-app">
+									Advanced Kanban Frontend App
+								</a>
+							</li>
+							<li>
+								<a href="#electron-desktop-app">
+									Electron Desktop MetaWizard App
+								</a>
+							</li>
 							<li>
 								<a href="#metadata-migration--architecture">
 									Metadata Migration &amp; Architecture
 								</a>
 							</li>
-							<li><a href="#advanced-kanban-app">Advanced Kanban Frontend App</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -154,21 +163,32 @@
 				alt="Vue.js" />
 		</h4>
 
-		<p><strong>Critical frontend migration of high-load ticket platform</strong></p>
+		<p><strong>Critical frontend migration from custom jQuery-based framework to Vue.js</strong></p>
 
 		<ul>
+			<li>
+				<strong>Impact:</strong> one SPA instead of multiple pages, improved UX and performance,
+				maintainability, shipment speed,
+				and a modern tech stack for the future
+			</li>
 			<li><strong>Scale:</strong> 20+ million visits per month, ~150K <i>paid</i> tickets per day (~6000/hour)
 			</li>
-			<li><strong>Migration:</strong> Custom jQuery-based framework → Vue 2</li>
-			<li><strong>Impact:</strong> My framework selection in 2017 became the company-wide standard</li>
 			<li><strong>Complexity handled:</strong>
 				<ul>
-					<li>Thousands of stations across 11 timezones</li>
-					<li>Intercity, international, and commuter trains</li>
-					<li>Tens of extra services</li>
-					<li>3 languages support</li>
-					<li>Complex business logic implemented in frontend via JS and <a
-							href="#metadata-migration--architecture">metadata</a>-driven server templates</li>
+					<li>
+						Very complex business logic implemented in frontend via JS and
+						<a href="#metadata-migration--architecture">metadata</a>-driven server templates
+					</li>
+					<li>
+						Thousands of stations across 11 timezones; intercity, international, and commuter trains and
+						buses
+					</li>
+					<li>
+						Tens of extra services; 3 languages support
+					</li>
+					<li>
+						Complicated testing including hundreds of scenarios
+					</li>
 				</ul>
 			</li>
 		</ul>
@@ -185,8 +205,6 @@
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
 		</h4>
-
-		<p></p>
 
 		<p><strong>Modern replacement for legacy admin dashboard</strong></p>
 
@@ -209,6 +227,41 @@
 			<img data-src="./assets/images/uarm-scr/uarm-nav-1.png" alt="uarm screenshot" class="image-mar" />
 			<p>Nav admin dashboard page (record card)</p>
 			<img data-src="./assets/images/uarm-scr/uarm-nav-2.png" alt="uarm screenshot" class="image-mar" />
+		</details>
+
+		<hr />
+
+		<h4 id="advanced-kanban-app">
+			Advanced Kanban Frontend App
+			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+				alt="Vue.js" />
+		</h4>
+
+		<p><strong>Enterprise-grade project management frontend</strong></p>
+
+		<p><strong>Adoption &amp; Scale:</strong></p>
+		<ul>
+			<li>Adopted company-wide: 70+ users migrated from Jira</li>
+			<li>Deployed at Russian University of Transport: 200+ users</li>
+		</ul>
+
+		<p><strong>Features:</strong></p>
+		<ul>
+			<li>Drag-and-drop Kanban boards</li>
+			<li>Custom workflow configurations</li>
+			<li>Custom issue fields</li>
+			<li>Issue linking and file attachments</li>
+			<li>Custom WYSIWYG JSON editor (built on TipTap/ProseMirror)</li>
+		</ul>
+
+		<details class="details-mar print-hide">
+			<summary>Screenshots</summary>
+			<img data-src="./assets/images/wflow-scr/list.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_1.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_2.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_3.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_4.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/col_edit.png" alt="wflow screenshot" class="image-mar" />
 		</details>
 
 		<hr />
@@ -240,43 +293,6 @@
 			<img data-src="./assets/images/wizard-scr/arms/list.png" alt="wizard screenshot" class="image-mar" />
 			<img data-src="./assets/images/wizard-scr/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
 			<img data-src="./assets/images/wizard-scr/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
-		</details>
-
-		<hr />
-
-		<h4 id="advanced-kanban-app">
-			Advanced Kanban Frontend App
-			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
-				alt="Vue.js" />
-		</h4>
-
-		<p></p>
-
-		<p><strong>Enterprise-grade project management frontend</strong></p>
-
-		<p><strong>Adoption &amp; Scale:</strong></p>
-		<ul>
-			<li>Adopted company-wide: 70+ users migrated from Jira</li>
-			<li>Deployed at Russian University of Transport: 200+ users</li>
-		</ul>
-
-		<p><strong>Features:</strong></p>
-		<ul>
-			<li>Drag-and-drop Kanban boards</li>
-			<li>Custom workflow configurations</li>
-			<li>Custom issue fields</li>
-			<li>Issue linking and file attachments</li>
-			<li>Custom WYSIWYG JSON editor (built on TipTap/ProseMirror)</li>
-		</ul>
-
-		<details class="details-mar print-hide">
-			<summary>Screenshots</summary>
-			<img data-src="./assets/images/wflow-scr/list.png" alt="wflow screenshot" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_1.png" alt="wflow screenshot" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_2.png" alt="wflow screenshot" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_3.png" alt="wflow screenshot" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_4.png" alt="wflow screenshot" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/col_edit.png" alt="wflow screenshot" class="image-mar" />
 		</details>
 
 		<hr />
@@ -397,11 +413,27 @@
 			<li>Logging</li>
 		</ul>
 
-		<h4 id="frontend-apps">Other Vue apps</h4>
-		<img class="badge-mar"
-			src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
-			alt="Vue.js" />
-		<p>Tens of feature-rich apps with Vue2 and Vue3</p>
+		<h4 id="frontend-apps">
+			Other Vue apps
+			<img class="badge-mar"
+				src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
+				alt="Vue.js" />
+		</h4>
+
+		<p>Tens of feature-rich apps with Vue2 and Vue3 with:</p>
+		<ul>
+			<li>Vuex</li>
+			<li>Vue Router</li>
+			<li>Scss, Less</li>
+			<li>Typescript</li>
+			<li>Date-fns, Moment</li>
+			<li>Tiptap</li>
+			<li>Axios, Superagent, fetch</li>
+			<li>Tiptap</li>
+			<li>D3.js, Chart.js</li>
+			<li>Vuetify, BootstrapVue</li>
+			<li>Vuelidate</li>
+		</ul>
 
 		<h4 id="npm-packages">
 			NPM Packages
@@ -450,9 +482,10 @@
 			Built and maintained complex build pipelines:
 		</p>
 		<ul>
-			<li>Vite, Rollup, Webpack etc.</li>
+			<li>Vite, Rollup, Webpack, Babel</li>			
+			<li>Eslint, Prettier, Husky, Lint-Staged</li>
 			<li>Docker containerization</li>
-			<li>GitLab CI/CD / GitHub Actions</li>
+			<li>GitLab CI/CD, GitHub Actions</li>
 		</ul>
 
 		<h4 id="testing">
