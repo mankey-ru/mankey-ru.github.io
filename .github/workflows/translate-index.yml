@@ -23,8 +23,8 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install (no deps required, but ensures node is ready)
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
 
       - name: Run translation script (use OpenRouter if available)
         env:

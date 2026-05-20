@@ -5,5 +5,8 @@
   "type": "module",
   "scripts": {
     "translate": "node scripts/translate.js index.html index_ru.html"
+  },
+  "dependencies": {
+    "openai-fetch": "^3.4.2"
   }
 }
