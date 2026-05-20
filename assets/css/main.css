@@ -31,6 +31,24 @@ img {
 	max-width: calc(100% - 20px); /* Container width minus padding */
 }
 
+.lang-switcher {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+
+.lang-switcher a {
+	margin: 0 5px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.lang-switcher a.active {
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: default;
+}
+
 .back-to-top-btn {
 	position: fixed;
 	bottom: 20px;

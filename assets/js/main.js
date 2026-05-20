@@ -1,6 +1,18 @@
 {
 	initTopBtn();
+	initLangLinks();
 	initLazyImages();
+
+	function initLangLinks() {
+		const langSwitcher = document.getElementById('lang-switcher');
+		if (!langSwitcher) return;
+		const currentPath = window.location.pathname;
+		langSwitcher.querySelectorAll('a').forEach((link) => {
+			if (link.getAttribute('href') === currentPath) {
+				link.classList.add('active');
+			}
+		});
+	}
 
 	function initTopBtn() {
 		const mybutton = document.getElementById('btn-back-to-top');

@@ -1,4 +1,4 @@
-name: Auto-translate index.html to Russian
+name: Translate index.html to Russian
 on:
   push:
     paths:
