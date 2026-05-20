@@ -3,6 +3,10 @@ on:
   push:
     paths:
       - 'index.html'
+# Opt into running JavaScript actions on Node.js 24 now (только сами экшоны, внутри может быть любая нода)
+  workflow_dispatch:    # allows manual runs from the Actions UI for testing
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   translate:
