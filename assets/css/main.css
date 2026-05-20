@@ -1,18 +1,7 @@
 @import "main_details.css";
 @import "main_print.css";
+@import "main_lists.css";
 
-
-ul li {
-	list-style-image: none;
-}
-
-ul.list-main {
-	font-size: 1.6em;
-}
-
-ul li::marker {
-	color: var(--bs-link-color);
-}
 
 main {
 	margin-top: 1em;

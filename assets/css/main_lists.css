@@ -1,0 +1,82 @@
+
+
+/* Define custom emoji counter styles */
+@counter-style thumbs-up {
+  system: cyclic;
+  symbols: 👍;
+  suffix: " ";
+}
+
+@counter-style star {
+  system: cyclic;
+  symbols: ★;
+  suffix: " ";
+}
+
+@counter-style star2 {
+  system: cyclic;
+  symbols: ⭐;
+  suffix: " ";
+}
+
+@counter-style checkmark {
+  system: cyclic;
+  symbols: ✅;
+  suffix: " ";
+}
+
+@counter-style rocket {
+  system: cyclic;
+  symbols: 🚀;
+  suffix: " ";
+}
+
+@counter-style fire {
+  system: cyclic;
+  symbols: 🔥;
+  suffix: " ";
+}
+
+@counter-style arrow {
+  system: cyclic;
+  symbols: ➡️;
+  suffix: " ";
+}
+
+@counter-style tool {
+  system: cyclic;
+  symbols: 🛠️;
+  suffix: " ";
+}
+
+@counter-style triangle {
+  system: cyclic;
+  symbols: ▸;
+  suffix: " ";
+}
+
+ul li {
+	list-style-image: none;
+}
+
+ul.hierarchy > li {
+  line-height: 1.7;
+}
+
+ul.hierarchy > li {
+  font-size: 1.25rem;
+}
+ul.hierarchy > li li {
+  font-size: 1rem;
+}
+
+ul.hierarchy > li {
+	list-style-type: star; /*square*/
+}
+ul.hierarchy > li li {
+  list-style-type: triangle; /*square;*/
+}
+
+ul li::marker {
+	color: var(--bs-link-color);
+}
