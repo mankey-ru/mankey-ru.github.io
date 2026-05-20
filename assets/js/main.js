@@ -1,7 +1,7 @@
 {
 	initTopBtn();
-	initLangLinks();
 	initLazyImages();
+	initLangLinks();
 
 	function initLangLinks() {
 		const langSwitcher = document.getElementById('lang-switcher');
@@ -9,6 +9,8 @@
 		const currentPath = window.location.pathname;
 		langSwitcher.querySelectorAll('a').forEach((link) => {
 			const linkHref = link.getAttribute('href').replace('./', '/');
+			console.log(`linkHref === '/' && currentPath === '':`, linkHref === '/' && currentPath === '');
+			console.log(`linkHref === currentPath:`, linkHref === currentPath);
 			if (linkHref === currentPath || (linkHref === '/' && currentPath === '')) {
 				link.classList.add('active');
 			}

@@ -17,7 +17,8 @@
 	<meta name="msapplication-navbutton-color" content="#0d6efd">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230d6efd'/%3E%3Ctext x='50' y='72' font-family='Arial,Helvetica,sans-serif' font-size='70' font-weight='900' fill='white' text-anchor='middle' letter-spacing='-1'%3EP%3C/text%3E%3C/svg%3E">
+	<link rel="icon" type="image/svg+xml"
+		href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230d6efd'/%3E%3Ctext x='50' y='72' font-family='Arial,Helvetica,sans-serif' font-size='70' font-weight='900' fill='white' text-anchor='middle' letter-spacing='-1'%3EP%3C/text%3E%3C/svg%3E">
 
 	<link rel="stylesheet" href="./assets/css/main.css" />
 	<script defer src="./assets/js/main.js"></script>
@@ -33,15 +34,30 @@
 				<img style="width: 171px; border-radius: 111em; " src="./assets/images/profile_photo.jpg" alt="photo" />
 			</div>
 			<div class="col">
-				<h3>
-					Pavel Prokhorenko
-					<span class="print-hide">
-						•
-						<a href="https://www.linkedin.com/in/pavel-prokhorenko/">LinkedIn</a>
-						•
-						<a href="mailto:job@mankey.ru">Email</a>
-					</span>
-				</h3>
+				<div class="row">
+					<div class="col-auto">
+						<h3>
+							Pavel Prokhorenko
+						</h3>
+					</div>
+					<div class="col-auto print-hide">
+						<a href="https://www.linkedin.com/in/pavel-prokhorenko/" target="_blank" rel="noopener noreferrer"
+							class="linkedin-badge" aria-label="LinkedIn profile (opens in new tab)">
+							<svg class="linkedin-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+								<path
+									d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+							</svg>
+							LinkedIn
+						</a>
+					</div>
+					<div class="col-auto print-hide">
+						<a href="mailto:job@mankey.ru" style="line-height: 2;">job@mankey.ru</a>
+					</div>
+					<div class="col print-hide text-end">
+						<a href="./">EN</a>
+						<a href="./index_ru.html">RU</a>
+					</div>
+				</div>
 				<p>
 					Senior JS/TS Engineer
 				</p>
@@ -356,7 +372,8 @@
 
 		<h4 id="backend-services">
 			Backend Services
-			<img class="badge-mar" src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+			<img class="badge-mar"
+				src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
 				alt="Node.js" />
 			<img class="badge-mar" alt="Express.js"
 				src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" />
@@ -364,7 +381,8 @@
 				src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
 			<img class="badge-mar" alt="Kafka"
 				src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white" />
-			<img class="badge-mar" alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
+			<img class="badge-mar" alt="Redis"
+				src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
 			<img class="badge-mar" alt="Elasticsearch"
 				src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" />
 		</h4>
@@ -458,7 +476,7 @@
 			Using different LLMs (Grok, Claude, Gemini, Deepseek, GPT) for various purposes.
 		</p>
 		<p>
-			For autocompletion, debugging,  
+			For autocompletion, debugging,
 			documentation, testing, refactoring and problem-solving at least.
 		</p>
 		<p>
@@ -504,10 +522,6 @@
 			<li><a href="https://www.linkedin.com/in/pavel-prokhorenko">LinkedIn</a></li>
 		</ul>
 	</main>
-	<div class="lang-switcher" id="lang-switcher">
-		<a href="./">EN</a>
-		<a href="./index_ru.html">RU</a>
-	</button>
 	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top">
 		<i class="bi bi-chevron-up"></i>
 	</button>
