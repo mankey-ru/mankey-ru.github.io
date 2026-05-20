@@ -8,7 +8,8 @@
 		if (!langSwitcher) return;
 		const currentPath = window.location.pathname;
 		langSwitcher.querySelectorAll('a').forEach((link) => {
-			if (link.getAttribute('href') === currentPath) {
+			const linkHref = link.getAttribute('href').replace('./', '/');
+			if (linkHref === currentPath || (linkHref === '/' && currentPath === '')) {
 				link.classList.add('active');
 			}
 		});

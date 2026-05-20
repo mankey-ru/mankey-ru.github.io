@@ -42,9 +42,10 @@ img {
 	margin: 0 5px;
 	text-decoration: none;
 	cursor: pointer;
+	text-decoration: underline;
 }
 .lang-switcher a.active {
-	text-decoration: underline;
+	text-decoration: none;
 	font-weight: bold;
 	cursor: default;
 }
