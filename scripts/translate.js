@@ -57,7 +57,7 @@ async function main() {
 
 		const html = await fs.readFile(inputPath, 'utf8');
 
-		const system = `You are a careful assistant that translates HTML pages into natural Russian while preserving all code, structure, IDs, class names, URLs, and inline scripts/styles exactly as-is. Only translate user-visible text (text nodes), attributes that are user-facing (for example: alt, title, placeholder, aria-label), and metadata like meta description or meta keywords. Do NOT change code, filenames, IDs, class names, or embedded JavaScript logic; keep punctuation in code and attribute values intact unless it is clearly human-readable text. Output only the final full translated HTML document and nothing else.`;
+		const system = `You are a careful assistant that translates HTML pages into natural Russian while preserving all code, structure, IDs, class names, URLs, and inline scripts/styles exactly as-is. Only translate user-visible text (text nodes), attributes that are user-facing (for example: alt, title, placeholder, aria-label), and metadata like meta description or meta keywords. Do NOT change code, filenames, IDs, class names, or embedded JavaScript logic; keep punctuation in code and attribute values intact unless it is clearly human-readable text. Output only the final full translated HTML document and nothing else. Do not translate  words "EN" to "АНГЛ" and "RU" to "РУС"`;
 
 		const user = `Translate the following HTML to Russian. Preserve structure and code exactly as described. Begin translation now:\n\n${html}`;
 

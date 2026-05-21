@@ -6,6 +6,10 @@ details {
 	border: 1px dotted var(--bs-link-color);
 	padding: 0.2em 0.5em;
 }
+details img {
+	max-width: calc(100% - 20px);
+	/* Container width minus padding */
+}
 
 details>summary {
 	font-weight: bold;

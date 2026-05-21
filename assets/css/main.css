@@ -20,9 +20,9 @@ img.badge-mar {
 	margin-right: 0.2em;
 }
 
-img {
-	max-width: calc(100% - 20px);
-	/* Container width minus padding */
+.userpic {
+	border-radius: 111em;
+	width: 150px; /* Default: small screens */
 }
 
 /*
