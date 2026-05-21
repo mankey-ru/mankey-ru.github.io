@@ -22,7 +22,8 @@ img.badge-mar {
 
 .userpic {
 	border-radius: 111em;
-	width: 150px; /* Default: small screens */
+	width: 150px;
+	/* Default: small screens */
 }
 
 /*
@@ -34,18 +35,10 @@ img.badge-mar {
 }
 */
 
-.lang-switcher a {
-	margin: 0 5px;
-	text-decoration: none;
-	cursor: pointer;
-	text-decoration: underline;
-}
-
-.lang-switcher a.lang--active {
-	text-decoration: none;
-	font-weight: bold;
+a.btn.lang--.active {
 	cursor: default;
 }
+
 
 .back-to-top-btn {
 	position: fixed;

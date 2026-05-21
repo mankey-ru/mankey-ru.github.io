@@ -55,25 +55,27 @@
   suffix: " ";
 }
 
-ul li {
-	list-style-image: none;
-}
+ul {
+  li {
+    list-style-image: none;
 
-ul.hierarchy > li {
-  line-height: 1.7;
-}
+    &::marker {
+      color: var(--bs-link-color);
+    }
+  }
 
-ul.hierarchy > li {
-  font-size: 1.35rem;
-  font-weight: bolder;
-	list-style-type: square;
-}
-ul.hierarchy > li li {
-  font-size: 1rem;
-  font-weight: normal;
-  list-style-type: disc;
-}
+  &.hierarchy {
+    > li {
+      line-height: 1.7;
+      font-size: 1.35rem;
+      font-weight: bolder;
+      list-style-type: square;
 
-ul li::marker {
-	color: var(--bs-link-color);
+      li {
+        font-size: 1rem;
+        font-weight: normal;
+        list-style-type: disc;
+      }
+    }
+  }
 }

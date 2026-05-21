@@ -106,9 +106,9 @@ async function main() {
 		}
 		
 		// Swap active/inactive language classes if they were translated
-		content = content.replaceAll(`lang--active`, `lang--TEMP`);
-		content = content.replaceAll(`lang--inactive`, `lang--active`);
-		content = content.replaceAll(`lang--TEMP`, `lang--inactive`);
+		content = content.replaceAll(`lang-- active`, `lang-- TEMP`);
+		content = content.replaceAll(`lang-- inactive`, `lang-- active`);
+		content = content.replaceAll(`lang-- TEMP`, `lang-- inactive`);
 
 		if (!content.startsWith('<')) {
 			console.warn(

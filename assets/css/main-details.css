@@ -1,46 +1,48 @@
 /** DETAILS start */
 .details-mar {
-	margin: 1em 0;
+  margin: 1em 0;
 }
+
 details {
-	border: 1px dotted var(--bs-link-color);
-	padding: 0.2em 0.5em;
-}
-details img {
-	max-width: calc(100% - 20px);
-	/* Container width minus padding */
-}
+  border: 1px dotted var(--bs-link-color);
+  padding: 0.2em 0.5em;
 
-details>summary {
-	font-weight: bold;
-	display: flex;
-	gap: 0.5em;
-}
+  img {
+    max-width: calc(100% - 20px);
+    /* Container width minus padding */
+  }
 
-details>summary::before {
-	font-family: "Segoe UI", DejaVu Sans, "Arial Unicode MS", sans-serif;
-	content: '▶';
-}
+  > summary {
+    font-weight: bold;
+    display: flex;
+    gap: 0.5em;
+    cursor: pointer;
+    color: var(--bs-link-color);
 
-details[open]>summary::before {
-	content: '▼';
-}
+    &::before {
+      font-family: "Segoe UI", DejaVu Sans, "Arial Unicode MS", sans-serif;
+      content: "▶";
+    }
 
-details>summary::after {
-	font-weight: normal;
-	content: 'Click to expand';
-	margin-left: auto;
-	color: var(--bs-link-color);
-	font-style: italic;
-}
+    &::after {
+      font-weight: normal;
+      content: "Click to expand";
+      margin-left: auto;
+      color: var(--bs-link-color);
+      font-style: italic;
+    }
+  }
 
-details[open] summary::after {
-	content: 'Click to collapse';
-}
+  &[open] {
+    > summary {
+      &::before {
+        content: "▼";
+      }
 
-summary {
-	cursor: pointer;
-	color: var(--bs-link-color);
+      &::after {
+        content: "Click to collapse";
+      }
+    }
+  }
 }
-
 /** DETAILS end */
