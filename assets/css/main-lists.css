@@ -64,17 +64,14 @@ ul.hierarchy > li {
 }
 
 ul.hierarchy > li {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
+  font-weight: bolder;
+	list-style-type: square;
 }
 ul.hierarchy > li li {
   font-size: 1rem;
-}
-
-ul.hierarchy > li {
-	list-style-type: square; /*square*/
-}
-ul.hierarchy > li li {
-  list-style-type: disc; /*square;*/
+  font-weight: normal;
+  list-style-type: disc;
 }
 
 ul li::marker {
