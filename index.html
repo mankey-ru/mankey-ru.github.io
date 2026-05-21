@@ -463,60 +463,64 @@
 		</ul>
 
 		<details class="details-mar print-hide">
-			<summary>Explanation. What is metadata for <i>Admin Forms</i></summary>
+			<summary>Metadata formats explanation</summary>
+			<details class="details-mar print-hide">
+				<summary>What is metadata for <i>Admin Forms</i></summary>
 
-			<p>
-				Our metadata files are declarative JSON descriptors that define the full lifecycle of an admin form
-				- from the underlying database table(-s) to the UI behavior in the browser.
-			</p>
+				<p>
+					These metadata files are declarative JSON descriptors that define the full lifecycle of an admin form
+					- from the underlying database table(-s) to the UI behavior in the browser.
+				</p>
 
-			<p>
-				This eliminates repetitive CRUD boilerplate while maintaining consistency across 1000+ forms.
-			</p>
+				<p>
+					This eliminates repetitive CRUD boilerplate while maintaining consistency across 1000+ forms.
+				</p>
 
-			<p>
-				Each descriptor maps database columns (or cross-table relations) to field definitions specifying
-				behavior across three contexts:
-			<ul>
-				<li>
-					<b>List view</b>
-					<ul>
-						<li>Filtering</li>
-						<li>List itself (display, sorting, editing records on-the-fly)</li>
-					</ul>
-				</li>
-				<li><b>Form view</b> (create, edit of one record)</li>
-			</ul>
-			</p>
+				<p>
+					Each descriptor maps database columns (or cross-table relations) to field definitions specifying
+					behavior across three contexts:
+				<ul>
+					<li>
+						<b>List view</b>
+						<ul>
+							<li>Filtering</li>
+							<li>List itself (display, sorting, editing records on-the-fly)</li>
+						</ul>
+					</li>
+					<li><b>Form view</b> (create, edit of one record)</li>
+				</ul>
+				</p>
 
-			<p>
-				Each form field can have different control types in all three contexts, each with its own parameters
-				like validation or defaults or custom template.
-				Some control type examples:
-			<ul>
-				<li>Input (text, integer, float, email etc) or Textarea</li>
-				<li>Dropdown (incl. async search), Popup Picker, both can be used for multi-record selection</li>
-				<li>Date with or without time, in Filter context can be used as range</li>
-				<li>Map or address picker (geocoder)</li>
-				<li>Charts editor</li>
-				<li>...and some more</li>
-			</ul>
-			</p>
-		</details>
+				<p>
+					Each form field can have different control types in all three contexts, each with its own parameters
+					like validation or defaults or custom template.
+					Some control type examples:
+				<ul>
+					<li>Input (text, integer, float, email etc) or Textarea</li>
+					<li>Dropdown (incl. async search), Popup Picker, both can be used for multi-record selection</li>
+					<li>Date with or without time, in Filter context can be used as range</li>
+					<li>Map or address picker (geocoder)</li>
+					<li>Charts editor</li>
+					<li>...and some more</li>
+				</ul>
+				</p>
+			</details>
 
-		<details class="details-mar print-hide">
-			<summary>Explanation. What is metadata for <i>User-Facing Pages</i></summary>
+			<details class="details-mar print-hide">
+				<summary>What is metadata for <i>User-Facing Pages</i></summary>
 
-			<p>These page metadata files define the complete HTML page or data-fetching layer (JSON-driven),
-				eliminating custom backend code for each page (total: 500+ pages).</p>
+				<p>These page metadata files define the complete HTML page or data-fetching layer (JSON-driven),
+					eliminating custom backend code for each page (total: 500+ pages).</p>
 
-			<b>Components</b> are granular building blocks that:
-			<ul>
-				<li>List exact fields to select</li>
-				<li>Designate primary keys</li>
-				<li>Define relations (one-to-one, one-to-many)</li>
-				<li>Handle pagination and filtering</li>
-			</ul>
+				<b>Components</b> are granular building blocks that:
+				<ul>
+					<li>List exact fields to select</li>
+					<li>Designate primary keys</li>
+					<li>Define relations (one-to-one, one-to-many)</li>
+					<li>Handle pagination and filtering</li>
+				</ul>
+			</details>
+
 		</details>
 
 		<h4 id="typescript">
