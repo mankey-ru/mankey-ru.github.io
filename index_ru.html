@@ -31,19 +31,19 @@
 	<main class="container">
 		<div class="row">
 			<div class="col-auto">
-				<img style="width: 171px; border-radius: 111em; " src="./assets/images/profile_photo.jpg" alt="фото" />
+				<img style="width: 171px; border-radius: 111em; " src="./assets/images/profile_photo.jpg" alt="photo" />
 			</div>
 			<div class="col">
 				<div class="row">
 					<div class="col-auto">
 						<h3>
-							Павел Прохоренко
+							Pavel Prokhorenko
 						</h3>
 					</div>
 					<div class="col-auto print-hide">
 						<a href="https://www.linkedin.com/in/pavel-prokhorenko/" target="_blank"
 							rel="noopener noreferrer" class="linkedin-badge"
-							aria-label="Профиль LinkedIn (откроется в новой вкладке)">
+							aria-label="LinkedIn profile (opens in new tab)">
 							<svg class="linkedin-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
 								<path
 									d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -54,19 +54,20 @@
 					<div class="col-auto print-hide">
 						<a href="mailto:job@mankey.ru" style="line-height: 2;">job@mankey.ru</a>
 					</div>
-					<div class="col print-hide text-end">
-						<a href="./">EN</a>
-						<a href="./index_ru.html">RU</a>
+					<div class="col print-hide text-end lang-switcher">
+						<a href="./" class="lang--inactive">EN</a>
+						<a href="./index_ru.html" class="lang--active">RU</a>
 					</div>
 				</div>
 				<p>
 					Senior JS/TS Engineer
 				</p>
 				<p>
-					Эксперт по Vue.js v2/3 и Node.js (оба с 2016 года)
+					Expert in Vue.js v2/3 and Node.js (both since 2016)
 				</p>
 				<p>
-					Разработал высоконагруженную билетную платформу РЖД и множество других сервисов в разных должностях (от мл. до ст.) с 2011 года по настоящее время
+					Developed Russian Railways high-load
+					ticket platform and many other services in different titles (from jr. to sr.) from 2011 to present
 				</p>
 				<p class="print-block">
 					job@mankey.ru •
@@ -75,53 +76,41 @@
 			</div>
 		</div>
 		<hr>
-		<!--ul>
-			<li>
-				<b>Frontend</b>:
-				<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
-					alt="Vue.js" /> v2/3 (since 2016)
-			</li>
-			<li>
-				<b>Backend</b>:
-				<img src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
-					alt="Node.js" /> (since 2016)
-			</li>
-			<li>
-				<a href="#electron-desktop-app">Desktop</a>:
-				<img src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
-					alt="Electron" /> (since 2018)
-			</li>
-		</ul-->
 
-		<h4 class="print-hide" id="table-of-contents">Содержание</h4>
+		<h4 class="print-hide" id="table-of-contents">Table of Contents</h4>
 
 		<div class="row print-hide">
 			<div class="col-auto">
 				<ul class="hierarchy">
-					<li><a href="#projects--achievements">Ключевые проекты и достижения</a>
+					<li><a href="#projects--achievements">Key Projects &amp; Achievements</a>
 						<ul>
 							<li><a href="#high-load-ticket-platform-migration">
-									Миграция фронтенда высоконагруженной билетной платформы
+									High-Load Ticket Platform Frontend Migration
 								</a>
 							</li>
 							<li>
 								<a href="#rzdru-admin-dashboard-app">
-									Фронтенд-приложение админ-панели РЖД
+									Russian Railways Admin Frontend Dashboard App
 								</a>
 							</li>
 							<li>
 								<a href="#advanced-kanban-app">
-									Продвинутое Kanban-приложение на фронтенде
+									Advanced Kanban Frontend App
 								</a>
 							</li>
 							<li>
 								<a href="#electron-desktop-app">
-									Десктопное приложение Electron MetaWizard
+									Electron Desktop MetaWizard App
 								</a>
 							</li>
 							<li>
 								<a href="#metadata-migration--architecture">
-									Миграция и архитектура метаданных
+									Metadata Migration &amp; Architecture
+								</a>
+							</li>
+							<li>
+								<a href="#frontend-apps">
+									Other frontend apps
 								</a>
 							</li>
 						</ul>
@@ -130,63 +119,62 @@
 			</div>
 			<div class="col-auto">
 				<ul class="hierarchy">
-					<li><a href="#other-notable">Другие значимые работы и навыки</a>
+					<li><a href="#other-notable">Other Notable Works And Skills</a>
 						<ul>
-							<li><a href="#backend-services">Бэкенд-сервисы</a></li>
-							<!--li><a href="#frontend-apps">Other Vue apps</a></li-->
-							<li><a href="#npm-packages">NPM-пакеты</a></li>
-							<li><a href="#typescript">Миграции и покрытие TypeScript</a></li>
-							<li><a href="#infra">Инфраструктура</a></li>
-							<li><a href="#testing">Тестирование</a></li>
-							<li><a href="#enterprise">Корпоративный стек</a></li>
+							<li><a href="#backend-services">Backend Services</a></li>
+							<li><a href="#npm-packages">NPM Packages</a></li>
+							<li><a href="#typescript">TypeScript Migrations &amp; Coverage</a></li>
+							<li><a href="#infra">Infrastructure</a></li>
+							<li><a href="#testing">Testing</a></li>
+							<li><a href="#enterprise">Enterprise Stack</a></li>
 						</ul>
 					</li>
 				</ul>
 			</div>
 			<div class="col-auto">
 				<ul class="hierarchy">
-					<li><a href="#ai-tools">AI-инструменты</a></li>
-					<li><a href="#my-priorities">Мои приоритеты</a></li>
+					<li><a href="#ai-tools">AI Tools</a></li>
+					<li><a href="#my-priorities">My Priorities</a></li>
 
-					<li><a href="#me">Обо мне</a></li>
-					<li><a href="#contacts">Контакты</a></li>
+					<li><a href="#me">About Me</a></li>
+					<li><a href="#contacts">Contacts</a></li>
 				</ul>
 			</div>
 		</div>
 
-		<h3 id="projects--achievements">Ключевые проекты и достижения</h3>
+		<h3 class="heading" id="projects--achievements">Key Projects &amp; Achievements</h3>
 
 		<h4 id="high-load-ticket-platform-migration">
-			Миграция фронтенда высоконагруженной билетной платформы
+			High-Load Ticket Platform Frontend Migration
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
 		</h4>
 
-		<p><strong>Критическая миграция фронтенда с собственного фреймворка на основе jQuery на Vue.js</strong></p>
+		<p><strong>Critical frontend migration from custom jQuery-based framework to Vue.js</strong></p>
 
 		<ul>
 			<li>
-				<strong>Влияние:</strong> одно SPA вместо множества страниц, улучшенный UX и производительность,
-				сопровождаемость, скорость поставки,
-				и современный технологический стек на будущее
+				<strong>Impact:</strong> one SPA instead of multiple pages, improved UX and performance,
+				maintainability, shipment speed,
+				and a modern tech stack for the future
 			</li>
-			<li><strong>Масштаб:</strong> 20+ миллионов посещений в месяц, ~150 тыс. <i>оплаченных</i> билетов в день (~6000/час)
+			<li><strong>Scale:</strong> 20+ million visits per month, ~150K <i>paid</i> tickets per day (~6000/hour)
 			</li>
-			<li><strong>Решенные сложности:</strong>
+			<li><strong>Complexity handled:</strong>
 				<ul>
 					<li>
-						Очень сложная бизнес-логика, реализованная на фронтенде через JS и
-						серверные шаблоны на основе <a href="#metadata-migration--architecture">метаданных</a>
+						Very complex business logic implemented in frontend via JS and
+						<a href="#metadata-migration--architecture">metadata</a>-driven server templates
 					</li>
 					<li>
-						Тысячи станций в 11 часовых поясах; междугородние, международные и пригородные поезда и
-						автобусы
+						Thousands of stations across 11 timezones; intercity, international, and commuter trains and
+						buses
 					</li>
 					<li>
-						Десятки дополнительных услуг; поддержка 3 языков
+						Tens of extra services; 3 languages support
 					</li>
 					<li>
-						Сложное тестирование, включающее сотни сценариев
+						Complicated testing including hundreds of scenarios
 					</li>
 				</ul>
 			</li>
@@ -200,225 +188,219 @@
 		<hr />
 
 		<h4 id="rzdru-admin-dashboard-app">
-			Фронтенд-приложение админ-панели РЖД
+			Russian Railways Admin Dashboard Frontend App
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
 		</h4>
 
-		<p><strong>Современная замена устаревшей админ-панели</strong></p>
+		<p><strong>Modern replacement for legacy admin dashboard</strong></p>
 
 		<ul>
-			<li><strong>До:</strong> Stateful-приложение на JSP и IBM WebSphere (созданное Java-разработчиками)</li>
-			<li><strong>После:</strong> Современное асинхронное приложение на Vue.js</li>
-			<li><strong>Архитектура:</strong> Динамический рендеринг компонентов на основе декларативных <a
-					href="#metadata-migration--architecture">метаданных</a></li>
-			<li><strong>Результат:</strong> Значительно улучшенная производительность и опыт разработчика</li>
-			<li><strong>Внедрение:</strong> 1000+ пользователей</li>
+			<li><strong>Before:</strong> JSP-based IBM WebSphere stateful app (built by Java developers)</li>
+			<li><strong>After:</strong> Modern async Vue.js application</li>
+			<li><strong>Architecture:</strong> Dynamic component rendering based on declarative <a
+					href="#metadata-migration--architecture">metadata</a></li>
+			<li><strong>Result:</strong> Significantly improved performance and developer experience</li>
+			<li><strong>Adoption:</strong> 1000+ users</li>
 		</ul>
 
 		<details class="details-mar print-hide">
-			<summary><span>Скриншоты</span></summary>
-			<p>Страница админ-панели новостей (список с фильтром)</p>
-			<img data-src="./assets/images/uarm-scr/uarm-news-1.png" alt="скриншот uarm" class="image-mar" />
-			<p>Страница админ-панели новостей (карточка записи)</p>
-			<img data-src="./assets/images/uarm-scr/uarm-news-2.jpg" alt="скриншот uarm" class="image-mar" />
-			<p>Страница админ-панели навигации (список с фильтром)</p>
-			<img data-src="./assets/images/uarm-scr/uarm-nav-1.png" alt="скриншот uarm" class="image-mar" />
-			<p>Страница админ-панели навигации (карточка записи)</p>
-			<img data-src="./assets/images/uarm-scr/uarm-nav-2.png" alt="скриншот uarm" class="image-mar" />
+			<summary><span>Screenshots</span></summary>
+			<p>News admin dashboard page (list with filter)</p>
+			<img data-src="./assets/images/uarm-scr/uarm-news-1.png" alt="uarm screenshot" class="image-mar" />
+			<p>News admin dashboard page (record card)</p>
+			<img data-src="./assets/images/uarm-scr/uarm-news-2.jpg" alt="uarm screenshot" class="image-mar" />
+			<p>Nav admin dashboard page (list with filter)</p>
+			<img data-src="./assets/images/uarm-scr/uarm-nav-1.png" alt="uarm screenshot" class="image-mar" />
+			<p>Nav admin dashboard page (record card)</p>
+			<img data-src="./assets/images/uarm-scr/uarm-nav-2.png" alt="uarm screenshot" class="image-mar" />
 		</details>
 
 		<hr />
 
 		<h4 id="advanced-kanban-app">
-			Продвинутое Kanban-приложение на фронтенде
+			Advanced Kanban Frontend App
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
 		</h4>
 
-		<p><strong>Фронтенд для управления проектами корпоративного уровня</strong></p>
+		<p><strong>Enterprise-grade project management frontend</strong></p>
 
-		<p><strong>Внедрение и масштаб:</strong></p>
+		<p><strong>Adoption &amp; Scale:</strong></p>
 		<ul>
-			<li>Внедрено во всей компании: 70+ пользователей перешли с Jira</li>
-			<li>Развернуто в Российском университете транспорта: 200+ пользователей</li>
+			<li>Adopted company-wide: 70+ users migrated from Jira</li>
+			<li>Deployed at Russian University of Transport: 200+ users</li>
 		</ul>
 
-		<p><strong>Возможности:</strong></p>
+		<p><strong>Features:</strong></p>
 		<ul>
-			<li>Kanban-доски с перетаскиванием (drag-and-drop)</li>
-			<li>Настраиваемые конфигурации рабочих процессов</li>
-			<li>Настраиваемые поля задач</li>
-			<li>Связывание задач и вложения файлов</li>
-			<li>Пользовательский WYSIWYG JSON-редактор (на базе TipTap/ProseMirror)</li>
+			<li>Drag-and-drop Kanban boards</li>
+			<li>Custom workflow configurations</li>
+			<li>Custom issue fields</li>
+			<li>Issue linking and file attachments</li>
+			<li>Custom WYSIWYG JSON editor (built on TipTap/ProseMirror)</li>
 		</ul>
 
 		<details class="details-mar print-hide">
-			<summary>Скриншоты</summary>
-			<img data-src="./assets/images/wflow-scr/list.png" alt="скриншот wflow" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_1.png" alt="скриншот wflow" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_2.png" alt="скриншот wflow" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_3.png" alt="скриншот wflow" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/card_4.png" alt="скриншот wflow" class="image-mar" />
-			<img data-src="./assets/images/wflow-scr/col_edit.png" alt="скриншот wflow" class="image-mar" />
+			<summary>Screenshots</summary>
+			<img data-src="./assets/images/wflow-scr/list.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_1.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_2.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_3.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/card_4.png" alt="wflow screenshot" class="image-mar" />
+			<img data-src="./assets/images/wflow-scr/col_edit.png" alt="wflow screenshot" class="image-mar" />
 		</details>
 
 		<hr />
 
 		<h4 id="electron-desktop-app">
-			Десктопное приложение Electron MetaWizard
+			Electron Desktop MetaWizard App
 			<img src="https://img.shields.io/badge/Electron-47848F?style=flat&amp;logo=electron&amp;logoColor=white"
 				alt="Electron" />
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
 		</h4>
 
-		<p><strong>Сложное внутреннее десктопное приложение (Windows/Mac/Linux)</strong></p>
+		<p><strong>Complex internal desktop application (Windows/Mac/Linux)</strong></p>
 
-		<p><strong>Ключевые возможности:</strong></p>
+		<p><strong>Key Features:</strong></p>
 		<ul>
-			<li>Редакторы <a href="#metadata-migration--architecture">метаданных</a></li>
-			<li>Продвинутые списки <a href="#metadata-migration--architecture">метаданных</a> с фильтрацией (включая
-				поддержку JSONPath)</li>
-			<li>Подключение к базам данных (Oracle, PostgreSQL)</li>
-			<li>Операции SSH/SFTP</li>
-			<li>Сложные файловые операции</li>
-			<li>Мультирепозиторная структура с интегрированным <a href="#rzdru-admin-dashboard-app">приложением админ-панели</a></li>
+			<li><a href="#metadata-migration--architecture">Metadata</a> editors</li>
+			<li>Advanced <a href="#metadata-migration--architecture">metadata</a> lists with filtering (including
+				JSONPath support)</li>
+			<li>Database connectivity (Oracle, PostgreSQL)</li>
+			<li>SSH/SFTP operations</li>
+			<li>Complex file operations</li>
+			<li>Multi-repository structure with integrated <a href="#rzdru-admin-dashboard-app">admin dashboard
+					app</a></li>
 		</ul>
 
 		<details class="details-mar print-hide">
-			<summary>Скриншоты</summary>
-			<img data-src="./assets/images/wizard-scr/arms/list.png" alt="скриншот wizard" class="image-mar" />
-			<img data-src="./assets/images/wizard-scr/arms/ed-1.png" alt="скриншот wizard" class="image-mar" />
-			<img data-src="./assets/images/wizard-scr/arms/ed-4.png" alt="скриншот wizard" class="image-mar" />
+			<summary>Screenshots</summary>
+			<img data-src="./assets/images/wizard-scr/arms/list.png" alt="wizard screenshot" class="image-mar" />
+			<img data-src="./assets/images/wizard-scr/arms/ed-1.png" alt="wizard screenshot" class="image-mar" />
+			<img data-src="./assets/images/wizard-scr/arms/ed-4.png" alt="wizard screenshot" class="image-mar" />
 		</details>
 
 		<hr />
 
-		<h4 id="metadata-migration--architecture">Миграция и архитектура метаданных</h4>
+		<h4 id="metadata-migration--architecture">Metadata Migration &amp; Architecture</h4>
 
-		<p><strong>Декларативная система для административных форм и пользовательских страниц</strong></p>
+		<p><strong>Declarative system for admin forms and user-facing pages</strong></p>
 
-		<p>Система метаданных определяет два формата для:</p>
+		<p>The metadata system defines two formats for:</p>
 		<ul>
-			<li><strong>Административных форм</strong> (1000+): CRUD-интерфейсы на основе базы данных</li>
-			<li><strong>Пользовательских страниц</strong> (500+): Слой получения данных и композиция компонентов</li>
+			<li><strong>Admin Forms</strong> (1000+): Database-driven CRUD interfaces</li>
+			<li><strong>User-Facing Pages</strong> (500+): Data-fetching layer and component composition</li>
 		</ul>
 
-		<p><strong>Эволюция архитектуры:</strong></p>
+		<p><strong>Architecture Evolution:</strong></p>
 		<ul>
-			<li><strong>До:</strong> Два устаревших XML-формата с многочисленными обходными путями и кастомными решениями</li>
-			<li><strong>После:</strong> Две элегантные, легко поддерживаемые JSON-структуры с уменьшенными накладными расходами</li>
-			<li><strong>Разработано:</strong>
+			<li><strong>Before:</strong> Two legacy XML formats with numerous workarounds and custom solutions</li>
+			<li><strong>After:</strong> Two elegant, maintainable JSON structures with reduced overhead</li>
+			<li><strong>Developed:</strong>
 				<ul>
-					<li>Скрипты конвертации для обоих форматов</li>
-					<li>Редакторы форматов для обоих форматов в <a href="#electron-desktop-app">Electron-приложении</a></li>
-					<li><a href="#rzdru-admin-dashboard-app">Приложение админ-панели</a></li>
+					<li>Conversion scripts for both formats</li>
+					<li>Format editors for both formats in <a href="#electron-desktop-app">Electron App</a></li>
+					<li><a href="#rzdru-admin-dashboard-app">Admin dashboard app</a></li>
 				</ul>
 			</li>
 		</ul>
 
 		<details class="details-mar print-hide">
-			<summary>Пояснение. Что такое метаданные для <i>административных форм</i></summary>
+			<summary>Explanation. What is metadata for <i>Admin Forms</i></summary>
 
 			<p>
-				Наши файлы метаданных — это декларативные JSON-дескрипторы, определяющие полный жизненный цикл административной формы
-				— от лежащей в основе таблицы (таблиц) базы данных до поведения UI в браузере.
+				Our metadata files are declarative JSON descriptors that define the full lifecycle of an admin form
+				- from the underlying database table(-s) to the UI behavior in the browser.
 			</p>
 
 			<p>
-				Это устраняет повторяющийся CRUD-шаблонный код, сохраняя согласованность для 1000+ форм.
+				This eliminates repetitive CRUD boilerplate while maintaining consistency across 1000+ forms.
 			</p>
 
 			<p>
-				Каждый дескриптор сопоставляет столбцы базы данных (или межтабличные связи) с определениями полей, задающими
-				поведение в трех контекстах:
+				Each descriptor maps database columns (or cross-table relations) to field definitions specifying
+				behavior across three contexts:
 			<ul>
 				<li>
-					<b>Представление списка</b>
+					<b>List view</b>
 					<ul>
-						<li>Фильтрация</li>
-						<li>Сам список (отображение, сортировка, редактирование записей на лету)</li>
+						<li>Filtering</li>
+						<li>List itself (display, sorting, editing records on-the-fly)</li>
 					</ul>
 				</li>
-				<li><b>Представление формы</b> (создание, редактирование одной записи)</li>
+				<li><b>Form view</b> (create, edit of one record)</li>
 			</ul>
 			</p>
 
 			<p>
-				Каждое поле формы может иметь разные типы элементов управления во всех трех контекстах, каждый со своими параметрами,
-				такими как валидация, значения по умолчанию или пользовательский шаблон.
-				Примеры типов элементов управления:
+				Each form field can have different control types in all three contexts, each with its own parameters
+				like validation or defaults or custom template.
+				Some control type examples:
 			<ul>
-				<li>Поле ввода (текст, целое число, число с плавающей точкой, email и т.д.) или Текстовая область</li>
-				<li>Выпадающий список (вкл. асинхронный поиск), Всплывающий выбор, оба могут использоваться для выбора нескольких записей</li>
-				<li>Дата с временем или без, в контексте фильтра может использоваться как диапазон</li>
-				<li>Выбор карты или адреса (геокодер)</li>
-				<li>Редактор диаграмм</li>
-				<li>...и некоторые другие</li>
+				<li>Input (text, integer, float, email etc) or Textarea</li>
+				<li>Dropdown (incl. async search), Popup Picker, both can be used for multi-record selection</li>
+				<li>Date with or without time, in Filter context can be used as range</li>
+				<li>Map or address picker (geocoder)</li>
+				<li>Charts editor</li>
+				<li>...and some more</li>
 			</ul>
 			</p>
-
-
 		</details>
 
 		<details class="details-mar print-hide">
-			<summary>Пояснение. Что такое метаданные для <i>пользовательских страниц</i></summary>
+			<summary>Explanation. What is metadata for <i>User-Facing Pages</i></summary>
 
-			<p>Эти файлы метаданных страниц определяют полную HTML-страницу или слой получения данных (на основе JSON),
-				устраняя необходимость в кастомном бэкенд-коде для каждой страницы (всего: 500+ страниц).</p>
+			<p>These page metadata files define the complete HTML page or data-fetching layer (JSON-driven),
+				eliminating custom backend code for each page (total: 500+ pages).</p>
 
-			<b>Компоненты</b> — это гранулярные строительные блоки, которые:
+			<b>Components</b> are granular building blocks that:
 			<ul>
-				<li>Перечисляют точные поля для выборки</li>
-				<li>Обозначают первичные ключи</li>
-				<li>Определяют связи (один-к-одному, один-ко-многим)</li>
-				<li>Обрабатывают пагинацию и фильтрацию</li>
+				<li>List exact fields to select</li>
+				<li>Designate primary keys</li>
+				<li>Define relations (one-to-one, one-to-many)</li>
+				<li>Handle pagination and filtering</li>
 			</ul>
-
-
 		</details>
 
 		<hr />
 
-		<h3 id="other-notable">Другие значимые работы и навыки</h3>
-
-
-		<h4 id="backend-services">
-			Бэкенд-сервисы
-			<img class="badge-mar"
-				src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
-				alt="Node.js" />
-			<img class="badge-mar" alt="Express.js"
-				src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" />
-			<img class="badge-mar" alt="PostgreSQL"
-				src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
-			<img class="badge-mar" alt="Kafka"
-				src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white" />
-			<img class="badge-mar" alt="Redis"
-				src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
-			<img class="badge-mar" alt="Elasticsearch"
-				src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" />
-		</h4>
-		<p>Разработал 5+ сервисов с:</p>
-		<ul>
-			<li>Express.js</li>
-			<li>PostgreSQL</li>
-			<li>Kafka в качестве брокера сообщений</li>
-			<li>Redis</li>
-			<li>Elasticsearch</li>
-			<li>Стратегии "Retry/backoff"</li>
-			<li>Логирование</li>
-		</ul>
-
 		<h4 id="frontend-apps">
-			Другие Vue-приложения
+			Other frontend apps
 			<img class="badge-mar"
 				src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
-		</h4>
 
-		<p>Десятки функционально насыщенных приложений на Vue2 и Vue3 с:</p>
+			<img class="badge-mar" alt="Vuex"
+				src="https://img.shields.io/badge/Vuex-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
+			<img class="badge-mar" alt="Vue Router"
+				src="https://img.shields.io/badge/Vue_Router-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
+			<img class="badge-mar" alt="SCSS"
+				src="https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white" />
+			<img class="badge-mar" alt="Less"
+				src="https://img.shields.io/badge/Less-1D365D?style=flat&logo=less&logoColor=white" />
+			<img class="badge-mar" alt="TypeScript"
+				src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+			<img class="badge-mar" alt="date-fns"
+				src="https://img.shields.io/badge/date--fns-770C56?style=flat&logo=date-fns&logoColor=white" />
+			<img class="badge-mar" alt="Axios"
+				src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white" />
+			<img class="badge-mar" alt="Fetch API"
+				src="https://img.shields.io/badge/Fetch_API-4285F4?style=flat&logo=googlechrome&logoColor=white" />
+			<img class="badge-mar" alt="D3.js"
+				src="https://img.shields.io/badge/D3.js-F9A03C?style=flat&logo=d3.js&logoColor=white" />
+			<img class="badge-mar" alt="Chart.js"
+				src="https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chart.js&logoColor=white" />
+			<img class="badge-mar" alt="Vuetify"
+				src="https://img.shields.io/badge/Vuetify-1867C0?style=flat&logo=vuetify&logoColor=white" />
+			<img class="badge-mar" alt="Vuelidate"
+				src="https://img.shields.io/badge/Vuelidate-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
+		</h4>
+		<p>
+			Built 10+ other frontend applications for various purposes (internal tools, public-facing pages, admin
+			dashboards) with Vue.js v2 and v3.
+		</p>
 		<ul>
 			<li>Vuex</li>
 			<li>Vue Router</li>
@@ -433,8 +415,40 @@
 			<li>Vuelidate</li>
 		</ul>
 
+		<hr />
+
+		<h3 class="heading" id="other-notable">Other Notable Works And Skills</h3>
+
+
+		<h4 id="backend-services">
+			Backend Services
+			<img class="badge-mar"
+				src="https://img.shields.io/badge/Node.js-339933?style=flat&amp;logo=node.js&amp;logoColor=white"
+				alt="Node.js" />
+			<img class="badge-mar" alt="Express.js"
+				src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" />
+			<img class="badge-mar" alt="PostgreSQL"
+				src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+			<img class="badge-mar" alt="Kafka"
+				src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white" />
+			<img class="badge-mar" alt="Redis"
+				src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
+			<img class="badge-mar" alt="Elasticsearch"
+				src="https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white" />
+		</h4>
+		<p>Developed 5+ services with:</p>
+		<ul>
+			<li>Express.js</li>
+			<li>PostgreSQL</li>
+			<li>Kafka as message broker</li>
+			<li>Redis</li>
+			<li>Elasticsearch</li>
+			<li>Стратегии "Retry/backoff"</li>
+			<li>Logging</li>
+		</ul>
+
 		<h4 id="npm-packages">
-			NPM-пакеты
+			NPM Packages
 			<img class="badge-mar"
 				src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&amp;logo=npm&amp;logoColor=white"
 				alt="NPM" />
@@ -447,24 +461,24 @@
 		</h4>
 
 		<ul>
-			<li>Опубликовал 10+ пользовательских пакетов в частный реестр компании</li>
-			<li>Переиспользуемые Vue-компоненты и утилиты Node</li>
-			<li>Используются в нескольких проектах компании</li>
+			<li>Published 10+ custom packages to the company's private registry</li>
+			<li>Reusable Vue components and Node utilities</li>
+			<li>Used across multiple company projects</li>
 		</ul>
 
 		<h4 id="typescript">
-			Миграции и покрытие TypeScript
+			TypeScript Migrations &amp; Coverage
 			<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&amp;logo=typescript&amp;logoColor=white"
 				alt="TypeScript" />
 		</h4>
 
 		<p>
-			Руководил миграциями TypeScript для нескольких проектов, улучшая качество кода и сопровождаемость, сокращая
-			ошибки времени выполнения и улучшая DX.
+			Led TypeScript migrations for multiple projects, improving code quality and maintainability, reducing
+			runtime errors and enhancing DX.
 		</p>
 
 		<h4 id="infra">
-			Инфраструктура
+			Infrastructure
 			<img alt="Vite" class="badge-mar"
 				src="https://img.shields.io/badge/Vite-646CFF?style=flat&amp;logo=vite&amp;logoColor=white" />
 			<img alt="Rollup" class="badge-mar"
@@ -477,77 +491,97 @@
 				src="https://img.shields.io/badge/GitLab-FC6D26?style=flat&amp;logo=gitlab&amp;logoColor=white" />
 		</h4>
 		<p>
-			Создавал и поддерживал сложные сборочные конвейеры:
+			Built and maintained complex build pipelines:
 		</p>
 		<ul>
-			<li>Vite, Rollup, Webpack, Babel</li>			
+			<li>Vite, Rollup, Webpack, Babel</li>
 			<li>Eslint, Prettier, Husky, Lint-Staged</li>
-			<li>Контейнеризация Docker</li>
+			<li>Docker containerization</li>
 			<li>GitLab CI/CD, GitHub Actions</li>
 		</ul>
 
 		<h4 id="testing">
-			Тестирование
+			Testing
 			<img alt="Jest" class="badge-mar"
 				src="https://img.shields.io/badge/Jest-C21325?style=flat&amp;logo=jest&amp;logoColor=white" />
 			<img alt="Cypress" class="badge-mar"
 				src="https://img.shields.io/badge/Cypress-69D3A7?style=flat&amp;logo=cypress&amp;logoColor=white" />
 		</h4>
 		<p>
-			Внедрил модульное и E2E-тестирование для нескольких проектов с Jest и Cypress.
+			Implemented unit and E2E testing for multiple projects with Jest and Cypress.
 		</p>
 
-		<h4 id="enterprise">Корпоративный стек</h4>
-		<p>Много работал с Java, Oracle, IBM WebSphere, JSP, XSLT-шаблонами</p>
-
-		<hr />
-
-		<h3 id="ai-tools">AI-инструменты</h3>
+		<h4 id="enterprise">
+			Enterprise Stack
+			<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+			<img alt="Oracle" src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" />
+			<img alt="IBM WebSphere"
+				src="https://img.shields.io/badge/IBM_WebSphere-052FAD?style=flat&logo=ibm&logoColor=white" />
+			<img alt="JSP" src="https://img.shields.io/badge/JSP-007396?style=flat&logo=java&logoColor=white" />
+			<img alt="XSLT" src="https://img.shields.io/badge/XSLT-FF6600?style=flat&logo=xml&logoColor=white" />
+		</h4>
 		<p>
-			Использую различные LLM (Grok, Claude, Gemini, Deepseek, GPT) для разных целей.
-		</p>
-		<p>
-			Для автодополнения, отладки,
-			документации, тестирования, рефакторинга и решения проблем как минимум.
-		</p>
-		<p>
-			Для генерации кода - когда это применимо - практикую агентные
-			рабочие процессы и Spec-Driven Development (Openspec).
+			Back in the days worked much with Java, Oracle, IBM WebSphere, JSP, XSLT templates
 		</p>
 
 		<hr />
 
-		<h3 id="my-priorities">Мои приоритеты</h3>
+		<h3 class="heading" id="ai-tools">
+			AI Tools
+			<img alt="Claude"
+				src="https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white" />
+			<img alt="Grok" src="https://img.shields.io/badge/Grok-000000?style=flat&logo=x&logoColor=white" />
+			<img alt="Gemini"
+				src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" />
+			<img alt="DeepSeek"
+				src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat&logo=deepseek&logoColor=white" />
+
+		</h3>
+		<p>
+			Using different LLMs (Claude, Grok, Gemini, Deepseek, GPT) for various purposes.
+		</p>
+		<p>
+			For autocompletion, debugging,
+			documentation, testing, refactoring and problem-solving at least.
+		</p>
+		<p>
+			For code generation - when applicable - practicing agentic
+			workflows and Spec-Driven Development (Openspec).
+		</p>
+
+		<hr />
+
+		<h3 class="heading" id="my-priorities">My Priorities</h3>
 
 		<ul>
 			<li>
-				<strong>Работа в команде</strong> - Сотрудничество, постоянное обучение и обмен знаниями с
-				другими
+				<strong>Teamwork</strong> - Collaborating, constantly learning while sharing knowledge with
+				others
 			</li>
 			<li>
-				<strong>Четкий дизайн</strong> - Архитектура, задачи, код и т.д.
+				<strong>Clear design</strong> - Architecture, tasks, code etc.
 			</li>
 			<li>
-				<strong>Создание решений</strong> - Либо поддерживаемые приложения на годы вперед, либо быстрые PoC/MVP
+				<strong>Building solutions</strong> - Either maintainable apps for years ahead OR quick PoC/MVPs
 			</li>
 			<li>
-				<strong>Баланс</strong> - Бизнес-цели (первый приоритет), опыт разработчика и управление
-				техническим долгом
+				<strong>Balance</strong> - Business purposes (first priority), developer experience, and managing
+				tech debt
 			</li>
 		</ul>
 
-		<h3 id="me">Обо мне</h3>
+		<h3 class="heading" id="me">Me</h3>
 		<ul>
 			<li>
-				<b>Языки:</b> Свободный английский, родной русский
+				<b>Languages:</b> Fluent English, native Russian
 			</li>
 			<li>
-				<b>Местоположение:</b> Родился в Москве, на удаленке с 2013 года, сейчас из Таиланда. Очень гибкий в отношении
-				часовых поясов.
+				<b>Location:</b> Born in Moscow, remote-first since 2013, now from Thailand. Very flexible with
+				timezones.
 			</li>
 		</ul>
 
-		<h3 id="contacts">Контакты</h3>
+		<h3 class="heading" id="contacts">Contacts</h3>
 		<ul>
 			<li><b>Email:</b> job@mankey.ru</li>
 			<li><a href="https://www.linkedin.com/in/pavel-prokhorenko">LinkedIn</a></li>
