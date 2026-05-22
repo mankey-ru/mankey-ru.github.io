@@ -26,15 +26,7 @@ img.badge-mar {
 	/* Default: small screens */
 }
 
-/*
-.lang-switcher {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-	z-index: 1000;
-}
-*/
-
+/* сигнальный класс! */
 a.btn.lang--.active {
 	cursor: default;
 }
