@@ -1,12 +1,12 @@
 name: Translate index.html to Russian
 on:
-  push:
-    paths:
-      - 'index.html' 
-  workflow_dispatch:
-# workflow_dispatch:    # расскоментить если надо вручную запускать allows manual runs from the Actions UI for testing
-# Opt into running JavaScript actions on Node.js 24 now (только сами экшоны, внутри может быть любая нода)
+  push: # если надо запускать при пуше
+    paths: # если надо запускать при пуше путей
+      - 'index.html' # если надо запускать при пуше index.html
+  workflow_dispatch: # если надо вручную запускать allows manual runs from the Actions UI for testing
 
+
+# Opt into running JavaScript actions on Node.js 24 now (только сами экшоны, внутри может быть любая нода)
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
