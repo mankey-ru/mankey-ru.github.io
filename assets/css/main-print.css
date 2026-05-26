@@ -57,10 +57,10 @@
 		font-size: 90%;
 		color: #000;
 	} */
-	a {
+	/* a {
 		color: #000 !important;
 		text-decoration: none !important;
-	}
+	} */
 }
 
 /* Screen styles to keep layout similar to original but improve print preview */
