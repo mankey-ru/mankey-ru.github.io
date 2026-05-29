@@ -110,6 +110,9 @@ async function main() {
 		content = content.replaceAll(`lang-- inactive`, `lang-- active`);
 		content = content.replaceAll(`lang-- TEMP`, `lang-- inactive`);
 
+		// Swap links to PDF if they were translated
+		content = content.replaceAll(`resume.pdf`, `resume_ru.pdf`);
+
 		if (!content.startsWith('<')) {
 			console.warn(
 				'Warning: translated content does not start with "<"; writing output anyway.',
