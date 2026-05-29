@@ -5,7 +5,12 @@
 
 h3.heading {
 	padding: .5rem 0 .5rem 0;
-	border-top: 1px gray;
+	border-top: 1px solid gray;
+}
+
+h4 {
+	padding: .5rem 0 .5rem 0;
+	border-top: 1px solid lightgray;
 }
 
 main {
