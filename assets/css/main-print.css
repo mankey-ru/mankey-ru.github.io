@@ -12,6 +12,14 @@
 		display: none !important;
 	}
 
+	.badge-mar {
+		display: none !important;
+	}
+
+	img[src^="https://img.shields.io/badge"] {
+		display: none !important;
+	}
+
 	.print-block {
 		display: block !important;
 	}
