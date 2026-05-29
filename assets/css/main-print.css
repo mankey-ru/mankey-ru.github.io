@@ -19,11 +19,11 @@
 		display: none !important;
 	}
 
-	.print-inline {
+	.print-inline1 {
 		display: inline !important;
 	}
 
-	.print-inline-list {
+	.print-inline-list1 {
 		padding-left: 0 !important;
 		li {
 			margin-right: .5rem !important;
