@@ -39,12 +39,12 @@
 						<h3 class="pe-4">
 							Pavel Prokhorenko
 						</h3>
-						<p class="print-block">
+						<!-- <p class="print-block">
 							job@mankey.ru •
 							https://www.linkedin.com/in/pavel-prokhorenko
-						</p>
+						</p> -->
 					</div>
-					<div class="col-auto print-hide">
+					<!-- <div class="col-auto print-hide">
 						<a href="https://www.linkedin.com/in/pavel-prokhorenko/" target="_blank"
 							rel="noopener noreferrer" class="linkedin-badge"
 							aria-label="LinkedIn profile (opens in new tab)">
@@ -54,10 +54,7 @@
 							</svg>
 							LinkedIn
 						</a>
-					</div>
-					<div class="col-auto print-hide">
-						<a href="mailto:job@mankey.ru" style="line-height: 2;">job@mankey.ru</a>
-					</div>
+					</div> -->
 					<div class="col print-hide text-end">
 						<div class="btn-group btn-group-sm" role="group" aria-label="Language switcher">
 							<!-- lang-- active | lang-- inactive - сигнальные классы! -->
@@ -66,46 +63,54 @@
 						</div>
 					</div>
 				</div>
-				<h4 class="print-block" id="summary">Summary</h4>
+				<div class="row mb-3">
+					<div class="col-auto">
+						📧 <a href="mailto:job@mankey.ru">job@mankey.ru</a>
+					</div>
+					<div class="col-auto">
+						🔗 <a href="https://www.linkedin.com/in/pavel-prokhorenko/" target="_blank"
+							rel="noopener noreferrer">
+							linkedin.com/in/pavel-prokhorenko
+						</a>
+					</div>
+					<div class="col-auto print-hide">
+						📄 <a href="./assets/pavel_prokhorenko_resume.pdf" target="_blank"
+							rel="noopener noreferrer">
+							PDF version
+						</a>
+					</div>
+				</div>
 				<p>
 					Senior Software Engineer, 15 years in HL/HA enterprise.
-					Expert in Vue.js, Node.js and more:
 				</p>
-				<h4 class="print-block" id="technical-skills">Technical Skills</h4>
 				<p>
-					<a href="#frontend">Frontend</a>,
-					<a href="#backend-services">backend</a>,
-					<!-- long-term product ownership and maintenance, -->
-					<a href="#arch">architecture</a>,
-					<a href="#infra">infrastructure</a>,
-					<a href="#ai-tools">AI</a>,
-					<a href="#electron-desktop-app">desktop</a>,
-					etc.
-				</p>
-				<h4 class="print-block" id="work-experience">Work Experience</h4>
-				<p>
-					Developed Russian Railways ticket platform and many other services in different titles (from jr. to
+					Developed Russian Railways (RZD) ticket platform and other services in different titles (from jr. to
 					sr.) from 2011 to present.
+				</p>
+				<p>
+					Expert in Vue.js, Node.js and more. Strong background in enterprise software development,
+					architecture and infrastructure.
 				</p>
 			</div>
 		</div>
-		<hr>
 
-		<h4 class="print-hide" id="table-of-contents">Table of Contents</h4>
+		<h4 class="print-hide" id="table-of-contents">
+			<!-- Table of Contents -->
+		</h4>
 
-		<div class="row print-hide">
+		<div class="row">
 			<div class="col-auto">
 				<ul class="hierarchy">
 					<li>
 						<a href="#frontend">Frontend</a>
 						<ul>
 							<li><a href="#high-load-ticket-platform-migration">
-									High-Load Ticket Platform Migration
+									High-Load Ticket Platform
 								</a>
 							</li>
 							<li>
 								<a href="#rzdru-admin-dashboard-app">
-									Russian Railways Admin Dashboard App
+									RZD Admin Dashboard
 								</a>
 							</li>
 							<li>
@@ -147,20 +152,20 @@
 						</ul>
 					</li>
 					<li><a href="#npm-packages">NPM Packages</a></li>
-					<li><a href="#typescript">TypeScript Migrations &amp; Coverage</a></li>
-					<li><a href="#enterprise">Enterprise Stack</a></li>
+					<li><a href="#typescript">TypeScript Coverage</a></li>
 
 				</ul>
 			</div>
 			<div class="col-auto">
 				<ul class="hierarchy">
 					<li><a href="#ai-tools">AI Tools</a></li>
+					<li><a href="#enterprise">Enterprise Stack</a></li>
+				</ul>
+				<ul class="hierarchy">
 					<li><a href="#my-priorities">My Priorities</a></li>
-
 					<li><a href="#education">Education</a></li>
 					<li><a href="#language-skills">Language Skills</a></li>
 					<li><a href="#location">Location</a></li>
-					<li><a href="#contacts">Contacts</a></li>
 				</ul>
 			</div>
 		</div>
@@ -211,15 +216,18 @@
 				alt="Vue.js" />
 		</h4>
 
-		<p><strong>Critical frontend migration from custom jQuery-based framework to Vue.js</strong></p>
+		<p>
+			<strong>Scale: 20+ million visits per month</strong>, ~150K <i>paid</i> tickets per day.
+		</p>
+		<p>
+			Critical frontend migration from custom jQuery-based framework to Vue.js
+		</p>
 
 		<ul>
 			<li>
-				<strong>Impact:</strong> one SPA instead of multiple pages, improved UX and performance,
-				maintainability, shipment speed,
+				<strong>Impact:</strong> one SPA instead of multiple pages. ~3x less traffic and server load, improved
+				performance, stability, UX, maintainability, shipment speed,
 				and a modern tech stack for the future
-			</li>
-			<li><strong>Scale:</strong> 20+ million visits per month, ~150K <i>paid</i> tickets per day (~6000/hour)
 			</li>
 			<li><strong>Complexity handled:</strong>
 				<ul>
@@ -549,7 +557,7 @@
 		</details>
 
 		<h3 class="heading" id="typescript">
-			TypeScript Migrations &S Coverage
+			TypeScript Coverage
 			<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&amp;logo=typescript&amp;logoColor=white"
 				alt="TypeScript" />
 		</h3>
@@ -642,14 +650,6 @@
 		<p>
 			Open to hybrid jobs if needed, as well as relocation/on-site.
 		</p>
-
-		<h3 class="heading" id="contacts">Contacts</h3>
-		<ul>
-			<li><b>Email:</b> job@mankey.ru</li>
-			<li><b>LinkedIn:</b> <a
-					href="https://www.linkedin.com/in/pavel-prokhorenko">https://www.linkedin.com/in/pavel-prokhorenko</a>
-			</li>
-		</ul>
 	</main>
 	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top">
 		<i class="bi bi-chevron-up"></i>

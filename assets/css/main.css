@@ -11,6 +11,14 @@ h3.heading {
 h4 {
 	padding: .5rem 0 .5rem 0;
 	border-top: 1px solid lightgray;
+    font-size: 1.3rem;
+}
+
+@media (min-width: 1200px) {
+    .h4, h4 {
+        font-size: calc(1.1rem + .3vw); /* чтобы визуально отличать от h3 */
+    }
+
 }
 
 main {
