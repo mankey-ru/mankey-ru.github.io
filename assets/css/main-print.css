@@ -5,11 +5,30 @@
 	body {
 		color: #000 !important;
 		background: #fff !important;
+		font-family: "Calibri", serif !important;
+		font-size: 12pt;
+	}
+
+	h3, h4 {
+		margin-top: 0 !important;
+		border-top: none !important;
 	}
 
 	.btn,
 	.print-hide {
 		display: none !important;
+	}
+
+	.print-inline {
+		display: inline !important;
+	}
+
+	.print-inline-list {
+		padding-left: 0 !important;
+		li {
+			margin-right: .5rem !important;
+			display: inline !important;
+		}
 	}
 
 	.badge-mar {
