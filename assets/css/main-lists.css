@@ -65,16 +65,23 @@ ul {
   }
 
   &.hierarchy {
+    margin-bottom: .6rem;
     > li {
-      line-height: 1.7;
+      /* line-height: 1.7;
       font-size: 1.35rem;
-      font-weight: bolder;
-      list-style-type: square;
+      font-weight: bolder; */
+      /* list-style-type: square; */
+      list-style-type: disc;
 
       li {
-        font-size: 1rem;
-        font-weight: normal;
-        list-style-type: disc;
+        /* font-size: 1rem;
+        font-weight: normal; */
+        /* list-style-type: disc; */
+        list-style-type: "▸ ";
+        /* list-style-type: "→ "; */
+        li {
+          list-style-type: "- ";
+        }
       }
     }
   }
