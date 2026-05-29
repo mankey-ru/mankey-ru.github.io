@@ -3,8 +3,9 @@
 @import "main-lists.css";
 @import "main-linkedin.css";
 
-.heading {
-	padding: 1rem 0 .5rem 0;
+h3.heading {
+	padding: .5rem 0 .5rem 0;
+	border-top: 1px gray;
 }
 
 main {
