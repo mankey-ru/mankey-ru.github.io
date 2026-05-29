@@ -18,6 +18,11 @@ h3, h4 {
 	margin-top: .5rem;
 }
 
+strong {
+	/* тоньше чем b, но все равно жирный */
+	font-weight: 500;
+}
+
 @media (min-width: 1200px) {
     .h4, h4 {
         font-size: calc(1.1rem + .3vw); /* чтобы визуально отличать от h3 */
