@@ -11,7 +11,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
 		crossorigin="anonymous"></script>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"> -->
 
 	<meta name="theme-color" content="#0d6efd">
 	<meta name="msapplication-navbutton-color" content="#0d6efd">
@@ -151,7 +151,7 @@
 							</li>
 							<li>
 								<a href="#app-mcc">
-									Mission Control Center: deployment and delivery manager
+									MCC: deployment/delivery manager
 								</a>
 							</li>
 						</ul>
@@ -352,13 +352,15 @@
 
 		
 		<h4 id="app-mcc">
-			Mission Control Center: deployment and delivery manager
+			MCC: deployment/delivery manager
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
 		</h4>
 
+		<p>MCC stands for <strong>Mission Control Center</strong></p>
+
 		<p>
-			An internal app, which is responsible for CI/CD: rollout of container images, launching and validating automated test results, releasing software distributions, reviewing and approving Merge Requests (MRs), and generating release documentation.
+			An internal app, which is responsible for CI/CD: rollout of container images, launching and validating automated test results, releasing software distributions, reviewing and approving Merge Requests (MRs), and generating release documentation together with two <a href="#backend">Node.js services</a> mentioned below. It is a critical part of the company's software delivery process, and is used by multiple teams across the organization.
 		</p>
 
 		<details class="details-mar print-hide">
@@ -686,8 +688,10 @@
 			</li>
 		</ul>
 	</main>
-	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top">
-		<i class="bi bi-chevron-up"></i>
+	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top" title="Back to top" aria-label="Back to top">
+		
+		<b>^</b>
+		<!-- <i class="bi bi-chevron-up"></i> -->
 	</button>
 </body>
 
