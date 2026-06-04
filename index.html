@@ -111,12 +111,12 @@
 				GitHub Actions
 			</li>
 			<li>
-				<b>Testing:</b> Jest, Cypress (unit, component, E2E);				
+				<b>Testing:</b> Jest, Cypress (unit, component, E2E);
 			</li>
 			<li>
 				<b>Other:</b> Metadata-driven systems,
 				Micro-frontends, NPM package publishing, Legacy modernization, AI tools
-				and LLMs integration, TypeScript migrations;				
+				and LLMs integration, TypeScript migrations;
 			</li>
 		</ul>
 
@@ -141,7 +141,7 @@
 							</li>
 							<li>
 								<a href="#rzdru-admin-dashboard-app">
-									RZD Admin Dashboard
+									UARM-FE: RZD Admin Dashboard
 								</a>
 							</li>
 							<li>
@@ -163,11 +163,6 @@
 							Backend
 						</a>
 					</li>
-					<li>
-						<a href="#desktop">
-							Desktop
-						</a>
-					</li>
 				</ul>
 			</div>
 			<div class="col-auto">
@@ -182,12 +177,17 @@
 					</li>
 					<li><a href="#npm-packages">NPM Packages</a></li>
 					<li><a href="#typescript">TypeScript Coverage</a></li>
-					<li><a href="#ai-tools">AI Tools</a></li>
+					<li>
+						<a href="#desktop">
+							Desktop
+						</a>
+					</li>
 
 				</ul>
 			</div>
 			<div class="col-auto">
 				<ul class="hierarchy">
+					<li><a href="#ai-tools">Using AI</a></li>
 					<li><a href="#education">Education</a></li>
 					<li><a href="#language-skills">Language Skills</a></li>
 					<li><a href="#location">Location</a></li>
@@ -282,7 +282,7 @@
 		</blockquote-->
 
 		<h4 id="rzdru-admin-dashboard-app">
-			Russian Railways Admin Dashboard Frontend App
+			UARM-FE: Russian Railways Admin Dashboard Frontend App
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
 				alt="Vue.js" />
 		</h4>
@@ -350,7 +350,7 @@
 			<img data-src="./assets/images/wflow-scr/col_edit.png" alt="wflow screenshot" class="image-mar" />
 		</details>
 
-		
+
 		<h4 id="app-mcc">
 			MCC: deployment/delivery manager
 			<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&amp;logo=vue.js&amp;logoColor=white"
@@ -360,7 +360,11 @@
 		<p>MCC stands for <strong>Mission Control Center</strong></p>
 
 		<p>
-			An internal app, which is responsible for CI/CD: rollout of container images, launching and validating automated test results, releasing software distributions, reviewing and approving Merge Requests (MRs), and generating release documentation together with two <a href="#backend">Node.js services</a> mentioned below. It is a critical part of the company's software delivery process, and is used by multiple teams across the organization.
+			An internal app, which is responsible for CI/CD: rollout of container images, launching and validating
+			automated test results, releasing software distributions, reviewing and approving Merge Requests (MRs), and
+			generating release documentation together with two <a href="#backend">Node.js services</a> mentioned below.
+			It is a critical part of the company's software delivery process, and is used by multiple teams across the
+			organization.
 		</p>
 
 		<details class="details-mar print-hide">
@@ -513,27 +517,45 @@
 			Designed various solutions on multi-domain basis: backend (app layer + DB layer) and frontend.
 		</p>
 
-		<h4 id="metadata-migration--architecture">Metadata Migration</h4>
+		<h4 id="metadata-migration--architecture">Major Redesign of RZD.RU National Portal (Russian Railways)</h4>
 
-		<p><strong>Declarative system for admin forms and user-facing pages</strong></p>
+		<p>
+			Led the complete technological redesign and migration of the RZD.RU national portal as part of a large-scale
+			transition from legacy Oracle + IBM WebSphere stack to a modern Postgres, Kubernetes, and Docker-based
+			architecture.
+		</p>
 
-		<p class="print-inline">The metadata system defines two formats for:</p>
-		<ul class="print-inline-list print-inline">
-			<li><strong>1000+ Admin Forms</strong>: Database-driven CRUD interfaces;</li>
-			<li><strong>500+ User-Facing Pages</strong>: Data-fetching layer and component composition;</li>
-		</ul>
+		<p><strong>Project Scale:</strong> ~1,000 user-facing pages across ~50 subdomains and ~500 editorial CRUD
+			interfaces / admin workstations.</p>
 
-		<p><strong>Evolution:</strong></p>
+		<p><strong>Key Contributions:</strong></p>
+
 		<ul>
-			<li><strong>Before:</strong> Two legacy XML formats with numerous workarounds and custom solutions</li>
-			<li><strong>After:</strong> Two elegant, maintainable JSON structures with reduced overhead</li>
 			<li>
-				<strong>Developed:</strong>
-				<ul class="print-inline-list">
-					<li>Conversion scripts for both formats;</li>
-					<li>Format editors for both formats in <a href="#electron-desktop-app">Electron App</a>;</li>
-					<li><a href="#rzdru-admin-dashboard-app">Admin dashboard app</a>;</li>
-				</ul>
+				<strong>Architecture:</strong>
+				Designed the frontend architecture and collaborated closely with Java
+				architects on new metadata formats, enabling a modern <a target="_blank" href="https://www.oooinex.ru/ru/19">headless metadata-driven CMS [RU]</a> approach.
+			</li>
+			<li>
+				<strong>Metadata Migration:</strong>
+				Orchestrated the migration of 1,500+ legacy XML files (heavily
+				burdened with technical debt and workarounds) into clean, maintainable JSON structures.
+				Developed
+				conversion scripts and built <a href="#electron-desktop-app">MetaWizard</a> — a powerful metadata editor
+				that became the central tool for
+				the entire migration and ongoing maintenance.
+			</li>
+			<li>
+				<strong>User-Facing Portal:</strong>
+				Implemented the foundational frontend solutions, including the new site theme and complete redesign of
+				the most critical and complex pages. This baseline enabled the rest of the frontend team to efficiently
+				build out the remaining functionality.
+			</li>
+			<li>
+				<strong>Editorial Interfaces:</strong>
+				Designed and developed the new admin application (<a href="#rzdru-admin-dashboard-app">UARM-FE</a>),
+				delivering
+				the majority of UI controls along with several of the most complex editorial interfaces.
 			</li>
 		</ul>
 
@@ -613,7 +635,7 @@
 
 
 		<h3 class="heading" id="ai-tools">
-			AI Tools
+			Using AI
 			<img alt="Claude"
 				src="https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white" />
 			<img alt="Grok" src="https://img.shields.io/badge/Grok-000000?style=flat&logo=x&logoColor=white" />
@@ -688,8 +710,9 @@
 			</li>
 		</ul>
 	</main>
-	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top" title="Back to top" aria-label="Back to top">
-		
+	<button type="button" class="btn btn-outline-primary btn-lg rounded-circle back-to-top-btn" id="btn-back-to-top"
+		title="Back to top" aria-label="Back to top">
+
 		<b>^</b>
 		<!-- <i class="bi bi-chevron-up"></i> -->
 	</button>
