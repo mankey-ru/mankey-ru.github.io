@@ -161,6 +161,10 @@
 						<a href="#backend">
 							Backend
 						</a>
+						<ul>
+							<li><a href="#csm-api-adapter">CSM API Adapter</a></li>
+							<li><a href="#version-informers">Version Informers (IVI + RVI)</a></li>
+						</ul>
 					</li>
 				</ul>
 				<ul class="hierarchy">
@@ -397,7 +401,7 @@
 		<p>Have strong experience in backend development and <a href="#infra">infrastructure</a> management.</p>
 		<p class="print-inline">Developed 7+ Node.js services with:</p>
 		<ul class="print-inline print-inline-list">
-			<li>Elasticsearch (indexing and search);</li>
+			<li>Elasticsearch (indexing, search, logging);</li>
 			<li>Apache Kafka;</li>
 			<li>PostgreSQL;</li>
 			<li>Redis;</li>
@@ -416,11 +420,8 @@
 
 		<p>
 			The mission-critical Node.js backend service for RZD (Russian Railways) CSM (Support center for passengers
-			with reduced mobility).
-		</p>
-
-		<p>
-			Basically, it's a hub for processing four distinct types of handicapped passengers applications with complex
+			with reduced mobility). A hub for processing four distinct types of handicapped passengers applications with
+			complex
 			data models;
 			integrates the following systems:
 		</p>
@@ -438,6 +439,53 @@
 			Bidirectional synchronization across the full application lifecycle, notifications to users and
 			administrators, and more.
 		</p>
+
+		<h4 id="version-informers">Version Informers (IVI + RVI)</h4>
+
+		<p>Two backend services:
+			<strong>IVI</strong> (company side) and
+			<strong>RVI</strong> (deployed on the
+			customer’s server — Russian Railways).
+			The services fully automate the software release lifecycle — from merge
+			request acceptance to release publication and installation across the server environment chain (staging
+			environments through to production).
+		</p>
+
+		<p><strong>Key Features &amp; Responsibilities:</strong></p>
+		<ul>
+			<li>
+				Developed and maintained integrations with: Wflow (task tracker), MCC (installation manager), RVI,
+				PostgreSQL, FTP, SVN, GitLab, Mattermost, and Kibana.
+			</li>
+			<li>
+				Implemented structured logging to Elasticsearch with real-time monitoring.
+
+			</li>
+			<li>
+				Configured smart notifications in Mattermost across multiple channels, including links to rerun forms,
+				Kibana logs, and error details.
+			</li>
+			<li>
+				Achieved high test coverage with comprehensive end-to-end and unit tests (Jest).
+
+			</li>
+			<li>
+				<strong>MR Acceptance Handler</strong>: Validates issue fields in the task tracker, checks for
+				duplicates, gathers contract/epic data, identifies changed repositories, records data in IVI database,
+				and forwards it to RVI via REST API.
+			</li>
+			<li>
+				<strong>Release Publication Handler</strong>:
+				Detects “lost” issues, downloads and unpacks the
+				distribution, generates customer-facing artifacts (6 document types) and a release composition JSON for
+				reliable data transfer to RVI (fallback when REST API is unavailable).
+			</li>
+			<li>
+				<strong>Installation Event Handler</strong>: Records successful installations/rollbacks on server,
+				performs
+				bulk status updates for releases and linked issues via Bulker API, and adds rollback comments.
+			</li>
+		</ul>
 
 		<h3 class="heading" id="arch">
 			Architecture
@@ -606,7 +654,9 @@
 			Developed and maintained complex full-cycle frontend and backend pipelines:
 		</p>
 		<ul>
-			<li><b>Build:</b> Vite, Rollup, Webpack, Babel, Eslint, Prettier, Husky, Lint-Staged etc</li>
+			<li><b>Build:</b> 
+				Vite & Webpack (incl. Code-Splitting/Module Federation/DLL), Babel, tsc/tsx, SCSS/Less,Eslint, Prettier, Husky, Lint-Staged etc
+			</li>
 			<li><b>Delivery:</b> Docker, GitLab CI/CD, GitHub Actions</li>
 		</ul>
 
@@ -643,7 +693,25 @@
 			<li>
 				Published 10+ custom packages to the company's private registry
 			</li>
-			<li>Frontend and backend, used across multiple company projects</li>
+			<li>
+				Frontend and backend, used across multiple company projects:
+
+				<ul>
+					<li>Frontend/Backend libs for auth in different systems (JWT, Blitz, LTPA)</li>
+					<li>
+						Unified (company standard) libs for:
+						<ul>
+							<li>Error handling</li>
+							<li>Logging (ELK)</li>
+							<li>Kafka integration</li>
+							<li>Mattermost notifications</li>
+						</ul>
+					</li>
+					<li>Frontend and backend utilities for common tasks</li>
+					<li>Shared configs for ESLint, Prettier, etc.</li>
+					<li>Frontend/Backend libs for integrating with various systems</li>
+				</ul>
+			</li>
 			<li>
 				Provided <a href="#infra">various build pipelines and CI/CD</a>
 			</li>
@@ -657,7 +725,7 @@
 
 		<p>
 			Led TypeScript migrations for multiple projects, improving code quality and maintainability, reducing
-			runtime errors and enhancing DX.
+			runtime errors and enhancing DX. Usually step-by-step, with gradual migration and strict typing enforcement.
 		</p>
 
 
