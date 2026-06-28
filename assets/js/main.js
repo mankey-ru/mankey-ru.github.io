@@ -1,6 +1,15 @@
 {
 	initTopBtn();
 	initLazyImages();
+	initLangSwitcher();
+
+	function initLangSwitcher() {
+		const params = new URLSearchParams(window.location.search);
+		const targetLang = params.get('lang');
+		const targetSwitcher = document.getElementById(`langswitch-${targetLang}`);
+		// тупо
+		if (targetSwitcher) {targetSwitcher.click();}
+	}
 
 	function initTopBtn() {
 		const mybutton = document.getElementById('btn-back-to-top');
