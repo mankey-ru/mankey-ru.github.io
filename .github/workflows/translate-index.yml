@@ -55,3 +55,8 @@ jobs:
           fi
           git commit -m "Auto-translate index.html → index_ru.html + generate PDF (via model)"
           git push
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: pages deploy . --project-name=mankey-ru
