@@ -1,12 +1,14 @@
 /* General print adjustments */
 @media print {
 
-	html,
 	body {
 		color: #000 !important;
 		background: #fff !important;
-		font-family: "Calibri", serif !important;
 		font-size: 12pt;
+	}
+
+	body, h1, h2, h3, h4, h5, h6 {
+		font-family: "Calibri", "Arial", "Helvetica", sans-serif !important;
 	}
 
 	h3, h4 {
