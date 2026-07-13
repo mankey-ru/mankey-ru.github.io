@@ -5,6 +5,9 @@ on:
       - 'index.html'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
@@ -16,20 +19,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-
+          node-version: '24'
+          cache: 'npm'
       - name: Install dependencies
-        run: "npm ci"
+        run: "npm ci --prefer-offline"
 
       - name: Install Playwright browsers and system dependencies
         run: npx playwright install --with-deps chromium
 
       - name: Generate PDF from ENG HTML
-        run: node scripts/generate-pdf.mjs index.html assets/pavel_prokhorenko_resume.pdf        
+        run: "node scripts/generate-pdf.mjs index.html assets/pavel_prokhorenko_resume.pdf"   
 
       - name: Run translation script (use OpenRouter if available)
         env:
@@ -59,4 +64,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages deploy . --project-name=mankey-ru
+          command: "pages deploy . --project-name=mankey-ru"
