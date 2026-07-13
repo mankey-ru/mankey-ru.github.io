@@ -1,8 +1,9 @@
-name: index.html - Translate  to Russian, Generate PDF, Deploy to Cloudflare Pages
+name: index.html - Translate  to Russian, Generate PDF # , Deploy to Cloudflare Pages
 on:
   push:
     paths:
       - 'index.html'
+      - 'assets/**'
   workflow_dispatch:
 
 permissions:
@@ -34,7 +35,7 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Generate PDF from ENG HTML
-        run: "node scripts/generate-pdf.mjs index.html assets/pavel_prokhorenko_resume.pdf"   
+        run: "node scripts/generate-pdf.mjs index.html dist/pdf/pavel_prokhorenko_resume.pdf"   
 
       - name: Run translation script (use OpenRouter if available)
         env:
@@ -45,7 +46,7 @@ jobs:
         run: node scripts/translate.js index.html index_ru.html
 
       - name: Generate PDF from RUS translated HTML
-        run: node scripts/generate-pdf.mjs index_ru.html assets/pavel_prokhorenko_resume_ru.pdf
+        run: "node scripts/generate-pdf.mjs index_ru.html dist/pdf/pavel_prokhorenko_resume_ru.pdf"
 
       - name: Commit and push translated file + PDF
         env:
@@ -53,15 +54,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index_ru.html assets/pavel_prokhorenko_resume.pdf assets/pavel_prokhorenko_resume_ru.pdf
+          git add index_ru.html dist/pdf/pavel_prokhorenko_resume.pdf dist/pdf/pavel_prokhorenko_resume_ru.pdf
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           git commit -m "Auto-translate index.html → index_ru.html + generate PDF (via model)"
           git push
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: "pages deploy . --project-name=mankey-ru"
+      # - name: Deploy to Cloudflare Pages
+      #   uses: cloudflare/wrangler-action@v3
+      #   with:
+      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #     command: "pages deploy . --project-name=mankey-ru"
