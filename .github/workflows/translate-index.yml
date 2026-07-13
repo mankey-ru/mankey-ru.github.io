@@ -1,4 +1,4 @@
-name: Translate index.html to Russian + PDF
+name: index.html - Translate  to Russian, Generate PDF, Deploy to Cloudflare Pages
 on:
   push:
     paths:
