@@ -1,21 +1,22 @@
-@import "main-details.css";
-@import "main-print.css";
-@import "main-lists.css";
-@import "main-linkedin.css";
+@import 'main-details.css';
+@import 'main-print.css';
+@import 'main-lists.css';
+@import 'main-linkedin.css';
 
 h3.heading {
-	padding: .5rem 0 .5rem 0;
+	padding: 0.5rem 0 0.5rem 0;
 	border-top: 1px solid gray;
 }
 
 h4 {
-	padding: .5rem 0 .5rem 0;
+	padding: 0.5rem 0 0.5rem 0;
 	border-top: 1px solid lightgray;
-    font-size: 1.3rem !important;
+	font-size: 1.3rem !important;
 }
 
-h3, h4 {
-	margin-top: .5rem;
+h3,
+h4 {
+	margin-top: 0.5rem;
 }
 
 strong {
@@ -24,10 +25,10 @@ strong {
 }
 
 @media (min-width: 1200px) {
-    .h4, h4 {
-        font-size: calc(1.1rem + .3vw); /* чтобы визуально отличать от h3 */
-    }
-
+	.h4,
+	h4 {
+		font-size: calc(1.1rem + 0.3vw); /* чтобы визуально отличать от h3 */
+	}
 }
 
 main {
@@ -43,6 +44,14 @@ img.badge-mar {
 	margin-right: 0.2em;
 }
 
+.badge-mar {
+	display: none !important;
+}
+
+img[src^='https://img.shields.io/badge'] {
+	display: none !important;
+}
+
 .userpic {
 	border-radius: 111em;
 	width: 150px;
@@ -54,13 +63,14 @@ a.btn.lang--.active {
 	cursor: default;
 }
 
-
 .back-to-top-btn {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
 	display: block;
-	transition: opacity 0.3s, visibility 0.3s;
+	transition:
+		opacity 0.3s,
+		visibility 0.3s;
 	opacity: 0;
 	visibility: hidden;
 	z-index: 1000;
