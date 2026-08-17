@@ -2,8 +2,8 @@ name: Keep Render service alive + Telegram
 # Дёргаем сервис на Render и уведомляем в Telegram
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'   # каждые 10 минут
+  #schedule:
+  #  - cron: '*/10 * * * *'   # каждые 10 минут
   workflow_dispatch:
 
 jobs:
